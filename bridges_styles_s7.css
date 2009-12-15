@@ -1,0 +1,414 @@
+<!--
+
+body, div, span, p, form, .qs, h1, h2, h3, ul, ol, li, a, td ,th, select, input, textarea
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+tt, pre
+{
+	font-family: "Courier New", Courier, mono, monospace;
+}
+
+body, div, p, form, ul, ol, li, th, td, select, input, textarea
+{
+	font-size: 15px;
+	color: #000000;
+}
+
+h2
+{
+	font-size: 18px;
+	color: #000000;
+}
+
+h3
+{
+	font-size: 16px;
+	color: #003399;
+}
+
+h4
+{
+	font-size: 14px;
+	color: #003399;
+}
+
+.qs
+{
+	font-size: 10px;
+	color: #000000;
+}
+
+.blurb
+{
+	font-size: 11px;
+}
+
+hr
+{
+	color: #032585;
+}
+
+
+ul
+{
+	LIST-STYLE-POSITION: outside; 
+	LIST-STYLE-TYPE: disc;
+}
+
+OL 
+{
+	LIST-STYLE-POSITION: outside; 
+	LIST-STYLE-TYPE: decimal;
+}
+
+.small 
+{
+	FONT-SIZE: 11px;
+}
+
+.big 
+{
+	FONT-SIZE: 12px; 
+	COLOR: #ffffff;
+	BACKGROUND-COLOR: #032585;
+}
+
+.bodystyle 
+{
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.smaller 
+{
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.smaller_reversed
+{
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.smaller_reversed_nodecoration
+{
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.box1 
+{
+	PADDING-RIGHT: 3px; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 3px; 
+	BACKGROUND-COLOR: #032585;
+}
+
+.box2 
+{
+	BORDER-RIGHT: 3px solid; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: 3px solid; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 5px; 
+	BORDER-LEFT: 3px solid; 
+	PADDING-TOP: 5px; 
+	BORDER-BOTTOM: 3px solid;
+}
+
+.menu 
+{
+	FONT-WEIGHT: bold; 
+	COLOR: #032585; 
+	BACKGROUND-COLOR: #ffffff;
+}
+
+.mNote 
+{
+	FONT-WEIGHT: normal; 
+	COLOR: #000000; 
+	FONT-STYLE: italic;
+}
+
+# General Classes
+TD.errormessage { }
+
+# Authority Redirection Classes
+TD.authTerm { }
+TD.unauthTerm { }
+
+TABLE.bibScreen { }
+
+TABLE.bibWidgit { }
+
+TABLE.bibInfo { }
+TR.bibInfoEntry { }
+TD.bibInfoEntry { }
+TD.bibInfoLabel { }
+TD.bibInfoData { }
+
+TABLE.bibHoldings { }
+TR.bibHoldingsHeader { }
+TR.bibHoldingsData { }
+
+# Brief Citation Display Classes
+TABLE.briefCitTable { border: 1px solid #000000; }
+TR.briefCitRow {  color: #000000; font-weight: normal; }
+TD.briefCitTitle { }
+TD.briefCitStatus { font-weight: bold; }
+TD.briefCitCall { padding-left: .2em; font-style: italic; }
+TD.briefCitEntryNum { padding-right: 2px; }
+TD.briefCitCheckbox { padding-right: 2px; }
+TD.briefCitItems {  color: #000000; font-weight: normal; }
+
+TABLE.browseScreen { BORDER-TOP: 0px solid; BORDER-TOP-COLOR: #000000; } 
+TABLE.browseWidgit { background: #FFFFFF; }
+TD.browseWidgit { color: #000000; background: #FFFFFF; text-align: center; }
+TABLE.browseSaveJump { } 
+TD.browseSaveJump { color: #000000; background: #FFFFFF; text-align: left; }
+TABLE.browseList { }
+TR.browseHeader {  background-color: #FFFFFF; color: #000000; font-weight: bold; }
+TD.browseHeaderNum {  background-color: #FFFFFF; color: #000000; font-weight: bold; }
+TD.browseHeaderMark {  background-color: #FFFFFF; color: #000000; font-weight: bold; }
+TD.browseHeaderData {  background-color: #FFFFFF; color: #000000; font-weight: bold; }
+TD.browseHeaderMedia {  background-color: #FFFFFF; color: #000000; font-weight: bold; }
+TD.browseHeaderYear {  background-color: #FFFFFF; color: #000000; font-weight: bold; text-align: center; }
+TD.browseHeaderEntries {  background-color: #FFFFFF; color: #000000; font-weight: bold; border-left: 0px; border-bottom: 0px; }
+TD.browseHeaderRelevance {  background-color: #FFFFFF; color: #000000; font-weight: bold; }
+
+TR.browseSuperEntry {  background-color: #FFFFFF; color: #000000; }
+
+TR.browseEntry {  background-color: #FFFFFF; color: #000000; }
+TD.browseEntryNum { text-align: center; border-top: 1px solid black; }
+TD.browseEntryMark { font-weight: bold; border-top: 1px solid black; }
+TD.browseEntryData { background-color: #FFFFFF; color: #000000; border-bottom: 0px; border-left: 0px; border-top: 1px solid black; }
+TD.browseEntryMedia { vertical-align: middle; }
+TD.browseEntryYear {text-align: center; border-bottom: 0px; border-left: 0px; border-top: 1px solid black; }
+TD.browseEntryEntries { text-align: center; border-left: 0px; border-bottom: 0px; border-top: 1px solid black; }
+TD.browseEntryRelevance { }
+
+TR.browseSubEntry {  background-color: #FFFFFF; color: #000000; }
+TD.browseSubEntryData { border-top: 0px; border-left: 0px; }
+TD.browseSubEntryMedia { }
+TD.browseSubEntryYear { border-top: 0px; border-left: 0px; }
+TD.browseSubEntryEntries { }
+TD.browseSubEntryRelevance { }
+
+TABLE.browseResourceTable { }
+TD.browseResourceTable { }
+TR.browseResourceTableEntry { }
+TD.browseResourceTableEntry { }
+
+TABLE.bibResourceTable { }
+TD.bibResourceTable { }
+TR.bibResourceTableEntry { }
+TD.bibResourceTableEntry { }
+
+-->
+
+
+# Bibliographic Display Classes
+bibBookingsHeader
+bibDetail
+bibHoldings
+bibHoldingsEntry
+bibHoldingsHeader
+bibHoldingsLabel
+bibHolds
+bibHoldsEntry
+bibInfo
+bibInfoData
+bibInfoEntry
+BibInfoLabel
+bibItems { }
+bibItemsEntry { }
+bibItemsHeader { }
+bibItemsLabel { }
+bibLicense
+bibLicenseEntry
+bibLicenseHeader
+bibLinks
+bibOrder
+bibOrderEntry
+bibPager
+bibResource
+bibResourceBrief
+bibResourceCaption
+bibResourceEntry
+bibResourceEntry td
+bibResourceHeader
+bibResourceLicense
+bibResourceLicenseEntry
+bibResourceSubEntry
+bibResourceTable
+bibResourceTableEntry
+bibResourceTableHeader
+bibScreen
+bibSearchtool { border: 0px; }
+bibThumbnails
+bibTOC
+bibXML
+
+# Bookings Display Classes
+available { }
+bookingsConfirmMsg { }
+bookingsItemEntry { }
+bookingsItemHeader { }
+bookingsLegend { }
+bookingsLocation { }
+bookingsSelect { }
+bookingsSelectCal { }
+bookingsSelectTime { }
+main { }
+unavailable { }
+
+# Browse Display Classes
+browseEntry
+browseEntryData
+browseEntryEntries
+browseEntryMark
+browseEntryMedia
+browseEntryNum
+browseEntryRelevance
+browseEntryYear
+browseHeader
+browseHeaderData { font-weight: bold; vertical-align: bottom; }
+browseHeaderEntries
+browseHeaderMark
+browseHeaderMedia
+browseHeaderNum
+browseHeaderRelevance
+browseHeaderYear
+browseList
+browsePager
+browseResourceTable
+browseResourceTableEntry
+browseResourceTableHeader
+browseSaveJump
+browseScreen
+browseSearchtool
+browseSearchtoolMessage
+browseSubEntry
+browseSubEntryData
+browseSubEntryEntries
+browseSubEntryMedia
+browseSubEntryRelevance
+browseSubEntryYear
+browseSuperEntry
+yourEntryWouldBeHere
+yourEntryWouldBeHereData
+
+# Featured Lists Display Classes
+ftlistHeader { }
+
+# Feeds Display Classes
+rssChannelTitle { }
+rssChannelEntries { }
+rssChannelEntry { }
+rssChannelEntryDate { }
+rssChannelEntryHead { }
+rssChannelEntryDesc { }
+rssChannelImage { }
+rssChannelNoContent { }
+
+# Global Patron Display Classes
+patDisplay
+patDisplayFunc
+patDisplayInfo
+patInfo
+PatronImage
+
+# Holdings Display Classes
+holdingscode { }
+holdingsDivider { }
+
+# Limit/Sort Display Classes
+limitEntriesFoundText { }
+limitEntriesFoundNum { }
+limitSearchTerm { }
+limitSearchTypeIndex { }
+limitSearchTypeText { }
+
+# Patron Function Table and Form Classes
+patDisplay
+patDisplayFunc
+patDisplayInfo
+patFunc
+patDisplayAuthor
+patFuncBookDate
+patFuncBtns
+patFuncCallNo
+patFuncCancel
+patFuncDate
+patFuncEntry
+patFuncFinesDetail
+patFuncFinesDetailAmt
+patFuncFinesDetailDate
+patFuncFinesDetailDateLabel
+patFuncFinesDetailType
+patFuncFinesEntryDetail
+patFuncFinesEntryTitle
+patFuncFinesTotal
+patFuncFinesTotalAmt
+patFuncFinesTotalLabel
+patFuncHeaders
+patFuncMark
+patFuncModifyPatInfo
+patFuncModifyPIN
+patFuncModifyPINExample
+patFuncNoEntries
+patFuncPickup
+patFuncPSrchBtn
+patFuncPSrchType
+patFuncRating
+patFuncStatus
+patFuncTitle
+
+# Resource Display Classes
+resourceBib { }
+resourceBibEntry { }
+resourceBibHeader { }
+resourceInfoData { }
+resourceInfoLabel { }
+resourceLicense { }
+resourceLicenseEntry { }
+resourceLicenseHeader { }
+resourceLinkEntry { }
+resourceResource { }
+
+# Request Display Classes
+on_ice { }
+reqFilltimeMsg { }
+
+# WebBridge Display Classes 
+# Only lowercase letters are allowed in the names of WebBridge display classes. 
+wbbody { }
+wbcategory { }
+wbheading { }
+wbpanelcategory { }
+wbsubheading { }
+wblinkdisplay { }
+wblinkfield { }
+wblinktext { }
+wbresourcelist { }
+
+    @media print {
+      .navigationRow { display: none; }
+      .navSearchHistory { display: block; }
+      .bibSearchtool { display: block; }
+      .bibSearchtoolMessage { display: block; }
+      .bibPager { display: none; }
+      .otherResources { display: none; }
+      .browsePager { display: none; }
+      .browseSaveJump { display: none; }
+      .logoText { display: none; }
+    }
+

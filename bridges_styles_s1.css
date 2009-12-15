@@ -1,0 +1,630 @@
+/* This file last changed: March 4, 2008 */
+body { margin: 0; padding: 0; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : normal; }
+
+/* div, table { clear: both; } */
+
+/* This rule causes search form elements to resize along with the rest of the text on the page if the user resizes text. */
+
+strong { font-weight: bold; }
+
+td { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : normal; }
+
+th { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+/* Section 2 */
+/* named styles listed in alphabetical order */
+
+/*controls display of authority redirect information */
+.authorityRedirect { border: 2px solid; padding:5px; text-align:center; }
+
+
+/* This is used in the Materials Booking calendar */
+.available { font-weight: bold; color: green; }
+
+.availLimMessage { font-style: italic; text-align: left; }
+
+/* classes for bib display */
+/* see also Web options TABLEPARAM_BIB... */
+
+.bibBookingsHeader { font-weight: bold; text-decoration: none; padding: 3px; border: 1px solid; }
+
+.bibContent {margin-right:15%; _margin-right:10px; padding-right: 3px; _float:left;}
+
+.bibDetail { }
+
+.bibHoldings { border: 2px solid; }
+
+.bibHoldingsEntry { }
+
+.bibHoldingsHeader { }
+
+.bibHoldingsLabel { }
+
+.bibHolds { border: 1px solid; }
+
+.bibHoldsEntry { border: 1px solid; }
+
+.bibInfo { }
+
+.bibInfoData { }
+
+.bibInfoEntry { }
+
+.bibInfoLabel { width: 15%; font-weight: bold; }
+
+.bibItems 
+{ 
+border-top: 1px solid #cccccc;
+border-left: 1px solid #cccccc;
+border-bottom: 3px double #cccccc;
+border-right: 3px double #cccccc;
+}
+
+.bibItemsHeader { font-weight: bold; text-align: center; }
+
+.bibItemsLabel { }
+
+.bibLicense { }
+
+.bibLicenseHeader { font-weight: bold; text-align: left; }
+
+.bibLinks { border: 1px solid; }
+
+.bibOrder { border: 1px solid; }
+
+.bibOrderEntry { }
+
+.bibPager { }
+
+.bibRecordLink { padding-left: 6px; font-style: italic; }
+
+.bibResource { }
+
+.bibResourceBrief { }
+
+.bibResourceCaption { }
+
+.bibResourceEntry td { font-weight: bold; }
+
+.bibResourceHeader { }
+
+.bibResourceLicense td { padding-bottom: 20px; }
+
+.bibResourceSubEntry { border-bottom: 1px; font-style: italic; }
+
+.bibResourceTable, .browseResourceTable { border: 1px solid; }
+
+.bibResourceTableEntry, .browseResourceTableEntry { text-align: center; font-weight: bold; }
+
+.bibResourceTableHeader, .browseResourceTableHeader { font-weight: bold; padding: 1px; } 
+
+.bibScreen { text-align: center; margin: 10px; padding: 2px; }
+
+.bibSearchtool { margin-left: auto; margin-right: auto; padding: 1px; }
+
+.bibSearchtoolMessage a:visited { color: #000000;  }
+
+.bibThumbnails { }
+
+.bibTOC { width: 90%; margin-left: 30px; border: 1px solid; padding: 3px; margin-bottom: 3px; }
+
+.bibTOC td { border-bottom: 1px solid; }
+
+.bibXML { }
+
+.additionalCopies { text-align: center; clear: both; }
+
+.additionalCopiesNav { text-align: center; clear: both; }
+
+/* These are used for Materials Self-Booking */
+.bookingsConfirmMsg { font-weight: bold; text-decoration: none; padding-bottom: 5px; }
+
+.bookingsItemsEntry { }
+
+.bookingsItemsHeader { }
+
+.bookingsLegend { }
+
+.bookingsLocation { }
+
+.bookingsRepeat { margin-left: 15px; margin-right: 15px; border: 1px solid; padding: 3px; }
+
+.bookingsRepeatNone { }
+
+.bookingsRepeatDaily { }
+
+.bookingsRepeatWeekly {  }
+
+.bookingsRepeatWeeklyDay { margin-left: 30px; }
+
+.bookingsRepeatMonthly {  }
+
+.bookingsEndsOn {  }
+
+.bookingsSelect { width: 90%; margin-left: 5%; margin-bottom: 1em; }
+
+.bookingsSelectCal { width: 90%; margin-left: 5%; text-align: center; border: 2px solid; margin-bottom: 1em; }
+
+.bookingsSelectCal table { margin: auto; border: none; } 
+
+.bookingsSelectCal th { text-align: center; border: none; } 
+
+.bookingsSelectCal td { border: 1px solid; }
+
+.bookingsSelectEndtime { margin-left: 10px; }
+
+.bookingsSelectRepeat { margin-top: 5px; margin-bottom: 5px; }
+
+.bookingsSelectTime { border: 2px solid; padding: 3px; }
+
+/* Brief Citation display styles */
+.briefcitActions { text-align: center; }
+
+
+.briefcitDetail img { padding-top: 2px; }
+
+.briefcitExtras { text-align: center; white-space: nowrap; }
+
+.briefcitExtras img { padding-bottom: 2px; }
+
+.briefcitItems table {  }
+
+.briefCitRow {  }
+
+.briefcitStatus { font-weight: bold; }
+
+.briefcitTitle { font-weight: bold; }
+
+/* classes for browse displays */
+/* See also Web options BROWSE_HEADERS, TABLEPARAM_BROWSE..., TABLEPARAM_BRIEFCIT */
+
+.browseEntry td { border-top: 1px solid #000; }
+
+.browseEntryData { text-align: left; }
+
+.browseEntryEntries { text-align: center; }
+
+.browseEntryMedia { vertical-align: middle; }
+
+.browseEntryNum { text-align: center; }
+
+.browseEntryRelevance { }
+
+.browseEntryYear {text-align: center; }
+
+.browseHeader { font-weight: bold; vertical-align: middle; }
+
+.browseHeaderData { font-weight: bold; vertical-align: middle; }
+
+.browseHeaderEntries { font-weight: bold; vertical-align: middle; }
+
+.browseHeaderMark { font-weight: bold; vertical-align: middle; width: 5%; }
+
+.browseHeaderMedia {font-weight: bold; vertical-align: middle; }
+
+.browseHeaderNum { font-weight: bold; vertical-align: middle; width: 5%; }
+
+.browseHeaderRelevance { font-weight: bold; vertical-align: middle; }
+
+.browseHeaderYear { font-weight: bold; vertical-align: middle; width: 5%; }
+
+.browseList { }
+
+.browsePager { }
+
+.browseResourceTableEntry { text-align: center; }
+
+.browseSaveJump { text-align: left; }
+
+.browseSaveJump form { display: inline; }
+
+.browseScreen { }
+
+.browseSearchtool { border: none; }
+
+.browseSubEntryData { }
+
+/* Is an Entries column ever drawn in Extended browse? */
+.browseSubEntryEntries { }
+
+.browseSubEntryMedia { }
+
+.browseSubEntryRelevance { }
+
+.browseSubEntryYear { }
+
+.browseSuperEntry { display: none; }
+
+.button { vertical-align: middle; }
+
+
+/* This is used in the Materials Booking calendar */
+.closed { font-weight: bold; color: red; }
+
+.errormessage { color: #FF0000; }
+
+.errormessage h2 { display:inline; }
+
+/* External Patron Authentication product style */
+.extpat div { line-height: 1.66em; width: 90%; border: 2px solid; padding: 3px; margin-left: auto; margin-right: auto; text-align: right; }
+
+/* External Patron Authentication product style */
+.extpat strong { display: block; text-align: left; }
+
+/* used for search help pages tabbed navigation */
+.fields td { padding: 2px; }
+
+
+/* This is used in the featured list display */
+.ftlistHeader { }
+
+.helpNote { font-style: italic; }
+
+.hideElem { display:none; }
+
+.holdingsDivider { border: 2px solid; margin: -3px; }
+
+/* Used in Related Searches display */
+div#instructions { font-style: italic; }
+
+/* External Patron Authentication product style */
+.libpat div { line-height: 1.66em; width: 90%; border: 2px solid; padding: 3px; margin-left: auto; margin-right: auto; text-align: right; }
+
+/* External Patron Authentication product style */
+.libpat strong { display: block; text-align: left; }
+
+
+/* Styles used in Limit/Sort Search page - srchmod.html */
+.limitEntriesFoundNum { font-style: italic; }
+
+.limitEntriesFoundText { font-style: italic; }
+
+.limitSearchTerm { font-weight: bold; }
+
+.loggedInMessage {	padding-left: 6px; font-style: italic; color: red; }
+
+/* External Patron Authentication product styles */
+.loginarea { }
+
+.main { margin-left: 20px; margin-right: 20px; }
+
+
+.msg { color: #FF0000; }
+
+.navigationRow { }
+
+.navigationRow select { vertical-align: top; }
+
+.navSearchHistory { display: inline; }
+
+.nowrap {white-space: nowrap; }
+
+
+/* classes for patron record display */
+/* see also Web options TABLEPARAM_PATDISP, TABLEPARAM_PATFUNC, */
+/* and the various BUT_PAT_ graphics options. */
+
+.patActionsLinks { text-align: center; clear: both; padding: 10px; }
+
+.patActionsLinks img { vertical-align: middle; }
+
+.patDisplay { }
+
+.patDisplayFunc {}
+
+.patDisplayInfo { }
+
+.patFunc { border-top: 2px solid; border-spacing: 0; width: 100%; }
+
+.patFunc td { padding: 5px; border-bottom: 1px solid; }
+
+.patFuncArea { border: 2px solid; margin: 3px; }
+
+.patFuncArea form { display: inline; }
+
+.patFuncArea img { padding-top: 2px; } 
+
+.patFuncAuthor { }
+
+.patFuncBookDate { }
+
+.patFuncCallNo { }
+
+.patFuncCancel { text-align: center; }
+
+.patFuncDate { }
+
+.patFuncDetails { }
+
+.patFuncFinesDetailAmt { }
+
+.patFuncFinesDetailDate { }
+
+.patFuncFinesDetailDateLabel { }
+
+.patFuncFinesDetailType { }
+
+.patFuncFinesEntryDetail td { border-bottom: 1px solid; }
+
+.patFuncFinesTotal { }
+
+.patFuncFinesTotalAmt { font-weight: bold; }
+
+.patFuncFinesTotalLabel { }
+
+.patFuncFreeze { }
+
+.patFuncHeaders { padding-left: 3px; padding-right: 3px; }
+
+.patFuncMark { }
+
+.patFuncModifyPatInfo { }
+
+.patFuncModifyPIN { }
+
+.patFuncModifyPINExample { }
+
+.patFuncNoEntries { }
+
+.patFuncPickup { }
+
+.patFuncPSrchBtn { }
+
+.patFuncPSrchType { }
+
+.patFuncRating { }
+
+.patFuncStatus { }
+
+.patFuncTitle { font-weight: bold; }
+
+.patHelpLinks { border: 1px solid; border-top: none; width: 300px; padding: 3px; margin-left: 5px; margin-right: 5px; }
+
+.patHelpLinks a { text-align: right; display: block; border-bottom: 1px solid; padding: 2px; }
+
+.patImage { }
+
+.patInfo { }
+
+.patMainFuncs { float: left; }
+
+.patNameAddress { text-align: left; border: 1px solid; width: 350px; float: left; padding: 5px; }
+
+.patSearchLinks { }
+
+.patStatusLinks { border: 1px solid; width: 300px; padding: 3px; margin-left: 5px; margin-right: 5px; float: left; }
+
+.patStatusLinks a { text-align: left; display: block; border-bottom: 1px solid; padding: 2px; }
+
+
+.paymentPage { margin: 10px; }
+
+.paymentPage h2 { font-weight: bold; }
+
+.paymentPageFinestable { width: 80%; border: 2px solid; }
+
+/* These are used in the Related Searches display in the Search Tool */
+.relSearchLabel { }
+
+.relSearchLink { }
+
+
+.reqFillTimeMsg { font-style: italic; }
+
+
+.reserveBibs { border: 2px solid; }
+
+.reserveBibs td { border-bottom: 1px solid; }
+
+
+/* Resource Record display */
+.resourceBib { }
+
+.resourceBibEntry { text-align: left; }
+
+.resourceBibHeader {font-weight: bold; text-align: left; }
+
+.resourceInfoData { }
+
+.resourceInfoLabel {font-style: italic; }
+
+.resourceLicense { }
+
+.resourceLicenseEntry { text-align: left; }
+
+.resourceLicenseHeader {font-weight: bold; text-align: left; }
+
+.resourceLinkEntry { }
+
+.resourceResource { }
+
+.resourceTableDiv {width:15%;_width:0; float:right; text-align:center;}
+
+.rssChannelEntries { padding: 10px; }
+
+.rssChannelEntry { padding: 4px; }
+
+.rssChannelEntryDate { font-style: italic; }
+
+.rssChannelEntryHead { font-weight: bold; display: list-item; padding-bottom: 2px; }
+
+.rssChannelImage img { border: 0; margin-top: 2px; }
+
+.rssChannelTitle { font-weight: bold; }
+
+.rssFeed { padding: 5px; margin: 2px; border: 1px solid; }
+
+.sectionHeading { font-weight: bold; }
+
+/*used in search tool */
+.showInlineElem { display:inline; }
+
+
+/* This is used in reviews */
+.showReview{
+    display:block;
+    border: solid #c1c1c1 1px;
+    padding: 2px;
+    margin: 2px;
+}
+
+
+/* This is used in the Materials Booking calendar */
+.unavailable { font-weight: bold; color: black; background: #D7D7D7; }
+
+.unpadded { margin-bottom:auto; margin-top:auto; }
+
+.wamCalcDate{ background: #ECECEC; border: 1px silver dashed; font-size: 90%;  }
+
+.xmlframe { width:100%; height:600px; border-width:0; }
+
+.yourEntryWouldBeHere { }
+
+.yourEntryWouldBeHereData { border: 2px solid #F5D9A3; }
+
+
+/* Section 3: WebBridge */
+/* WebBridge style names lowercased as of Release 2005.  Declare styles using these style names for Release 2005 and later */
+
+/* body element in WebBridge forms */
+.wbbody { }
+
+/* WebBridge category headings */
+.wbcategory { font-weight:bold; margin-top: 1em;}
+
+/* contents of the WBHEADERTEXT wwwoption */
+.wbheading { }
+
+/* Entire WebBridge Resource Definition Link Display */
+.wblinkdisplay { }
+
+/* Field selectors in Link Display (except for #@LinkText#) */
+.wblinkfield { }
+
+/* #@LinkText# field selector in WB Link Display */
+.wblinktext { }
+
+/* Contents of  resourcelist token in webbridge forms */
+.wbresourcelist { }
+
+/* #HEADER# token in WBHEADERTEXT wwwoption */
+.wbsubheading { }
+
+
+/* Section 4: Program registration */
+.progregNavigation { text-align: center }
+.progregHeader { font-weight: bold }
+.progregLocation { margin: 20; font-style: italic }
+.progregName { margin: 20 }
+.progregPublicNote {}
+.progregNote {}
+.progregSubmit {}
+.progregSessionInfo { margin: 20; background-color: #CCFFFF; font-weight: bold; color: #0232A7; }
+.progregErrmsg { margin: 20; font-size: 125%; color: #FF0000; }
+.progregEmail {}
+
+/* Patron Reviews && External Contents */
+.hide {display:none;} 
+.show {display:block;} 
+.briefhide {display:none;} 
+.briefshow {width:80%;display:block;}
+.statichide {display:none;} 
+.staticshow {display:block;position:absolute; left:inherit; top:inherit; width:70%;background:#fff;border:1px solid #000;z-index: 50;} 
+.overlayhide {display:none;} 
+.overlayshow {display:block;position:absolute; left:25%; top:10%; width:50%;background:#fff;border:1px solid #000;z-index: 100;}
+
+/* Brief External Contents */
+.briefshow div.extContOverlayTitle {display:none;}
+
+/* Brief Patreviews */
+.briefshow div.reviewOverlayTitle {display:none;}
+.briefshow div.reviewLinks { padding-bottom:10px; }
+
+/* overlay External contents */
+.overlayshow div.extContOverlayTitle {display:block;padding:3px 10px;margin:0;background:#000;}
+.overlayshow div.extContOverlayTitle table {color:#fff;font-weight:bold;}
+.overlayshow div.extContOverlayTitle table a {color:#fff;font-weight:bolder;text-decoration:none;}
+.overlayshow div.extContOverlayTitle table a img {border:0px;}
+.overlayshow div.extContOverlayTitle table td {vertical-align:center;}
+.overlayshow div.externalContent {margin:5px 10px;}
+.overlayshow div.extContOverlayClose {height:14px;width:14px;}
+
+/* overlay Patreview */
+.overlayshow div.reviewOverlayTitle {display:block;padding:3px 10px;margin:0;background:#000;}
+.overlayshow div.reviewOverlayTitle table {color:#fff;font-weight:bold;}
+.overlayshow div.reviewOverlayTitle table a {color:#fff;font-weight:bolder;text-decoration:none;}
+.overlayshow div.reviewOverlayTitle table a img {border:0px;}
+.overlayshow div.reviewOverlayTitle table td {vertical-align:center;}
+.overlayshow div.reviewContent {margin:5px 10px;}
+.overlayshow div.reviewOverlayClose {height:14px;width:14px;}
+
+#OverlayDiv {position: absolute;top: 0;left: 0;z-index: 90;width:100%;height:100%;background-color: #000;filter:alpha(opacity=70);opacity: 0.7;}
+
+/* Static External contents */
+.staticshow div.extContOverlayTitle {display:block;padding:3px 10px;margin:0;background:#000;}
+.staticshow div.extContOverlayTitle table {color:#fff;font-weight:bold;}
+.staticshow div.extContOverlayTitletable a {color:#fff;font-weight:bolder;text-decoration:none;}
+.staticshow div.extContOverlayTitle table a img {border:0px;}
+.staticshow div.extContOverlayTitle table td {vertical-align:center;}
+.staticshow div.externalContent {margin:5px 10px;}
+.staticshow div.extContOverlayClose {height:16px;width:16px;}
+
+/* Patreview static */
+.staticshow div.reviewOverlayTitle {display:block;padding:3px 10px;margin:0;background:#000;}
+.staticshow div.reviewOverlayTitle table {color:#fff;font-weight:bold;}
+.staticshow div.reviewOverlayTitle table a {color:#fff;font-weight:bolder;text-decoration:none;}
+.staticshow div.reviewOverlayTitle table a img {border:0px;}
+.staticshow div.reviewOverlayTitle table td {vertical-align:center;}
+.staticshow div.reviewContent {margin:5px 10px;}
+.staticshow div.reviewOverlayClose {height:16px;width:16px;}
+
+/* Default (full) shared */
+.default {width:80%;color:#444;display:block;margin:10px;}
+/* Default (full) external content */
+.default div.extContOverlayTitle {display:none;}
+.default div.extContBody{ width:80%;color:#444;}
+/* Default (full) patreview */
+.default div.reviewOverlayTitle {display:none;}
+.default div.reviewBody{ width:80%;color:#444;}
+
+/* used by progreg */
+.briefshow div.sectionOverlayTitle {display:none;}
+.briefshow div.sectionContent {margin:5px 10px 0px 10px}
+
+.overlayhide {display:none;}
+.overlayshow {display:block;position:absolute; left:25%; top:10%; width:50%;background:#fff;border:1px solid #000;z-index: 100;}
+
+.overlayshow div.sectionOverlayTitle {display:block;padding:3px 10px;margin:0;background:#000;}
+.overlayshow div.sectionOverlayTitle table {color:#fff;font-weight:bold;}
+.overlayshow div.sectionOverlayTitletable a {color:#fff;font-weight:bolder;text-decoration:none;}
+.overlayshow div.sectionOverlayTitle table a img {border:0px;}
+.overlayshow div.sectionOverlayTitle table td {vertical-align:center;}
+.overlayshow div.sectionContent {margin:5px 10px;}
+.overlayshow div.sectionOverlayClose {height:14px;width:14px;color:white;}
+.sectionOverlayClose a:link, .sectionOverlayClose a:visited {height:14px;width:14px;color:white;text-decoration:none;}
+
+#OverlayDiv {position: absolute;top: 0;left: 0;z-index: 90;width:100%;height:100%;background-color:#000;filter:alpha(opacity=70);opacity: 0.7;}
+
+.statichide {display:none;}
+.staticshow {display:block;position:absolute; left:inherit; top:inherit; width:70%;background:#fff;border:1px solid #000;z-index: 50;}
+
+.staticshow div.sectionOverlayTitle {display:block;padding:3px 10px;margin:0;background:#000;}
+.staticshow div.sectionOverlayTitle table {color:#fff;font-weight:bold;}
+.staticshow div.sectionOverlayTitle table a {color:#fff;font-weight:bolder;text-decoration:none;}
+.staticshow div.sectionOverlayTitle table a img {border:0px;}
+.staticshow div.sectionOverlayTitle table td {vertical-align:center;}
+.staticshow div.sectionContent {margin:5px 10px;}
+.staticshow div.sectionOverlayClose {height:16px;width:16px;font-color:#fff;}
+
+.default {width:80%;color:#444;display:block;margin:10px;}
+.default div.sectionOverlayTitle {display:none;}
+.default div.sectionBody{ width:80%;color:#444;}
+
+
+
+
+
+
+
+
+-->

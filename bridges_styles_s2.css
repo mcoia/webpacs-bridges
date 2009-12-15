@@ -1,0 +1,882 @@
+/*<!-- 2006 2006 WebPAC Pro Version, set from 13 July, 2006 -->*/
+/*<!-- This file last changed: 12 July, 2006 -->*/
+/* *******************************************************************
+
+The new example set has a seperate non-Internet Explorer css file. You must make similar changes to your regular style sheet in
+order for the same display across borwsers. The regular style sheet is styles.css 
+
+********************************************************************** */
+/* general appearance */
+/* See also Web Option BODYPARAM */
+
+/* Stylesheet to use for dynamic Web pages */
+/* is set by Web Option STYLESHEET */
+
+/* COLOR SCHEME (use find & replace to swap colors */
+/* border and tab gold : DAA520 */
+/* lemon chiffon background color: FFFACD */
+/* medium purple: 8467D7 */
+/* dark purple: 461B7E */
+/* very dark purple: 461B7E */
+/* light orange : F5D9A3 */
+
+
+/* Section 1 */
+/*Global tag styles*/
+body { font-size: 95%; margin: 0; padding: 0; background-color: white; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : normal; }
+
+/*div, table { clear: both; }*/
+
+/* This rule causes search form elements to resize along with the rest of the text on the page if the user resizes text. */
+input, select, textarea { font-size: 95%; }
+
+/* This rule uses CSS2 to give a nicer effect in compliant browsers, while avoiding an annoying display effect in Internet Explorer 6 */
+input[type="checkbox"] { background-color: #FFFACD; }
+
+strong { font-weight: bold; }
+
+td { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : normal; }
+
+th { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+/*traditional link colors are suggested for better usability */
+a:link { color: #000099; }
+a:active{ color: #993399; }
+a:visited { color: #993399;  } 
+a:hover  { color: #993399;  } 
+
+A.pageNavAreaText:LINK, A.pageNavAreaText:VISITED {  color: #FFFFFF; text-decoration: none; font-weight: bold; background-color: #461B7E;  }
+
+A.pageNavAreaText:ACTIVE, A.pageNavAreaText:HOVER {  color: #FFFACD; text-decoration: none; font-weight: bold; background-color: #461B7E;  }
+
+
+
+
+/* Section 2 */
+/* named styles listed in alphabetical order */
+
+.additionalCopies {padding:0 15px 0 15px; width:99%;}
+
+.additionalCopies th.bibItemsHeader { color: #000; font-size:90%; font-weight: bold; text-align: center; background:#bcd4ec; border:0px; }
+
+.additionalCopiesNav {}
+
+/*controls display of authority redirect information */
+.authorityRedirect { border: 2px solid #8467D7; padding:5px; text-align:center; }
+
+.authPublicNote { font-size: 80%; background: #461B7E; } 
+
+
+/* This is used in the Materials Booking calendar */
+.available { font-weight: bold; color: green; }
+
+.availLimMessage { font-style: italic; text-align: left; }
+
+
+/* classes for bib display */
+/* see also Web options TABLEPARAM_BIB... */
+
+.bibBookingsHeader { font-weight: bold; text-decoration: none; padding: 3px; border: 1px solid #461B7E; background: #FFFBC6; }
+
+.bibDetail { }
+
+.bibHoldings { border: 1px solid #DAA520; }
+
+.bibHoldingsEntry { font-size:100%; border-bottom:1px solid #EEEEEE;border-top:1px solid #EEEEEE;border-right:1px solid #EEEEEE;}
+
+.bibHoldingsHeader { }
+
+.bibHoldingsLabel { font-size:100%; border-bottom:1px solid #EEEEEE;border-top:1px solid #EEEEEE;border-left:1px solid #EEEEEE;}
+
+.bibHolds { font-size:100%; border: 1px solid #461B7E; }
+
+.bibHoldsEntry { font-size:100%; border: 1px solid #461B7E; }
+
+.bibInfo { }
+
+.bibInfoData { }
+
+.bibInfoEntry { border-top: 1px solid #000000; }
+
+.bibInfoLabel { width: 15%; font-size:82%; text-align: left; padding-right: 1em; background-color: #FFFFFF; color: #000000; font-weight: bold; font-style: italic; }
+
+.bibItems { 
+	border: 1px solid #DAA520; padding:0px 0px 0px 0px; 
+	background: #FFFACD;
+	}
+
+.bibItemsEntry { border: 1px solid #FFFFFF; color: #000; text-align: left; font-size:100%;}
+
+.bibItemsEntry td { border: 1px solid #FFFFFF; font-size:100%; }
+
+.bibItemsHeader { background: #DAA520; color: #000; font-size:100%; font-weight: bold; text-align: center; border: 1px solid #FFFFFF; }
+
+.bibItemsLabel { }
+
+.bibLicense { }
+
+.bibLicenseEntry { color: #000000; background: #FFFACD; text-align: left; }
+
+.bibLicenseHeader { color: #FFFFFF; background: #461B7E; font-weight: bold; text-align: left; }
+
+.bibLinks { border: 1px solid #FFFFFF; }
+
+.bibOrder { border: 1px solid #461B7E; font-size:100%;}
+
+.bibOrderEntry { }
+
+.bibPager { text-align:right; font-size:85%; padding:5px 5px 0 0; }
+
+.bibRecordLink { font-size:85%; padding-left: 6px; color: #85A3B8; }
+
+.bibResource { }
+
+.bibResourceBrief { }
+
+.bibResourceCaption { }
+
+.bibResourceEntry td { font-weight: bold; }
+
+.bibResourceHeader { }
+
+.bibResourceLicense td { padding-bottom: 5px; }
+
+.bibResourceLicenseEntry { background: #FFF99D; }
+
+.bibResourceSubEntry { border-bottom: 1px solid blue; background-color: #FFFBC6; font-style: italic; }
+
+.bibResourceTable, .browseResourceTable { margin-top: 10px; border:0px; }
+
+.bibResourceTableEntry, .browseResourceTableEntry { font-size: 85%; font-weight: normal; padding-left: 1px; background:#DAA520;}
+
+.bibResourceTableHeader, .browseResourceTableHeader { color:#fff;font-weight: bold; font-size: 85%; background: #461B7E; padding: 1px; text-align: center; border-bottom:1px solid #7e4a1f; } 
+
+.bibScreen { }
+
+.bibSearchtool { background:#DAA520; width:70%; padding:5px 0 0 0; font-size:80%;}
+
+.bibThumbnails { }
+
+.bibTOC { width: 90%; font-size: 90%; margin-left: 30px; border: 1px solid #461B7E; padding: 3px; margin-bottom: 3px; }
+
+.bibTOC td { border-bottom: 1px solid #461B7E; }
+
+.bibXML { }
+
+
+/* control over mainmenu and opacmenu pages layout */
+.biglogo { margin-left:17px; width:350px; height:125px}
+
+/* These are used for Materials Self-Booking */
+.bookingsConfirmMsg { font-weight: bold; text-decoration: none; padding-bottom: 5px; background: #FFFBC6; }
+
+.bookingsItemsEntry { }
+
+.bookingsItemsHeader { }
+
+.bookingsLegend { }
+
+.bookingsLocation { }
+
+.bookingsRepeat { margin-left: 15px; margin-right: 15px; border: 1px solid #461B7E; padding: 3px; }
+
+.bookingsRepeatNone { }
+
+.bookingsRepeatDaily { }
+
+.bookingsRepeatWeekly {  }
+
+.bookingsRepeatWeeklyDay { margin-left: 30px; }
+
+.bookingsRepeatMonthly {  }
+
+.bookingsEndsOn {  }
+
+.bookingsSelect { width: 90%; margin-left: 5%; margin-bottom: 1em; }
+
+.bookingsSelectCal { width: 90%; margin-left: 5%; text-align: center; background: #461B7E; border: 2px solid #461B7E; margin-bottom: 1em; }
+
+.bookingsSelectCal table { margin: auto; border: none; font-size: 95%; } 
+
+.bookingsSelectCal th { text-align: center; border: none; } 
+
+.bookingsSelectCal td { border: 1px solid #461B7E; }
+
+.bookingsSelectEndtime { margin-left: 10px; }
+
+.bookingsSelectRepeat { margin-top: 5px; margin-bottom: 5px; }
+
+.bookingsSelectTime { background: #461B7E; border: 2px solid #461B7E; padding: 3px; }
+
+/* Brief Citation display styles */
+.briefcitActions { padding:5px 0 5px 0; }
+
+.briefcitDetail { font-size: 100%; padding:0 0 0 8px; }
+
+.briefcitDetail img { padding-top: 2px; }
+
+.briefcitExtras { font-size: 100%; text-align: center; white-space: nowrap; }
+
+.briefcitExtras img { padding-bottom: 2px; }
+
+.briefcitItems em { font-size: 100%; }
+
+.briefcitItems table { }
+
+.briefcitItems th, .briefcitItems td { font-size: 100%; }
+
+.briefcitItems .bibItemsHeader { padding:8px 0 0 0; }
+
+.briefcitRequest { font-size: 75%; text-align:left; padding:0 0 0 5px; }
+
+.briefcitResultInfo { text-align: left; font-size:90%; }
+
+.briefCitRow { border-top:1px solid #DAA520; }
+
+.briefcitStatus { font-weight: bold; }
+
+.briefcitTitle { font-weight: bold; }
+
+/* classes for browse displays */
+/* See also Web options BROWSE_HEADERS, TABLEPARAM_BROWSE..., TABLEPARAM_BRIEFCIT */
+.browseEntry { color: #000000; font-weight: normal; }
+
+.browseEntry td { border-top: 1px solid #DAA520; }
+
+.browseEntryData { text-align: left; }
+
+.browseEntryEntries { text-align: center; }
+
+.browseEntryMark { font-weight: bold; }
+
+.browseEntryMedia { vertical-align: middle; }
+
+.browseEntryNum { text-align: center; }
+
+.browseEntryRelevance { background:#DAA520;}
+
+.browseEntryYear {text-align: center; }
+
+.browseHeader { text-align:left; background:#DAA520; color:#461B7E;  }
+
+.browseHeaderData { background-color: #084A73; color: #FFFFFF; text-align:left; padding:0 0 0 3px; }
+
+.browseHeaderEntries { background-color: #084A73; color: #FFFFFF; }
+
+.browseHeaderMark { background-color: #084A73; color: #FFFFFF; }
+
+.browseHeaderMedia { }
+
+.browseHeaderNum { background-color: #084A73; color: #FFFFFF; }
+
+.browseHeaderRelevance {  }
+
+.browseHeaderYear { background-color: #084A73; color: #FFFFFF; }
+
+.browseList {}
+
+.browsePager { }
+
+.browseResourceTableEntry { color: #000000;  text-align: center; }
+
+/*.browseSaveJump { color: #000000; background: #FFFFFF; text-align: left; }
+
+.browseSaveJump form { display: inline; }*/
+
+.browseScreen {width:98%; text-align:center; }
+
+.browseSearchtool { background: #FFFACD; margin-left: auto; margin-right: auto; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; border: 1px solid #DAA520; width: 95%; }
+
+.browseSearchtoolMessage { font-size: 90%; } 
+
+.browseSubEntry { color: #000000; font-weight: normal;  }
+
+.browseSubEntryData { }
+
+/* Is an Entries column ever drawn in Extended browse? */
+.browseSubEntryEntries { }
+
+.browseSubEntryMedia { }
+
+.browseSubEntryRelevance { }
+
+.browseSubEntryYear { }
+
+.browseSuperEntry td { background-color: #084A73; color: #FFFFFF; padding:0 0 0 3px;  }
+
+.button { vertical-align: middle; }
+
+/* This is used in the Materials Booking calendar */
+.closed { font-weight: bold; color: red; }
+
+.errormessage { font-size: 125%; color: #FF0000; }
+
+.errormessage h2 { display:inline; }
+
+/* External Patron Authentication product style */
+.extpat div { line-height: 1.66em; width: 90%; background: #461B7E; border: 2px solid #461B7E; padding: 3px; margin-left: auto; margin-right: auto; text-align: right; }
+
+/* External Patron Authentication product style */
+.extpat strong { display: block; text-align: left; }
+
+/* Feed table link styles */
+.feedtable a:link, .feedtable a:visited, .feedtable a:active  {color:#000; text-decoration:underline;}
+.feedtable a:hover  {color:red; text-decoration:underline;}
+
+/* used for search help pages tabbed navigation */
+.fields td { padding: 2px; }
+
+
+/* This is used in the featured list display */
+.ftlistHeader { }
+
+.helpNote { font-size: 90%; font-style: italic; }
+
+.helpspan {padding-right:.5em; font-size:90%}
+
+.holdingsDivider { display:none; margin:-3px}
+
+.InnovativeCredit {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 70%; font-style: italic}
+
+/* Used in Related Searches display */
+div#instructions { font-size: 90%; font-style: italic; }
+
+.KidsOnline {  font-family: "Comic Sans MS", Verdana, Geneva, Arial, Helvetica, sans-serif; font-weight: bold}
+
+/* External Patron Authentication product style */
+.libpat div { line-height: 1.66em; width: 90%; background: #461B7E; border: 2px solid #461B7E; padding: 3px; margin-left: auto; margin-right: auto; text-align: right; }
+
+/* External Patron Authentication product style */
+.libpat strong { display: block; text-align: left; }
+
+
+/* Styles used in Limit/Sort Search page - srchmod.html */
+.limitEntriesFoundNum { font-size: 90%; font-style: italic; }
+
+.limitEntriesFoundText { font-size: 90%; font-style: italic; }
+
+.limitSearchTerm { font-size: 90%; font-weight: bold; }
+
+.limitSearchTypeText { font-size: 90%; }
+
+.limitSearchTypeIndex { font-size: 90%; }
+
+
+.loggedInMessage {	padding-left: 6px; font-style: italic; color: red; font-size: 90%; }
+
+/* External Patron Authentication product styles */
+.loginarea { }
+
+.main { margin-left: 20px; margin-right: 20px; }
+
+/* used for search help pages tabbed navigation */
+#main {margin-left:15px; margin-right:15px; font-size:80%}
+
+#main a:link { color: #461B7E; }
+
+#main a:hover { text-decoration: underline; }
+
+#main a:visited { color: #8467D7;  } 
+#main div {padding-top:.2em}
+#main .tabs a:link, #main .tabs a:visited { color: #000; text-decoration: none; }
+#main .tabs a:hover { text-decoration: underline; }
+
+/* control over mainmenu and opacmenu pages layout */
+.metacatalog { text-align: left; padding: 20px; padding-top: 1em; margin-bottom: 0px; margin-right: 20px; margin-left:20px; background-color: #FFFACD; vertical-align: top; font-size: 80%; height:150px}
+
+
+.msg { font-size: 125%; color: #FF0000; }
+
+.navigationRow { margin: 5px; }
+
+.navigationRow select { vertical-align: top; }
+
+.nowrap {white-space: nowrap; }
+
+.pageDirectoryArea { color: #000000; text-align: left;  }
+
+.pageInfoAreaHeader { color: #8467D7; background: #FFFACD; font-size: 110%; font-weight: bolder; text-align: left;  }
+
+.pageMainArea { color: #000000; background: #FFFACD; padding-left: 3px; }
+
+.pageMainAreaHeader { color: #8467D7; font-size: 110%; font-weight: bolder; text-align: left; }
+
+.pageMainAreaSubHeader { font-weight: bold; font-style: italic}
+
+.pageNavArea { color: #FFFFFF; background: #461B7E; }
+
+.pageNavAreaBorder { background: #8467D7; }
+
+.pageNavAreaText {  color: #FFFFFF; text-decoration: none; font-weight: bold; background-color: #461B7E; }
+
+
+/* classes for patron record display */
+/* see also Web options TABLEPARAM_PATDISP, TABLEPARAM_PATFUNC, */
+/* and the various BUT_PAT_ graphics options. */
+
+.patActionsLinks { text-align: center; clear: both; padding: 10px; }
+
+.patActionsLinks img { vertical-align: middle; }
+
+.patDisplay { }
+
+.patDisplayFunc {}
+
+.patDisplayInfo { }
+
+.patFunc { border-top: 2px solid #461B7E; border-spacing: 0; width: 100%; }
+
+.patFunc td { padding: 5px; font-size: 90%; border-bottom: 1px solid #461B7E; }
+
+.patFuncArea { border: 2px solid #461B7E; margin: 3px; }
+
+.patFuncArea form { display: inline; }
+
+.patFuncArea img { padding-top: 2px; } 
+
+.patFuncAuthor { }
+
+.patFuncBookDate { }
+
+.patFuncBtns { color: #000000; background: #FFFACD; }
+
+.patFuncCallNo { }
+
+.patFuncCancel { text-align: center; }
+
+.patFuncDate { }
+
+.patFuncDetails { }
+
+.patFuncEntry { color: #000000; background: #FFFACD; font-weight: normal;  }
+
+.patFuncFinesDetailAmt { }
+
+.patFuncFinesDetailDate { }
+
+.patFuncFinesDetailDateLabel { }
+
+.patFuncFinesDetailType { }
+
+.patFuncFinesEntryDetail td { border-bottom: 1px solid #461B7E; }
+
+.patFuncFinesEntryTitle { color: #000000; background: #FFFACD; font-weight: normal;  }
+
+.patFuncFinesTotal { }
+
+.patFuncFinesTotalAmt { font-weight: bold; }
+
+.patFuncFinesTotalLabel { }
+
+.patFuncFreeze { }
+
+.patFuncHeaders { color: #FFFFFF; background: #461B7E; padding-left: 3px; padding-right: 3px; font-size: 80%; }
+
+.patFuncMark { }
+
+.patFuncModifyPatInfo { }
+
+.patFuncModifyPIN { }
+
+.patFuncModifyPINExample { }
+
+.patFuncNoEntries { }
+
+.patFuncPickup { }
+
+.patFuncPSrchBtn { }
+
+.patFuncPSrchType { }
+
+.patFuncRating { }
+
+.patFuncRenewCount { font-style: italic; color: red; }
+
+.patFuncStatus { }
+
+.patFuncTitle { font-weight: bold; }
+
+.patHelpLinks { border: 1px solid #461B7E; border-top: none; width: 300px; padding: 3px; margin-left: 5px; margin-right: 5px; background: #FFFACD; }
+
+.patHelpLinks a { text-align: right; display: block; border-bottom: 1px #461B7E solid; padding: 2px; }
+
+.patImage { }
+
+.patInfo { }
+
+.patMainFuncs { float: left; }
+
+.patNameAddress { text-align: left; border: 1px solid #8467D7; width: 350px; float: left; padding: 5px; }
+
+.patSearchLinks { }
+
+.patStatusLinks { border: 1px solid #461B7E; width: 300px; padding: 3px; margin-left: 5px; margin-right: 5px; background: #FFFACD; float: left; }
+
+.patStatusLinks a { text-align: left; display: block; border-bottom: 1px #461B7E solid; padding: 2px; }
+
+
+
+
+.paymentPage { margin: 10px; }
+
+.paymentPage h2 { font-weight: bold; }
+
+.paymentPageFinestable { width: 80%; border: 2px solid #461B7E; }
+
+
+.popupForm { font-size: 90%; }
+
+.popupForm td { font-size: 90%; }
+
+/* These are used in the Related Searches display in the Search Tool */
+.rateLabel a {color:#461B7E;}
+.rateLabel a:active, .rateLabel a:visited ,.rateLabel a:link {color:#461B7E;text-decoration:none}
+.rateLabel a:hover {color:#461B7E;text-decoration:underline}
+
+.relSearchLabel { }
+
+.relSearchLink { }
+
+.reqFillTimeMsg { font-style: italic; font-size: 90%; }
+
+.reserveBibs { border: 2px solid #461B7E; }
+
+.reserveBibs td { border-bottom: 1px solid #461B7E; }
+
+.reserveBibs input { background-color: #FFFACD; }
+
+/* Resource Record display */
+.resourceBib { }
+
+.resourceBibEntry { color: #000000; background: #FFFACD; text-align: left; }
+
+.resourceBibHeader { color: #FFFFFF; background: #461B7E; font-weight: bold; text-align: left; }
+
+.resourceInfoData { }
+
+.resourceInfoLabel { background: #FFFACD; font-style: italic; }
+
+.resourceLicense { }
+
+.resourceLicenseEntry { color: #000000; background: #FFFACD; text-align: left; }
+
+.resourceLicenseHeader { color: #FFFFFF; background: #461B7E; font-weight: bold; text-align: left; }
+
+.resourceLinkEntry { }
+
+.resourceResource { }
+
+.rssChannelEntries { padding:5px 0 5px 0 ; }
+
+.rssChannelEntry { padding: 4px; }
+
+.rssChannelEntryDate { font-size: 70%; font-style: italic; }
+
+.rssChannelEntryDesc { font-size: 80%; }
+
+.rssChannelEntryHead { font-size: 85%; font-weight: bold; display: list-item; padding-bottom: 2px; }
+
+.rssChannelImage img { border: 0; margin-top: 2px; }
+
+.rssChannelTitle { font-weight: bold; }
+
+.rssFeed { padding: 5px; margin: 2px; border: 1px solid #461B7E; }
+
+.searchTipsNavAreaText {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: none; font-weight: bold; background-color: #8467D7; }
+
+.searchTipsHeaderText {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #8467D7; text-decoration: none; font-weight: bold; background-color: #FFFACD; }
+
+.sectionHeading { font-weight: bold; }
+
+/* This is used in the patron views of holds */
+.suspended td { font-size: 90%; background: #EBECF6 url(/screens/icicles.gif) repeat-x top; }
+
+.topicFeeds { clear: none; float: right; width: 60%; padding: 5px; }
+
+.topicLinks { clear: none; float: left; padding: 5px; width: 35%; }
+
+.topicLinks ul { padding: 5px; padding-left: 20px; margin: 2px; border: 1px solid #461B7E; }
+
+/* This is used in the Materials Booking calendar */
+.unavailable { font-weight: bold; color: black; background: #D7D7D7; }
+
+.unpadded { margin-bottom:auto; margin-top:auto; }
+
+.wamCalcDate{ background: #ECECEC; border: 1px silver dashed; font-size: 90%;  }
+
+.xmlframe { width:100%; height:600px; border-width:1px solid #000; }
+
+.yourEntryWouldBeHere { }
+
+.yourEntryWouldBeHereData { border: 2px solid #F5D9A3; }
+
+/* Section 3: WebBridge */
+/* WebBridge style names lowercased as of Release 2005.  Declare styles using these style names for Release 2005 and later */
+
+/* body element in WebBridge forms */
+.wbbody { color: #000000; font-family: verdana,geneva,arial,sans-serif; background-color: #fff; font-size: 80%; margin:0;padding:0; }
+
+/* the following .wbbody styles are used to style the wp_panel.html pop up page */
+.wbbody a:link, .wbbody a:visited { color:#461B7E; text-decoration: underline; }
+
+.wbbody a:hover, .wbbody a:active { color: #aa1002;text-decoration: underline; }
+
+/* fixing alignment of images */
+.wbbody img { vertical-align: middle; }
+
+.wbbody .wbcategory { color: #000000; margin:10px 10px 0 10px; font-size:11px; font-weight: bold; border-bottom: 1px solid #461B7E; background-color: #DAA520; padding:2px 5px 2px 5px; }
+
+.wbbody .wbcategory strong { font-weight: bold; }
+
+.wbbody .wbcategory font { color:#000000; }
+
+.wbbody .wbresourcelist { background-color: #fff; margin-top: 5px; }
+
+.wbbody .wblinkdisplay { background: #F8F8FA; margin:1px 20px 1px 20px; font-weight: normal; padding:2px 5px 2px 5px; font-size:11px; }
+
+.wbbody .wblinkdisplay form { padding:0;margin:0; }
+
+.wbbody .wblinktext { font-size:11px; }
+
+.wbbody .wblinkfield { font-style:italic; font-size:11px; }
+
+.wbbody .wbsubheading { font-weight: bold; color:#aa1002;}
+
+.wbbody .header { }
+
+.wbbody .noresources { color: red; font-size: 1.2em; font-weight: bold;} 
+ 
+.wbbody .citation { background-color: #FFFFFF; border: 1px solid #461B7E; padding: 5px; }
+
+.wbbody .resourceinfo { }
+
+.wbbody .advisory { }
+
+.wbbody .ada {}
+
+.wbbody .license { }
+
+.wbbody .linkdisplay { }
+
+.wbbody .coverage { }
+
+.wbbody .coverage em { font-style: normal; }
+
+.wbbody .wbheading { font-size:11px;margin:0 10px -7px 10px; }
+
+.wbbody .headerTable { background:#DAA520; }
+
+.wbbody .citationtitle { font-weight: bold; color:#aa1002; font-size:1.2em;}
+
+.wbbody .fieldinsert { font-size: .9em; margin-left: 30px; margin-right: 30px; }
+
+/* WebBridge category headings */
+.wbcategory { font-weight:bold; margin-top: 1em;}
+
+/* contents of the WBHEADERTEXT wwwoption */
+.wbheading { }
+
+/* Entire WebBridge Resource Definition Link Display */
+.wblinkdisplay { }
+
+/* Field selectors in Link Display (except for #@LinkText#) */
+.wblinkfield { }
+
+/* #@LinkText# field selector in WB Link Display */
+.wblinktext { }
+
+/* deprecated style -- manually inserted in WB category definition */
+.wbPanelCategory { color: #8467D7; }
+
+/* Contents of  resourcelist token in webbridge forms */
+.wbresourcelist { }
+
+/* #HEADER# token in WBHEADERTEXT wwwoption */
+.wbsubheading { }
+
+.mainSpacer {margin:0 1em 0em 1em;}
+div.DisplayBoxContent div a:visited, div.DisplayBoxContent div a:link, div.DisplayBoxContent div a:active {color:#461B7E;text-decoration:none; font-weight:bold; outline:none; }
+div.DisplayBoxContent div  {color:#000;text-decoration:none; font-weight:bold; outline:none; }
+div.DisplayBoxContent div a:hover {text-decoration:underline; font-weight:bold;outline:none;}
+.mainActiveTab {background: transparent; width:90px; float:left;margin:0 5px -1px 0;}
+.mainInactiveTab {background: transparent; width:90px; float:left; margin:0 5px -1px 0;}
+.menuTabContent {width:90px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0;padding:1px 0 9px 0; height:18px;}
+.menuTabActive {width:auto;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0 0 0 0; padding:1px 0 9px 0;}
+
+.helpActiveTab {background: transparent; width:100px; float:left; margin:0 5px -1px 0;}
+.helpActiveTabMedium {background: transparent; width:125px; float:left; margin:0 5px -1px 0;}
+.helpActiveTabLarge {background: transparent; width:175px; float:left; margin:0 5px -1px 0;}
+.verifyActiveTabXL {background: transparent; width:200px; float:left; margin:0 5px -1px 0; }
+.helpInactiveTab {background: transparent; width:100px; float:left; margin:0 5px -1px 0;}
+.helpInactiveTabMedium {background: transparent; width:125px; float:left; margin:0 5px -1px 0;}
+.helpInactiveTabLarge {background: transparent; width:175px; float:left; margin:0 5px -1px 0;}
+.helpTabContent {width:100px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0; padding:1px 0 9px 0; height:18px;}
+.helpTabActiveContent {width:100px;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0 0 0 0; padding:1px 0 9px 0;}
+.helpTabContentMedium {width:125px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0; padding:1px 0 9px 0; height:18px;}
+.helpTabContentLarge {width:175px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0; padding:1px 0 9px 0; height:18px;}
+.helpTabActiveContentMedium {width:125px;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0; padding:1px 0 9px 0;}
+.helpTabActiveContentLarge {width:175px;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0; padding:1px 0 9px 0;}
+.verifyTabActiveContentXL {width:200px;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0; padding:1px 0 9px 0;}
+
+.active1, .active2, .active3, .active4 {display:block; overflow:hidden;}
+.active1, .active2, .active3 {height:1px;}
+.active2, .active3, .active4 {background:#fff;  border-left:1px solid #461B7E; border-right:1px solid #461B7E;}
+.active1 {margin:0 5px; background:#461B7E;}
+.active2 {margin:0 3px; border-width:0 2px;}
+.active3 {margin:0 2px;}
+.active4 {height:2px; margin:0 1px;}
+
+.inactive1, .inactive2, .inactive3, .inactive4 {display:block; overflow:hidden;}
+.inactive1, .inactive2, .inactive3 {height:1px;}
+.inactive2, .inactive3, .inactive4 {background:#DAA520;}
+.inactive1 {margin:0 5px; background:#DAA520;}
+.inactive2 {margin:0 3px; border-width:0 2px;}
+.inactive3 {margin:0 2px;}
+.inactive4 {height:2px; margin:0 1px;}
+
+/* content div rounding styles */
+.mainActiveContent {border:0 solid #461B7E; border-width:1px 1px 0 1px;clear:both;padding:2px 10px 2px 10px;background:#fff;display:block;margin:0;}
+.mainActiveContentTabless {border:0 solid #461B7E; border-width:1px 1px 0 1px;clear:both;padding:2px 10px 2px 10px;background:#fff;display:block;margin:2px 0 0 0;}
+.helpActiveContent {border:0 solid #461B7E; border-width:1px 1px 0 1px;clear:both;padding:2px 10px 2px 10px;background:#fff;display:block; margin-top:-13px;}
+.contop, .conbottom {display:block; background:transparent; font-size:1px;}
+.conb1, .conb2, .conb3, .conb4 {display:block; overflow:hidden;}
+.conb1, .conb2, .conb3 {height:1px;}
+.conb2, .conb3, .conb4 {background:#fff; border-left:1px solid #461B7E; border-right:1px solid #461B7E;}
+.conb1 {margin:0 5px; background:#461B7E;}
+.conb2 {margin:0 3px; border-width:0 2px;}
+.conb3 {margin:0 2px;}
+.conb4 {height:2px; margin:0 1px;}
+.folderWrapper {float:left;width:75%;}
+.mainNavLinksWrapper {float:right; width:25%}
+
+/*style for My Millennium login box*/
+.loginHeader {display:block; background:#FFFACD; border:0 solid #461B7E; border-width:0 1px; padding:2px 5px 0 5px;color:#461B7E; font-weight: bold; font-size: 1.5em; padding: 5px;}
+#loginMyMil {line-height: 14pt; }
+#loginMyMil span.loggedInMessage a:link, span.loggedInMessage a:visited, span.loggedInMessage a:active {font-weight: bold; font-style:normal; }
+.loginHeader span.helpSpan {font-size: 8pt; color: #ebc600; font-weight: normal; }
+.helpSpan a:link, .helpSpan a:visited, .helpSpan a:active {color: #DAA520; }
+
+.roundedContent {background: transparent; margin:.5em 0 1em 0;}
+.roundedContent2 {background: transparent;width:100%;}
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#FFFACD; border-left:1px solid #461B7E; border-right:1px solid #461B7E;}
+.xb1 {margin:0 5px; background:#461B7E;}
+.xb2 {margin:0 3px; border-width:0 2px;}
+.xb3 {margin:0 2px;}
+.xb4 {height:2px; margin:0 1px;}
+
+.roundedContentInfo {display:block; background:#FFFACD; border:0 solid #461B7E; border-width:0 1px; padding:2px 5px 0 5px;color:#000}
+.roundedContentInfo a:link,.roundedContentInfo a:visited, .roundedContentInfo a:active {color:#000;text-decoration:none;}
+.roundedContentInfo a:hover {color:#000;text-decoration:underline}
+.mainActiveContentTable {width:92%;font-size:90%}
+.mainContentHead {font-weight:bold;}
+span#searchTips {padding:5px 5px 5px 5px;font-size:85%; display: none;border:1px solid #000}
+.textFix {font-size:100%}
+#topLogohead {background-color:#DAA520; padding:3px 5px 3px 5px;margin:0 0 10px 0;border-bottom:2px solid #461B7E;}
+#topLogohead span {color:#fff; font-weight:bold;}
+#topLogohead form {padding:auto; margin:auto;}
+#topLogoImage { padding:5px 3px 5px 5px ; }
+#currentDate {font-weight:bold; color:#ffffff; font-size:90%;padding:5px;}
+.topLog {padding:3px 0 3px 10px;margin:0;font-size:100%; color:#fff;}
+.topLog input {font-size:80%;}
+.unpadded { margin-bottom:auto; margin-top:auto;  }
+#topID {float:right; }
+#topID ul {list-style:none; font-size:85%; padding:0; margin:0 0 5px 0;}
+#topID ul li {display:inline; padding:0 2px 0 0;}
+#topID ul li a {text-decoration:none; color:#461B7E;}
+#topID ul li a:hover {text-decoration:underline; color:#461B7E;}
+#topID .breaker {color:#461B7E;}
+#botnav { background: #DAA520; margin: 0 0 10px 0; font-size:80%; padding:0; text-align:center;border-top:2px solid #461B7E;}
+.botmenuLinks {position:relative;margin: 0;padding:5px;}
+.breaker {color:#461B7E}
+#botnav ul {list-style:none; }
+#botnav ul li {display:inline; padding:0 5px 0 0;}
+#botnav ul li a {text-decoration:none; color:#461B7E;}
+#botnav ul li a:hover {text-decoration:underline; color:#461B7E;}
+
+/*styles for bib_display.html */
+
+.topDiv {text-align:center; margin: 2px;}
+.limitDiv {width:60%}
+.searchTool {border:1px solid #461B7E; background:#DAA520; padding:5px 0 5px 0;}
+#bibLeft { float:left; left: 2%; width: 12%; }
+#bibContent { float:left; left: 16%; width: 75%; }
+#bibRight { float:left; left: 88%; width: 10%; }
+.raised {background: transparent; width:90%; margin:0 auto;}
+.raised .top, .raised .bottom {display:block; background:transparent; font-size:1px;}
+.raised .b1, .raised .b2, .raised .b3, .raised .b4, .raised .b1b, .raised .b2b, .raised .b3b, .raised .b4b {display:block; overflow:hidden;}
+.raised .b1, .raised .b2, .raised .b3, .raised .b1b, .raised .b2b, .raised .b3b {height:1px;}
+.raised .b2 {background:#DAA520; border-left:1px solid #fff; border-right:1px solid #eee;}
+.raised .b3 {background:#DAA520; border-left:1px solid #fff; border-right:1px solid #ddd;}
+.raised .b4 {background:#DAA520; border-left:1px solid #fff; border-right:1px solid #aaa;}
+.raised .b4b {background:#DAA520; border-left:1px solid #eee; border-right:1px solid #999;}
+.raised .b3b {background:#DAA520; border-left:1px solid #ddd; border-right:1px solid #999;}
+.raised .b2b {background:#DAA520; border-left:1px solid #aaa; border-right:1px solid #999;}
+.raised .b1 {margin:0 5px; background:#fff;}
+.raised .b2, .raised .b2b {margin:0 3px; border-width:0 2px;}
+.raised .b3, .raised .b3b {margin:0 2px;}
+.raised .b4, .raised .b4b {height:2px; margin:0 1px;}
+.raised .b1b {margin:0 5px; background:#999;}
+.raised .tool form {margin:auto; padding:auto;}
+.raised .tool {display:block; background:#DAA520; border-left:1px solid #fff; font-size:80%; border-right:1px solid #999; padding:3px;}
+.clear {clear:both; margin-bottom:5px;}
+.clear2 {clear:both;}
+#infoTable {width:75%;float:left;}
+#sidebarContent {width:21%;padding:0 0 0 5px;float:left}
+#infoOther {text-align:center; display:none; }
+#moreInfo {display:none; padding:0 3px 0 3px; }
+#moreCategories {display:none; padding:0 3px 0 3px;}
+#revandRate { text-align:center; background:#DAA520; padding:0 0 3px 0;}
+.sidecontentHeading { background:#461B7E; color:#fff; font-size:80%; font-style:italic; font-weight:bold; border-bottom:1px solid #7e4a1f; width:100%; margin:0 0 3px 0;}
+.conHead {background:#461B7E; color:#fff; font-size:85%; font-style:italic; font-weight:bold; border-bottom:1px solid #FFB515; width:100%; padding:2px 0 2px 6px;}
+.booking {text-align:center; margin:0 0 5px 0;}
+#bibMenuLinks {padding: 0 5px 3px 5px; text-align:center;}
+#bibMenuLinks a {color:#461B7E;}
+
+div.bibContentBox div a:visited, div.bibContentBox div a:link, div.bibContentBox div a:active, {color:#000;text-decoration:none; font-weight:bold; outline:none; font-size:75%;}
+div.bibContentBox div a:hover {color:red;text-decoration:underline; font-weight:bold;outline:none;font-size:75%;}
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+
+
+/* tab rounding styles for selection switches*/
+.bibTabOn {background: transparent; width:100px; float:left; margin:0 5px -1px 0;}
+.bibTabOff {background: transparent; width:100px; float:left; margin:0 5px -1px 0;}
+.bibSimTabOn {background: transparent; width:150px; float:left; margin:0 5px -1px 0;}
+.bibSimTabOff {background: transparent; width:150px; float:left; margin:0 5px -1px 0;}
+.bibTabContent {width:100px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0; padding:1px 0 9px 0; height:18px;}
+.bibTabSelected {width:100px;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0; padding:1px 0 9px 0;}
+.bibSimTabSelected {width:150px;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0; padding:1px 0 9px 0;}
+.bibSimTabContent {width:150px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0; padding:1px 0 9px 0; height:18px;}
+
+.tabTop, .tabBottom {display:block; background:transparent; font-size:1px;}
+
+.selected1, .selected2, .selected3, .selected4 {display:block; overflow:hidden;}
+.selected1, .selected2, .selected3 {height:1px;}
+.selected2, .selected3, .selected4 {background:#fff;  border-left:1px solid #461B7E; border-right:1px solid #461B7E;}
+.selected1 {margin:0 5px; background:#461B7E;}
+.selected2 {margin:0 3px; border-width:0 2px;}
+.selected3 {margin:0 2px;}
+.selected4 {height:2px; margin:0 1px;}
+
+.option1, .option2, .option3, .option4 {display:block; overflow:hidden;}
+.option1, .option2, .option3 {height:1px;}
+.option2, .option3, .option4 {background:#DAA520;}
+.option1 {margin:0 5px; background:#DAA520;}
+.option2 {margin:0 3px; border-width:0 2px;}
+.option3 {margin:0 2px;}
+.option4 {height:2px; margin:0 1px;}
+.bibContentWrapper {border:0 solid #461B7E; border-width:1px 1px 0 1px;clear:both;padding:0 10px 0 10px;background:#fff;display:block;}
+.bibContentSectionOptions {width:95%;display:none;margin:0; }
+.bibContentSectionDefault {width:95%;margin:0; }
+
+.searchTipTable {font-size:80%;}
+#searchTipMain {display:none; margin:12px}
+.searchTipContentInfo {display:block; background:#fff; border:0 solid #461B7E; border-width:0 1px; padding:2px 5px;color:#000;}
+#searchTipsLink {text-align:center}
+#searchTipsLink a:link, #searchTipsLink a:visited, #searchTipsLink a:active {color:#000; text-decoration:none;}
+#searchTipsLink a:hover {color:#000; text-decoration:underline;}
+
+/* this style corrects the IE rendering bug for the bottom rounded corner overflow */
+.ieFix {margin:0 1px 0 1px} 

@@ -1,0 +1,448 @@
+#***************************************************************************
+#***************************************************************************
+#  PLEASE DO NOT EDIT THE WWWOPTIONS WITHOUT CHECKING WITH FOLKS WHO ARE ASSIGNED TO 
+#  WORK ON THE WEBPACS, OR YOUR CHANGES MAY BE OVERWRITTEN!!! 040617
+#***************************************************************************
+# WARNING!	 Please ensure that you are the *only* user modifying this file.
+# 		If more than one user simultaneously edits this file...
+# 		YOUR CHANGES MAY NOT BE SAVED!
+#***************************************************************************
+####################################################################
+#
+# 	WWWOptions file for: Bridges / MOBTE
+#            	Created : 04/19/2001
+#		Updated 090331 ahd:    LIVE
+#
+####################################################################
+
+#   ADVANCED SERVER OPTIONS
+ASSEARCH=1
+#AVS_RELEVANCE_FORMAT=1
+AVS_TAG=XYZ
+
+#   BOOKINGS OPTIONS
+BOOK_CAL_AVAIL=black
+BOOK_CAL_BKGRD=white
+BOOK_CAL_CLOSE=red
+BOOK_CAL_UNAVAIL=blue
+CANCEL_BOOKINGS=true
+
+#   CONTENT LINKING AND OTHER RESOURCES OPTIONS
+#BIBIMAGE for testing only on staging right now
+#BIBIMAGE=http://images.amazon.com/images/P/%s.01._SCMZZZZZZZ_.jpg|i|http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg
+#EBADDRESS=http://search.britannica.com/bcom/search/results/1,5843,,00.html?p_#query0=%s
+#EBADDRESS=http://www.eb.com:80/cgi-bin/g?keywords=%s&DBase=Article
+#EBADDRESS=http://search.britannica.com/cgi-bin/g?keywords=%s&DBase=Articles
+#EBADDRESS=http://search.britannica.com
+
+#   EBOOKS OPTONS
+NETLI_ASK=true
+NETLI_LINK=|Go to netLibrary Preview|Check this book out of netLibrary
+NETLI856TEXT=Link to netLibrary version:
+
+#   ELECTRONIC RESOURCES MANAGEMENT OPTIONS
+
+#   FEATURED LISTS
+FEATURED_LIST=16,17,18,19,42,43,41,08,281,26,290,241,285,286|NEW TITLES AND LISTS||# TITLES
+
+#   GENERAL DISPLAY AND BEHAVIOR OPTIONS
+BOTLOGO=@screens/botlogo.html
+BOTLOGO6=@screens/botlogo_s6.html
+BOTLOGO7=@screens/botlogo_s7.html
+BOTLOGO9=@screens/botlogo_s9.html
+CLEAR_PRIVATE_INFO=yes
+FORM_FOCUS=no
+SSLPORT=80:443:bridges.missouri.edu:bridges.mobius.umsystem.edu|2082:444:bridges.missouri.edu:bridges.mobius.umsystem.edu
+#SSLPORT=80:443
+STARTOVER=/search
+STATGROUP=login
+STYLESHEET=/screens/bridges_styles.css
+STYLESHEET1=/screens/bridges_styles_s1.css
+STYLESHEET2=/screens/bridges_styles_s2.css
+STYLESHEET7=/screens/bridges_styles_s7.css
+#STYLESHEET9=/screens/bridges_styles_s9.css
+TIMEOUT=600;URL=http://bridges.missouri.edu/search----->
+TOPLOGO=@screens/toplogo.html
+TOPLOGO1=@screens/toplogo_s1.html
+TOPLOGO2=@screens/toplogo_s2.html
+TOPLOGO3=@screens/toplogo_s3.html
+TOPLOGO4=@screens/toplogo_s4.html
+TOPLOGO5=@screens/toplogo_s5.html
+TOPLOGO6=@screens/toplogo_s6.html
+TOPLOGO7=@screens/toplogo_s7.html
+TOPLOGO8=@screens/toplogo_s8.html
+TOPLOGO9=@screens/toplogo_s9.html
+XSTARTOVER=/search
+
+#   GENERAL AND PHRASE SEARCHING OPTIONS
+DROP_DOWN=Yatsdmj
+FRAMEURL=0;0
+#Original FRAMEURL was set to 35;10
+KEYWORD_COLOR=Y|ALL|RED
+NOSEARCH=nubz
+OFFER_HISTORY=yes
+#SUPPRESS_OPTION=encycpd,email,ill_home
+SUPPRESS_YEAR=no
+
+#  HOLDINGS OPTIONS
+SHOWOREC=no_cdate
+SORT_ITEMS=true
+#SUPPRESS_CARD=F
+
+#  INN-REACH OPTIONS
+INNREACH=<br><img src="/screens/b_mobius.gif"border=0 alt="Search MOBIUS Union Catalog">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;o=o;s=s;t=t)
+
+#  LANGUAGE HANDLING OPTIONS
+
+#  MEDIA MANAGEMENT OPTIONS
+ERESERVE=[0123456789]
+ERESERVE_PRINT_MESSAGE=Article has been sent to the system printer.
+
+#  MY MILLENNIUM OPTIONS
+#FORCE_COOKIE=
+LOGGEDIN_MSG=You are logged in %s as %s
+LOGGEDIN_MSG1=You are logged in %s as %s
+LOGGEDIN_MSG2=You are logged in %s as %s
+LOGGEDIN_MSG3=You are logged in %s as %s
+LOGGEDIN_MSG4=You are logged in %s as %s
+LOGGEDIN_MSG5=You are logged in %s as %s
+LOGGEDIN_MSG6=You are logged in %s as %s
+LOGGEDIN_MSG7=You are logged in %s as %s
+LOGGEDIN_MSG8=You are logged in %s as %s
+LOGGEDIN_MSG9=You are logged in %s as %s
+MY_WEBPAC=F,T
+NO_REVERIFY=req,acq,ecr,media
+PREF_SEARCHES_P0=20|y
+PREF_SEARCHES_P1=20|y
+PREF_SEARCHES_P2=20|y
+PREF_SEARCHES_P3=20|y
+PREF_SEARCHES_P6=20|y
+PREF_SEARCHES_P10=20|y
+PREF_SEARCHES_P20=20|y
+PREF_SEARCHES_P23=20|y
+PREF_SEARCHES_P40=20|y
+PREF_SEARCHES_P41=20|y
+PREF_SEARCHES_P60=20|y
+PREF_SEARCHES_P61=20|y
+PREF_SEARCHES_P62=20|y
+PREF_SEARCHES_P63=20|y
+PREF_SEARCHES_P64=20|y
+PREF_SEARCHES_P65=20|y
+PREF_SEARCHES_P66=20|y
+PREF_SEARCHES_P67=20|y
+PREF_SEARCHES_P68=20|y
+PREF_SEARCHES_P69=20|y
+PREF_SEARCHES_P70=20|y
+PREF_SEARCHES_P71=20|y
+PREF_SEARCHES_P72=20|y
+PREF_SEARCHES_P73=20|y
+PREF_SEARCHES_P74=20|y
+PREF_SEARCHES_P75=20|y
+PREF_SEARCHES_P79=20|y
+PREF_SEARCHES_P90=20|y
+PREF_SEARCHES_P92=20|y
+PREF_SEARCHES_P93=20|y
+PREF_SEARCHES_P99=20|y
+PREF_SEARCHES_P100=20|y
+PREF_SEARCHES_P101=20|y
+PREF_SEARCHES_P110=20|y
+PREF_SEARCHES_P111=20|y
+PREF_SEARCHES_P112=20|y
+PREF_SEARCHES_P113=20|y
+PREF_SEARCHES_P114=20|y
+PREF_SEARCHES_P115=20|y
+PREF_SEARCHES_P116=20|y
+PREF_SEARCHES_P117=20|y
+PREF_SEARCHES_P118=20|y
+PREF_SEARCHES_P119=20|y
+PREF_SEARCHES_P120=20|y
+PREF_SEARCHES_P121=20|y
+PREF_SEARCHES_P122=20|y
+PREF_SEARCHES_P123=20|y
+PREF_SEARCHES_P124=20|y
+PREF_SEARCHES_P125=20|y
+PREF_SEARCHES_P126=20|y
+PREF_SEARCHES_P127=20|y
+PREF_SEARCHES_P128=20|y
+PREF_SEARCHES_P160=20|y
+PREF_SEARCHES_P161=20|y
+PREF_SEARCHES_P162=20|y
+PREF_SEARCHES_P163=20|y
+PREF_SEARCHES_P164=20|y
+PREF_SEARCHES_P165=20|y
+PREF_SEARCHES_P166=20|y
+PREF_SEARCHES_P167=20|y
+PREF_SEARCHES_P168=20|y
+PREF_SEARCHES_P169=20|y
+PREF_SEARCHES_P170=20|y
+PREF_SEARCHES_P171=20|y
+PREF_SEARCHES_P172=20|y
+PREF_SEARCHES_P173=20|y
+PREF_SEARCHES_P174=20|y
+PREF_SEARCHES_P175=20|y
+PREF_SEARCHES_P176=20|y
+PREF_SEARCHES_P177=20|y
+PREFTEXT=Save your search?
+READING_HISTORY_DELETE=T
+
+# PATRON RECORD OPTIONS
+FRAMEURL_PAT=50
+MY_WEBPAC=F,T
+# NEWPIN_MSG=please verify your chosen pin
+PATRON_FIELDS=n
+# PATRON_MSG=
+# PATRON_NOTICES=a,z
+# PSTARTOVER=
+# TABLEPARAM_PATDISP=<main>|<info>|<buttons>
+TABLEPARAM_PATDISP=WIDTH=100% BORDER= 1px solid #000000 BGCOLOR=#DBE4C5|BGCOLOR=#DBE4C5|BGCOLOR=#DBE4C5
+TABLEPARAM_PATFUNC=WIDTH=100% BORDER= 1px solid #000000 BGCOLOR=#DBE4C5|BGCOLOR=#DBE4C5|BGCOLOR=#DBE4C5
+# TIME_POPUP=
+
+#   RECORD DISPLAY OPTIONS
+#BIBLOC=
+#DISPLAY_856=
+#FIELD_LABEL_VERBATIM=
+HOLDINGS_POS=atpe
+ HOTLINK=
+#HYPERTEXT_980
+ITEM_NOTE=true
+#ITEMOUT_MSG=Due
+LINK856TEXT=Link to web version
+MARC=yes
+# RECORDFRAME=25,75
+SIMILAR_ITEMS=f
+#The table parameters go here
+TABLEPARAM_BIB7=WIDTH=100%|BORDER=0|BORDER=1px solid #999999
+TABLEPARAM_BIB_TOC=WIDTH=95%|bgcolor=#FFFFFF
+
+#   REQUESTING OPTIONS
+BIBREQUEST=F
+REQUEST=BUT_REQUEST|denyiflocalavail|ask|yes
+# REQUEST_ARTICLE_IFCHKIN=
+# REQUEST_INSTRUCTION=Any Special Instructions? 
+REQUEST_MULTI=BUT_REQUEST|denyiflocalavail|ask|yes
+
+#   RESERVES OPTIONS
+RSRV_FORMAT=FALSE
+#RSRV_HEADER=
+# TABLEPARAM_RSRV_BIBS=
+
+#  SAVING AND EXPORTING OPTIONS
+BRIEF_EXPORT=a|t|p|e
+#BRIEF_EXPORT_CHKIN=
+EMAILOP=Bridges Mail|exporter|
+EXPORT_SELECT_TABLE=Sendto:email,browser,local|Format:full,brief,marc,endnote,procite
+#XRECTYPE=
+
+#  SEARCH RESULTS OPTIONS
+#AUTHMSG=
+#AUTHMSG_SR
+BODYPARAM=BGCOLOR=#ffffff LINK=#0000FF VLINK=#0000FF,BGCOLOR=#fffff0 LINK=#0000ff VLINK=#0000ff,BGCOLOR=#ffffff LINK=#0000FF VLINK=#0000FF,BGCOLOR=#ffffff LINK=#0000FF VLINK=#0000FF,BGCOLOR=#ffffff LINK=#0000FF VLINK=#0000FF,BGCOLOR=#ffffFF, LINK=#0000FF VLINK=#0000FF
+BRIEF_a=TU
+# BRIEF_t=P
+BROWSE_a=710/ab/cdn
+BROWSE_d=611/andcvxyz
+BROWSE_j=650/abcdevxyz
+BROWSE_m=650/abcdevxyz
+BROWSE_t=245/ab/h
+DISPLAY_245=atdmjsl
+DISPLAY_856=3z
+EXTENDED_t=AT
+EXTENDED=ACT
+EXTENDED_c=2
+# HEADING_LENGTH=
+# IMAGE_MATTYPEx= 'x' specifies code for material type
+INDEX_EXT=mcoitx
+# MEDIA=2
+# REDIRECT_7XX=
+# SORT_BROWSE=
+# SORT_MEDIA=
+#SUPPRESS_YEAR
+TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="3" width="100%"
+TABLEPARAM_BRIEFCIT6=Y|BORDER=0
+TABLEPARAM_BRIEFCIT7=Y|BORDER=0 cellpadding="3" width="90%"
+TABLEPARAM_BROWSE=WIDTH=100%|BORDER=3
+WEBPUBDEF=true
+
+#   SCOPING OPTIONS
+LOCKSCOPE=no
+#Do NOT use LOCKSCOPE
+RESET_SCOPE=no
+#RESET_SCOPE controls whether a scoep is reset when the user clicks 'New Search'
+
+#   STAFF OPTIONS
+#RECORDFRAME=25,50,25
+STAFF=10,128,177
+STAFF_LOGGEDIN_MESSAGE=You are STAFF logged into %s s %s
+
+#  WEB ACCESS MNAGEMENT OPTIONS
+
+#  WEBBRIDGE OPTIONS
+
+#  WEBPAB PRO OPTIONS
+BROWSE50=true
+SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s <span class="helptext"></span>
+
+# Z39.50 Options
+Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+Z39MULTI=500:100
+<A HREF="http://207.160.154.41:211/screens/z39menu.html"IMG SRC=/screens/z39srch.gif> Please select the Z39.50 servers to which you want to send your search </A>
+Z39PORT=80:211
+Z39RESTRICT=OCLC4/olucworldcat
+Z39IPOK=198.209.73.101
+
+#   MATTYPE IMAGES
+#IMAGE_MATTYPE-=/screens/i_book.gif
+#IMAGE_MATTYPEa=/screens/i_book.gif
+#IMAGE_MATTYPEb=/screens/i_book.gif
+#IMAGE_MATTYPEc=/screens/i_musicscore.gif
+#IMAGE_MATTYPEd=/screens/i_book.gif
+#IMAGE_MATTYPEe=/screens/i_globe.gif
+#IMAGE_MATTYPEg=/screens/i_vhs.gif
+#IMAGE_MATTYPEi=/screens/i_cassette.gif
+#IMAGE_MATTYPEj=/screens/i_audio.gif
+#IMAGE_MATTYPEk=/screens/i_art.gif
+#IMAGE_MATTYPEm=/screens/i_book.gif
+#IMAGE_MATTYPEo=/screens/i_chess.gif
+#IMAGE_MATTYPEr=/screens/i_chess.gif
+#IMAGE_MATTYPEt=/screens/i_book.gif
+#IMAGE_MATTYPE2=/screens/i_ebook.gif    
+
+# Additional MATTYPE Images for future use
+#i_audiodisc.gif                     
+#i_cdrom.gif                          
+#i_computerfile.gif                    
+#i_movie.gif                                            
+#i_news.gif                           
+
+#   OPTION BUTTONS
+BUT_ANOTHER=/screens/b_another.gif
+BUT_BIBEXPORT=/screens/b_bibexport.gif
+BUT_BOOKING=/screens/b_bookitem.gif
+BUT_BRIEF=/screens/b_brief.gif
+BUT_CANCEL=/screens/b_cancel.gif
+BUT_CARDFORM_BOX=/screens/b_boxdisp.gif
+BUT_CARDFORM_LIN=/screens/b_linedisp.gif
+BUT_CLEAR_MARKED=/screens/b_clrsaves.gif
+BUT_CLOSEWN=/screens/b_ret2cat.gif
+BUT_EMAIL=/screens/b_email.gif
+BUT_ENCYCPD=/screens/b_encycpd.gif
+BUT_EXPORT_VIEW_SAVES=/screens/b_exportlist.gif
+BUT_EXTENDED=/screens/b_extended.gif
+BUT_FULL_TEXT=/screens/b_fulltxt.gif
+BUT_ILL_CANCEL=/screens/b_illcan.gif
+BUT_ILL_FORM=/screens/b_illform.gif
+BUT_ILL_HOME=/screens/b_illano.gif
+BUT_LIMAVAIL=/screens/b_limavail.gif
+BUT_LIMIT=/screens/b_limit.gif
+BUT_LOGOUT=/screens/b_logout.gif
+BUT_MARC_DISPLAY=/screens/b_marcdisp.gif
+BUT_MODIFY=/screens/b_modify.gif
+BUT_NEWSRCH=/screens/b_newsrch.gif
+BUT_NEXTPAGE=/screens/b_nextpage.gif
+BUT_PLOGOUT=/screens/b_ret2pat.gif
+BUT_PREVPAGE=/screens/b_prevpage.gif
+BUT_PREVSCRN=/screens/b_prevscrn.gif
+BUT_PUBLIC=/screens/b_public.gif
+# BUT_READING_HISTORY=/screens/b_readhist.gif
+# BUT_READING_HISTORY_OPTIN=/screens/b_readhistoptin.gif
+BUT_REGULAR_DISPLAY=/screens/b_regdisp.gif
+BUT_REQUEST=/screens/b_reqitem.gif
+BUT_RET2CAT=/screens/b_ret2cat.gif
+BUT_RET2CRS=/screens/b_ret2crs.gif
+BUT_RET2FEAT=/screens/b_ret2feat.gif
+BUT_RET2PREC=/screens/b_ret2pat.gif
+BUT_RETHOME=/screens/b_rethome.gif
+BUT_RTRNTB=/screens/b_rtrntb.gif
+BUT_SHOWSIM=/screens/b_showsimilar.gif
+BUT_STAFF=/screens/b_staff.gif
+BUT_STARTOVER=/screens/b_newsrch.gif
+BUT_UNLIMAVAIL=/screens/b_unlimavail.gif
+BUT_VIEW_SAVES=/screens/b_view_saves.gif
+BUT_WORDSRCH=/screens/b_wordsrch.gif
+BUT_Z39_ANOTHER=/screens/b_z39ano.gif
+BUT_Z39_REQUEST=/screens/b_request.gif
+BUT_Z39SEARCH=/screens/b_z39srch.gif
+BUT_REQUEST_ALL=/screens/b_request_all.gif
+BUT_REQUEST_MULTI=/screens/b_request_multi.gif
+BUT_REQUEST_SELECTED=/screens/b_request_selected.gif
+BUT_EXPORT_MULTI=/screens/b_export_multi.gif
+BUT_REQUEST_RESET=/screens/b_request_reset.gif
+
+#   ICONS
+#ICON_856LINK	Search Results Options
+#ICON_962LINK 	Search Results Options
+#ICON_BIB_PAGING_CAPTION 	Record Display Options
+#ICON_BIB_PAGING_NEXT 	Record Display Options
+#ICON_BIB_PAGING_PREV 	Record Display Options
+#ICON_BIB_RESOURCE_DETAILS  	Electronic Resource Management Options
+ICON_BOOKCART_SAVED=<IMG SRC="/screens/unmark_record.gif" ALT="Remove from Book Cart" border="0"/>
+# ICON_BOOKCART=<IMG SRC="/screens/b_bookcart.gif" ALT="Remove from Book Cart" border="0"/>
+ICON_CANCEL=<img src="/screens/b_cancel.gif" alt="Cancel" border="0" />
+# ICON_FULLRECORD<img src="/screens/b_viewfull.gif" alt="View Full Record" border="0">
+# ICON_LOCATEINRESULTS=<INPUT TYPE="image" NAME="jumpto" SRC="screens/locateinresults.gif" alt="Locate in reults" border="0">
+#ICON_OK 	Ecommerce Options
+#ICON_PAGING_CAPTION 	Search Results Options 
+# ICON_PAT_DELETE_ALL=<img src="/screens/b_removeall.gif" alt="Delete All" border="0">
+# ICON_PAT_DELETE_MARKED=<img src="/screens/b_patdeleteselect.gif" alt="Delete Selected" border="0">
+#ICON_PAY 	Ecommerce Options
+#ICON_PAY_CLEAR_ALL 	Ecommerce Options
+#ICON_PAY_SELECT_ALL 	Ecommerce Options
+#ICON_PRINT 	Ecommerce Options
+ICON_READING_HISTORY=<img src="/screens/b_read_history.gif" alt="Reading History" border="0">
+ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt In" border="0">
+ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0">
+ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;Most relevant titles&nbsp; 
+ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="Highly relevant">&nbsp;Highly relevant titles&nbsp; 
+ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="Very relevant">&nbsp;Very relevant titles&nbsp; 
+ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="Relevant">&nbsp;Relevant titles&nbsp; 
+ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="Other relevant">&nbsp;Other relevant titles&nbsp;
+# ICON_REQUEST=/screens/<img src="/screens/b_request.gif" alt="Request" border="0">
+#ICON_RESOURCE_RECORD 	Electronic Resource Management Options
+# ICON_SAVEALLPAGE=<INPUT TYPE="image" NAME="jumpto" SRC="screens/save_all_page.gif" alt="Save all on page" border="0">
+# ICON_SAVEMARKED==<INPUT TYPE="image" NAME="jumpto" SRC="screens/save_marked.gif" alt="Save selected items" border="0">
+ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more &raquo;</span>
+ICON_SPELLCHECK_SEARCH=</a><input type="button" value="Search" onClick="spell_submit(this);"><a href="#">
+ICON_SUBMIT=<img src="/screens/b_submit.gif" alt="Submit" border="0" />
+ICON_UPDATELIST=<img src="/screens/b_update_list.gif" alt="Remove Marked Records" border="0" />
+# ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/b_viewadditional.gif" alt="View Additional Items" border="0">
+
+# LOC LINKS: ALL FUTURE lines should go AT THE BOTTOM OF THIS DOCUMENT -hjp
+# LOC_c*=http://www.covenantseminary.edu/currentstudents/library/library.asp
+# LOC_f*=http://www.fontbonne.edu/libserv/default.htm
+# LOC_h*=http://www.hssc.edu/library/
+# LOC_k*=http://www.kenrick.edu/library.html
+# LOC_l*=http://www.lindenwood.edu/libraryhours.htm
+# LOC_o*=http://www.logan.edu/welcome.asp?Page=studentservices
+# LOC_m*=http://www.library.maryville.edu/librarydir/collect.htm
+# LOC_b*=http://www.mobap.edu/student/academics/jklibrary/services.asp
+# LOC_w*=http://library.webster.edu/
+
+# Fontbonne
+# LOC_fcari=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcmti=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcavi=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcavs=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fccdi=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcfri=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcili=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcnbi=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcpii=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcrii=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fctsi=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcxii=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcedu=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcgen=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcgoi=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcjuv=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+# LOC_fcpbi=http://www.fontbonne.edu/Image_Gallery/ViewDetails.php?DepartmentID=3&GalleryID=47# target=_blank
+
+# Webster
+LOC_ww&ci=http://library.webster.edu/locs/cms.html "target=_blank"
+LOC_ww&ii=http://library.webster.edu/locs/cms-blue-box.html "target=_blank"
+
+# Content Linking:
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=lindenwood&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=lindenwood&type=rw12&popup=yes
+
+# Permanent URL
+ICON_RECORDLINK2=<div class="bibRecordLink" id="recordnum" align="left"><font size="-1" COLOR="#000099">&nbsp; URL for this record: http://bridges.missouri.edu:80%s</font></div>

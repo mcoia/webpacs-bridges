@@ -61,7 +61,7 @@ STYLESHEET1=/screens/bridges_styles_s1.css
 STYLESHEET2=/screens/bridges_styles_s2.css
 STYLESHEET7=/screens/bridges_styles_s7.css
 #STYLESHEET9=/screens/bridges_styles_s9.css
-TIMEOUT=600;URL=http://bridges.missouri.edu/search----->
+#TIMEOUT=600;URL=http://bridges.missouri.edu/search----->
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
 TOPLOGO2=@screens/toplogo_s2.html

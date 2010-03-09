@@ -255,7 +255,7 @@ EXTENDED_c=2
 INDEX_EXT=mcoitx
 # MEDIA=2
 # REDIRECT_7XX=
-SORT_BROWSE6=t:Title|a:Author|c:Date (Newest First)|r:Date (Oldest First)|n:Call Number|m:Material Type
+SORT_BROWSE6=t:Title|a:Author|r:Date (Newest First)|c:Date (Oldest First)|n:Call Number|m:Material Type
 # SORT_MEDIA=
 #SUPPRESS_YEAR
 TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="3" width="100%"

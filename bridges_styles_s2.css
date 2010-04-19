@@ -698,9 +698,9 @@ div#instructions { font-size: 90%; font-style: italic; }
 div.DisplayBoxContent div a:visited, div.DisplayBoxContent div a:link, div.DisplayBoxContent div a:active {color:#461B7E;text-decoration:none; font-weight:bold; outline:none; }
 div.DisplayBoxContent div  {color:#000;text-decoration:none; font-weight:bold; outline:none; }
 div.DisplayBoxContent div a:hover {text-decoration:underline; font-weight:bold;outline:none;}
-.mainActiveTab {background: transparent; width:90px; float:left;margin:0 5px -1px 0;}
-.mainInactiveTab {background: transparent; width:90px; float:left; margin:0 5px -1px 0;}
-.menuTabContent {width:90px;background-color: #DAA520; text-align:center; margin:0 0 -2px 0;padding:1px 0 9px 0; height:18px;}
+.mainActiveTab {background: transparent; width:11.5%; float:left;margin:0 5px -1px 0; font-size:78%;}
+.mainInactiveTab {background: transparent; width:11.5%; float:left; margin:0 5px -1px 0; font-size:78%;}
+.menuTabContent {background-color: #DAA520; text-align:center; margin:0 0 -2px 0;padding:1px 0 9px 0; height:18px;}
 .menuTabActive {width:auto;background-color: #fff; text-align:center; border-left:1px solid #461B7E; border-right:1px solid #461B7E; height:23px; margin:0 0 0 0; padding:1px 0 9px 0;}
 
 .helpActiveTab {background: transparent; width:100px; float:left; margin:0 5px -1px 0;}

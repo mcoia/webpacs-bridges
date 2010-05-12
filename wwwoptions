@@ -75,7 +75,7 @@ TOPLOGO9=@screens/toplogo_s9.html
 XSTARTOVER=/search
 
 #   GENERAL AND PHRASE SEARCHING OPTIONS
-DROP_DOWN=Yatsdmj
+DROP_DOWN=Yatsdmjl
 FRAMEURL=0;0
 #Original FRAMEURL was set to 35;10
 KEYWORD_COLOR=Y|ALL|RED

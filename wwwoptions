@@ -220,7 +220,7 @@ BIBREQUEST=F
 REQUEST=BUT_REQUEST|denyiflocalavail|ask|yes
 # REQUEST_ARTICLE_IFCHKIN=
 # REQUEST_INSTRUCTION=Any Special Instructions? 
-REQUEST_MULTI=BUT_REQUEST|denyiflocalavail|ask|yes
+REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 
 #   RESERVES OPTIONS
 RSRV_FORMAT=FALSE

@@ -217,7 +217,7 @@ TABLEPARAM_BIB_TOC=WIDTH=95%|bgcolor=#FFFFFF
 
 #   REQUESTING OPTIONS
 BIBREQUEST=F
-REQUEST=BUT_REQUEST|denyiflocalavail|ask|yes
+REQUEST=Hold this item|bib|ask|Y
 # REQUEST_ARTICLE_IFCHKIN=
 # REQUEST_INSTRUCTION=Any Special Instructions? 
 REQUEST_MULTI=Request All Items in Book Cart|bib|ask

@@ -110,7 +110,6 @@ LOGGEDIN_MSG6=You are logged in %s as %s
 LOGGEDIN_MSG7=You are logged in %s as %s
 LOGGEDIN_MSG8=You are logged in %s as %s
 LOGGEDIN_MSG9=You are logged in %s as %s
-MY_WEBPAC=F,T
 NO_REVERIFY=req,acq,ecr,media
 PREF_SEARCHES_P0=20|y
 PREF_SEARCHES_P1=20|y
@@ -187,7 +186,7 @@ READING_HISTORY_DELETE=T
 
 # PATRON RECORD OPTIONS
 FRAMEURL_PAT=50
-MY_WEBPAC=F,T
+MY_WEBPAC=false,2,0-255
 # NEWPIN_MSG=please verify your chosen pin
 PATRON_FIELDS=n
 # PATRON_MSG=
@@ -217,10 +216,10 @@ TABLEPARAM_BIB_TOC=WIDTH=95%|bgcolor=#FFFFFF
 
 #   REQUESTING OPTIONS
 BIBREQUEST=F
-REQUEST=BUT_REQUEST|denyiflocalavail|ask|yes
+REQUEST=Hold this item|bib|ask|Y
 # REQUEST_ARTICLE_IFCHKIN=
 # REQUEST_INSTRUCTION=Any Special Instructions? 
-REQUEST_MULTI=BUT_REQUEST|denyiflocalavail|ask|yes
+REQUEST_MULTI=Request All Items in Book Cart|bib|ask
 
 #   RESERVES OPTIONS
 RSRV_FORMAT=FALSE

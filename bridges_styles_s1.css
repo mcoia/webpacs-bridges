@@ -299,6 +299,9 @@ div#instructions { font-style: italic; }
 
 .nowrap {white-space: nowrap; }
 
+.offline {text-align:center;}
+
+
 
 /* classes for patron record display */
 /* see also Web options TABLEPARAM_PATDISP, TABLEPARAM_PATFUNC, */

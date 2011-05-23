@@ -138,6 +138,9 @@ OL
 	FONT-STYLE: italic;
 }
 
+.offline {text-align:center;}
+
+
 
 TD.browseHeaderNum {  background-color: #FFFFFF; color: #FFFFFF; font-weight: bold}
 TD.browseHeaderMark {  background-color: #FFFFFF; color: #FFFFFF; font-weight: bold}

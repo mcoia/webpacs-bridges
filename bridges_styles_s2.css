@@ -393,6 +393,9 @@ div#instructions { font-size: 90%; font-style: italic; }
 
 .nowrap {white-space: nowrap; }
 
+.offline {text-align:center;}
+
+
 .pageDirectoryArea { color: #000000; text-align: left;  }
 
 .pageInfoAreaHeader { color: #8467D7; background: #FFFACD; font-size: 110%; font-weight: bolder; text-align: left;  }

@@ -121,9 +121,11 @@ See <a href="#tips">Search tips</a> below for further instructions.
 <B>Sort Results</B>
 </TD>
 <TD>
-<input type=radio name=SORT VALUE=A CHECKED>By Title &nbsp;
-<input type=radio name=SORT VALUE=D>By Date &nbsp;
-<input type=radio name=SORT VALUE=R>By Relevance &nbsp;
+<select id="SORT" name="SORT">
+<option selected="selected" value="D">sorted by relevance</option>
+<option value="DX">sorted by date</option>
+<option value="AX">sorted by title</option>
+</select>
 </TD>
 </TR>
 

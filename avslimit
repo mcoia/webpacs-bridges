@@ -1,7 +1,0 @@
-#rectype|varfld|fixfld|rule|avs label|user label|logic|menuname|avsitype
-#
-b|y|24|F2041;a|lang|Language|m|langmenu||
-b||30||mattype|Material Type|m|||
-b||26||branch|Location|m|branchmenu||
-b|p|||publish|Publisher|t||t|
-b|p||F1|DOCDATE|Year|a||d|

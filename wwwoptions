@@ -58,21 +58,21 @@ RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Resources
 INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
 INSERTTAG_HTML=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
 RIGHT_CELL_WIDTH=18|25
-#SSLPORT=80:443|2082:444
+SSLPORT=80:443:bridges.mobius.umsystem.edu:bridges.mobius.umsystem.edu|2082:444:bridges.mobius.umsystem.edu:bridges.mobius.umsystem.edu
 CUSTOM_MESSAGES=F
 STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
 SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
-TIMEOUT=600;URL=/
+#TIMEOUT=600;URL=/
 TOPLOGO=@screens/toplogo.html
-UPDATECIRC=true
+#UPDATECIRC=true
 XSTARTOVER=/search
 
 # Staff
 ICON_BUT_PUBLIC=<span class="button"><img src="/screens/ico_patron.png" alt=""><span class="buttonText">Patron View</span></span>
 ICON_BUT_STAFF=<span class="button"><img src="/screens/ico_gear.png" alt=""><span class="buttonText">Staff View</span></span>
-STAFF=1
+STAFF=10,128,177
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
 # General and Phrase Searching
@@ -111,8 +111,12 @@ RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.
 AUTHMSG=<h2 class="briefcitTitle"><em>%u</em> -- See %w <strong>%a</strong></h2><span class="authPublicNote">%p</span>|<h2 class="briefcitTitle">%u -- See Also %w %a </h2><span class="authPublicNote">%p</span>
 AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
 BODYPARAM=bgcolor="#FFFFFF"
-BRIEF=A
-BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
+BRIEF_a=TU
+BROWSE_a=710/ab/cdn
+BROWSE_d=611/andcvxyz
+BROWSE_j=650/abcdevxyz
+BROWSE_m=650/abcdevxyz
+BROWSE_t=245/ab/h
 BROWSE_HEADERS=Mark|Media
 ICON_BUT_BRIEF=<span class="button"><img src="/screens/ico_browse_brief.png" alt=""><span class="buttonText">Brief Display</span></span>
 ICON_BUT_EXTENDED=<span class="button"><img src="/screens/ico_browse_ext.png" alt=""><span class="buttonText">Extended Display</span></span>
@@ -139,27 +143,17 @@ IMAGE_MATTYPE-=/screens/media_book.gif
 IMAGE_MATTYPEa=/screens/media_book.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
 IMAGE_MATTYPEc=/screens/media_printedmusic.gif
-IMAGE_MATTYPEd=/screens/media_musicmanuscript.gif
 IMAGE_MATTYPEe=/screens/media_map.gif
-IMAGE_MATTYPEf=/screens/media_mapmanuscript.gif
 IMAGE_MATTYPEg=/screens/media_film.gif
-IMAGE_MATTYPEh=/screens/media_electronicdoc.gif
 IMAGE_MATTYPEi=/screens/media_cdbook.gif
 IMAGE_MATTYPEj=/screens/media_musicalsound.gif
 IMAGE_MATTYPEk=/screens/media_photo.gif
-IMAGE_MATTYPEl=/screens/media_largeprint.gif
 IMAGE_MATTYPEm=/screens/media_computerfile.gif
-IMAGE_MATTYPEn=/screens/media_newspaper.gif
-IMAGE_MATTYPEq=/screens/media_ebook.gif
+IMAGE_MATTYPEo=/screens/media_kit.gif
 IMAGE_MATTYPEr=/screens/media_3dartwork.gif
-IMAGE_MATTYPEs=/screens/media_tapebook.gif
 IMAGE_MATTYPEt=/screens/media_manuscript.gif
-IMAGE_MATTYPEu=/screens/media_dvd.gif
-IMAGE_MATTYPEv=/screens/media_vhs.gif
-IMAGE_MATTYPEw=/screens/media_periodical.gif
-IMAGE_MATTYPEz=/screens/media_bestseller.gif
-IMAGE_MATTYPE2=/screens/media_article.gif
-INDEX_EXT=coi
+IMAGE_MATTYPE2=/screens/media_ebook.gif
+INDEX_EXT=mcoitx
 MEDIA=2
 NO_COPIES=Currently no copies available
 SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
@@ -173,8 +167,8 @@ BIB_TOC_HEADER=<strong>Table of Contents</strong>
 ICON_BUT_MARC_DISPLAY=<span class="button"><img src="/screens/ico_marc.png" alt=""><span class="buttonText">MARC Display</span></span>
 ICON_BUT_REGULAR_DISPLAY=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Regular Display</span></span>
 ICON_BUT_RTRNTB=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Browse</span></span>
-DISPLAY_856=z|false
-HOLDINGS_POS=atpR
+DISPLAY_856=z|true
+HOLDINGS_POS=atpe
 #HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
 #ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
@@ -244,18 +238,18 @@ ICON_BACK_TO_MYLISTS=<div onmousedown="this.className='pressedState';" onmouseou
 ICON_MYLISTS_RECORD=<span class="button"><img src="/screens/ico_list_add.png" alt=""><span class="buttonText">Add to My Lists</span></span>
 
 # Saving and Exporting
-#BRIEF_EXPORT=c|a|t|p
+BRIEF_EXPORT=a|t|p|e
 ICON_BUT_BIBEXPORT=<span class="button"><img src="/screens/ico_bag_add.png" alt=""><span class="buttonText">Add to Bag</span></span>
 ICON_BUT_CLEAR_MARKED=<span class="button"><img src="/screens/ico_bag_clear.png" alt=""><span class="buttonText">Empty Bag</span></span>
 ICON_BUT_EXPORT_MULTI=<span class="button"><img src="/screens/ico_disc.png" alt=""><span class="buttonText">Export Saved</span></span>
 ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.png" alt=""><span class="buttonText">View Bag</span></span>
 ICON_BUT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.png" alt=""><span class="buttonText">View Bag</span></span>
-EMAILOP=From the library catalog|exporter|
+EMAILOP=Bridges Mail|exporter|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
 XRECTYPE=boi
 
 #Requesting
-#BIBREQUEST=true
+BIBREQUEST=false
 ICON_BUT_REQUEST=<span class="button"><img src="/screens/ico_checkmark.png" alt=""><span class="buttonText">Request</span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi.png" alt=""><span class="buttonText">Request Saved</span></span>
@@ -263,10 +257,10 @@ ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouse
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request
 #REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
-REQUEST=Hold this item|bib|ask|Y
+REQUEST=Hold this item|denyiflocalavail|ask|yes
 #REQUEST_ARTICLE_IFCHKIN=Y
 #REQUEST_INSTRUCTION=Please enter any special instructions: 
-REQUEST_MULTI=Request All Items in Book Cart|[match request wwwoption]
+REQUEST_MULTI=Request All Items in Book Cart|denyiflocalavail|ask|yes
 
 # Patron Record
 ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
@@ -300,9 +294,9 @@ ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="t
 MIN_PIN_LENGTH=6
 MODIFY_PFLDS=z
 #MODIFY_PFLDS=ahtpzHx
-MY_WEBPAC=false,2,0-255
+MY_WEBPAC=false,true
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
-PATRON_FIELDS=n/a|a/a|t/a|F/43
+PATRON_FIELDS=n
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
 #PATRON_MSG=z|Message from the library
 #PATRON_NOTICES=apz
@@ -333,9 +327,78 @@ ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onm
 ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
 ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.png" alt=""><span class="buttonText">Export My Reading List</span></span>
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
-NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
+NO_REVERIFY=req,acq,ecr,media
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
-PREF_SEARCHES=25|Y
+PREF_SEARCHES_P0=20|y
+PREF_SEARCHES_P1=20|y
+PREF_SEARCHES_P2=20|y
+PREF_SEARCHES_P3=20|y
+PREF_SEARCHES_P6=20|y
+PREF_SEARCHES_P10=20|y
+PREF_SEARCHES_P20=20|y
+PREF_SEARCHES_P23=20|y
+PREF_SEARCHES_P40=20|y
+PREF_SEARCHES_P41=20|y
+PREF_SEARCHES_P60=20|y
+PREF_SEARCHES_P61=20|y
+PREF_SEARCHES_P62=20|y
+PREF_SEARCHES_P63=20|y
+PREF_SEARCHES_P64=20|y
+PREF_SEARCHES_P65=20|y
+PREF_SEARCHES_P66=20|y
+PREF_SEARCHES_P67=20|y
+PREF_SEARCHES_P68=20|y
+PREF_SEARCHES_P69=20|y
+PREF_SEARCHES_P70=20|y
+PREF_SEARCHES_P71=20|y
+PREF_SEARCHES_P72=20|y
+PREF_SEARCHES_P73=20|y
+PREF_SEARCHES_P74=20|y
+PREF_SEARCHES_P75=20|y
+PREF_SEARCHES_P79=20|y
+PREF_SEARCHES_P90=20|y
+PREF_SEARCHES_P92=20|y
+PREF_SEARCHES_P93=20|y
+PREF_SEARCHES_P99=20|y
+PREF_SEARCHES_P100=20|y
+PREF_SEARCHES_P101=20|y
+PREF_SEARCHES_P110=20|y
+PREF_SEARCHES_P111=20|y
+PREF_SEARCHES_P112=20|y
+PREF_SEARCHES_P113=20|y
+PREF_SEARCHES_P114=20|y
+PREF_SEARCHES_P115=20|y
+PREF_SEARCHES_P116=20|y
+PREF_SEARCHES_P117=20|y
+PREF_SEARCHES_P118=20|y
+PREF_SEARCHES_P119=20|y
+PREF_SEARCHES_P120=20|y
+PREF_SEARCHES_P121=20|y
+PREF_SEARCHES_P122=20|y
+PREF_SEARCHES_P123=20|y
+PREF_SEARCHES_P124=20|y
+PREF_SEARCHES_P125=20|y
+PREF_SEARCHES_P126=20|y
+PREF_SEARCHES_P127=20|y
+PREF_SEARCHES_P128=20|y
+PREF_SEARCHES_P160=20|y
+PREF_SEARCHES_P161=20|y
+PREF_SEARCHES_P162=20|y
+PREF_SEARCHES_P163=20|y
+PREF_SEARCHES_P164=20|y
+PREF_SEARCHES_P165=20|y
+PREF_SEARCHES_P166=20|y
+PREF_SEARCHES_P167=20|y
+PREF_SEARCHES_P168=20|y
+PREF_SEARCHES_P169=20|y
+PREF_SEARCHES_P170=20|y
+PREF_SEARCHES_P171=20|y
+PREF_SEARCHES_P172=20|y
+PREF_SEARCHES_P173=20|y
+PREF_SEARCHES_P174=20|y
+PREF_SEARCHES_P175=20|y
+PREF_SEARCHES_P176=20|y
+PREF_SEARCHES_P177=20|y
 PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
 TOPLOGO_LOGGEDIN=False
@@ -388,7 +451,7 @@ ILL_HOME=/screens/ill.html
 
 # INN-Reach
 IR_PLACEMENT=1
-INNREACH=<span class="button"><img src="/screens/ico_mobius.gif" alt=""><span class="buttonText">Search MOBIUS</span></span>@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;r=r;s=s;t=t)
+INNREACH=<span class="button"><img src="/screens/ico_mobius.gif" alt=""><span class="buttonText">Search MOBIUS</span></span>@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;j=m;m=h;o=o;s=s;t=t;)
 
 # Media Management
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Course</span></span>
@@ -397,7 +460,7 @@ ERESERVE=[0123456789]
 #IMAGE_SAVE=yes
 
 # Reserves
-RSRV_FORMAT=true
+RSRV_FORMAT=false
 #RSRV_HEADER=Materials for this Course
 #RSRV_HEADER=Featured Titles This Month
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
@@ -409,8 +472,7 @@ ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-#BIBIMAGE=http://contentcafe2b.btol.com/ContentCafe/Jacket.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;Return=T&amp;Type=S&amp;Value=%s&amp;erroroverride=1|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=Y
-#BIBIMAGE=https://contentcafe2b.btol.com/ContentCafe/Jacket.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;Return=T&amp;Type=S&amp;Value=%s&amp;erroroverride=1|I|https://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=Y
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=lindenwood&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=lindenwood&type=rw12&popup=yes
 BIBIMAGE_TEXT=Book Cover
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
@@ -462,7 +524,7 @@ AIRPAC_PORT=6060
 #SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
 #SELFREG_NAME_ORDER=1|2|3|,
 SELFREG_TEMPLATE=webpat
-TIMEOUT_SELFREG=600
+#TIMEOUT_SELFREG=600
 
 # My Federated Search (Research Pro or MetaFind)
 ICON_MFFAVS_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
@@ -531,3 +593,9 @@ TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
 # Scoping
 
 LOCKSCOPE=no
+
+# Webster Locations
+
+LOC_ww&ci=http://library.webster.edu/locs/cms.html "target=_blank"
+
+LOC_ww&ii=http://library.webster.edu/locs/cms-blue-box.html "target=_blank"

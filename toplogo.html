@@ -11,14 +11,6 @@ if (document.body){document.body.className = "bodybg";}
 <div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
 <div class="topLogo">
 
-<div class="topLinks">
-<ul id="topLinksList">
-<li><a href="/patroninfo" tabindex="120">Login</a></li>
-<li><a href="/help" tabindex="115">Help</a></li>
-<li><a href="#" onClick="window.print();" tabindex="110"><span class="buttonTopLinks"><img src="/screens/ico_printer.png" alt=""><span class="buttonTopLinksText">Print</span></span></a></li>
-<li><a href="/search/" tabindex="105">New Search</a></li>
-</ul>
-</div>
 
 <div class="topLogoSmall">
 <a href="/" tabindex="10"><img src="/screens/logo_sm.jpg" height="40" width="280" alt="Catalog Home Page"></a>
@@ -100,31 +92,21 @@ if (document.all&&document.getElementById) {
 <div class="topNavClear"></div>
 
 <div class="searchNav">
-<script language="JavaScript"> 
-<!--
-function GotoURL() { 
-//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
-window.location.assign(document.getElementById("specializedSearch").value);
-return false;
-} 
-// -->
-</script>
+
 <div id="searchNavMenu">
-<select name="specializedSearch" id="specializedSearch">
-<option selected="selected" value=" ">(More Searches)</option>
-<option value="/search/X">Advanced Keyword</option>
-<option value="/search/t">Title</option>
-<option value="/search/s">Journal Title</option>
-<option value="/search/a">Author</option>
-<option value="/search/d">Subject</option>
-<option value="/search/c">Call Number</option>
-<option value="/search/i">ISBN</option>
-<option value="/search/g">Government Document #</option>
-<option value="/search/q">Author and Title</option>
-<!--<option value="/search/p">Instructor</option>
-<option value="/search/r">Course</option> -->
-</select>
-<input type="image" src="/screens/ico_go.png" class="searchNavBut" value="Go" onclick="GotoURL();" >
+
+<div class="navRight">
+<ul>
+<li><a href="http://mobius.umsystem.edu/">MOBIUS</a></li>
+<li><a href="/">Bridges</a></li>
+<li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
+<li><a href="/search/k" tabindex="115">Help</a></li>
+</ul>	
+
+</div>
+
+<div class="clear"></div>
+
 </div>
 
 </div><!--searchNav-->

@@ -207,7 +207,7 @@ HOLDINGS_POS=atpe
 #HYPERTEXT_980
 ITEM_NOTE=true
 #ITEMOUT_MSG=Due
-LINK856TEXT=Link to web version
+LINK856TEXT=Click on the following to access
 MARC=yes
 # RECORDFRAME=25,75
 SIMILAR_ITEMS=f

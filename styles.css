@@ -718,6 +718,8 @@ div .bibResourceSidebar { display:none; }
 
 .msg td { padding-top:3px; }
 
+.mobiusLogo { position:absolute; right:0; top:20px; }
+
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
 
 .mylistsSavePage form, .mylistsSavePage .pageMainAreaHeader, .mylistsSavePage .msg { margin:10px; }
@@ -1046,7 +1048,9 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLinks a { float:right; }
 
-.topLogo { }
+.topLogo { position:relative; }
+
+.topLogoSmall, .mobiusLogo { width: 250px; }
 
 .topLogoSmall img { border:0; margin-top:5px; }
 

@@ -718,7 +718,7 @@ div .bibResourceSidebar { display:none; }
 
 .msg td { padding-top:3px; }
 
-.mobiusLogo { position:absolute; right:0; top:12px; }
+.mobiusLogo, .clusterLogo { position:absolute; right:0; top:12px; }
 
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
 

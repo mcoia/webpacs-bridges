@@ -479,7 +479,7 @@ ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=lindenwood&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=lindenwood&type=rw12&popup=yes
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=lindenwood&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=lindenwood&type=rw12&popup=no
 BIBIMAGE_TEXT=Book Cover
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif

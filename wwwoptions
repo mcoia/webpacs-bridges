@@ -110,7 +110,7 @@ LOGGEDIN_MSG6=You are logged in %s as %s
 LOGGEDIN_MSG7=You are logged in %s as %s
 LOGGEDIN_MSG8=You are logged in %s as %s
 LOGGEDIN_MSG9=You are logged in %s as %s
-MY_WEBPAC=F,T
+MY_WEBPAC=F,2
 NO_REVERIFY=req,acq,ecr,media
 PREF_SEARCHES_P0=20|y
 PREF_SEARCHES_P1=20|y
@@ -187,7 +187,6 @@ READING_HISTORY_DELETE=T
 
 # PATRON RECORD OPTIONS
 FRAMEURL_PAT=50
-MY_WEBPAC=F,T
 # NEWPIN_MSG=please verify your chosen pin
 PATRON_FIELDS=n
 # PATRON_MSG=

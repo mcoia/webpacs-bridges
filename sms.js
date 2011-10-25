@@ -1,7 +1,7 @@
 // JavaScript Document
 
 // set this to be the URL for the SMS script
-var smsurl = "http://mobiusconsortium.org/sms/sms-training.php?";
+var smsurl = "http://mobiusconsortium.org/sms/sms-bridges.php?";
 
    function showsms() {
 

@@ -1,0 +1,10 @@
+.clusterLogo {
+    top: 8px;
+    right: 4px;
+}
+
+.briefcitJacket {
+    float:left; margin:5px 15px; width:80px; display:inline; 
+}
+
+.briefcitDetail, .briefcitAuthDetail  { padding:0px 0 0px 3px; width:73.75% }

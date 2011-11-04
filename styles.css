@@ -314,7 +314,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitClear { clear:both; }
 
-.briefcitDetail, .briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 3px; width:65%; }
+.briefcitDetail, .briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 30px; width:89.75%; }
 
 .briefcitAuthDetail { margin-bottom:12px; }
 
@@ -342,7 +342,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitItemsHeader h2 { color:#F7960C; font-size:1em; margin:0; }
 
-.briefcitItemsMain { float:left; width:85%; }
+.briefcitItemsMain { float:left; width:87%; }
 
 .briefcitMark { float:right; }
 
@@ -352,7 +352,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitMediaEnd { display:none; }
 
-.briefcitJacket  { float:left; margin:5px 15px; width:80px; display:inline; }
+.briefcitJacket  { display:none; }
 
 .briefcitStatus { font-weight:bold; }
 
@@ -360,7 +360,7 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitResource { width:400px;}
 
-.briefcitRow { padding-left:5%; width:100%; }
+.briefcitRow { padding-left:25px; width:100%; }
 
 h2.briefcitTitle { font-size:1em; display:inline; }
 

@@ -2,6 +2,10 @@
     top: 5px;
 }
 
+.topLogoSmall {
+    padding:5px;
+}
+
 .linkBanner {
     background-color:#5F0A68;
 }

@@ -1,12 +1,7 @@
+.topLogoSmall {
+    padding:10px
+}
+
 .clusterLogo {
-    top: 5px;
-    right: 5px;
-}
-
-.topLogo {
-    height: 118px;
-}
-
-.topLogoSmall img {
-    margin-top: 13px;
+    top:15px;
 }

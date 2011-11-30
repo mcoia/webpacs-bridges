@@ -716,7 +716,7 @@ div .bibResourceSidebar { display:none; }
 
 .msg td { padding-top:3px; }
 
-.mobiusLogo, .clusterLogo { position:absolute; right:0; top:12px; }
+.mobiusLogo, .clusterLogo { position:absolute; right:6px; top:6px; }
 
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
 
@@ -1053,8 +1053,6 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 .topLogo { position:relative; }
 
 .topLogoSmall, .mobiusLogo { width: 250px; }
-
-.topLogoSmall img { border:0; margin-top:5px; }
 
 .topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
 

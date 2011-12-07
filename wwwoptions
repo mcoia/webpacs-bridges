@@ -90,7 +90,7 @@ SORT_ITEMS=true
 #SUPPRESS_CARD=F
 
 #  INN-REACH OPTIONS
-INNREACH=<br><img src="/screens/b_mobius.gif"border=0 alt="Search MOBIUS Union Catalog">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;j=m;m=h;o=o;s=s;t=t;)
+INNREACH=<br><img src="/screens/b_mobius.gif"border=0 alt="Search MOBIUS Union Catalog">@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;j=m;m=h;o=o;s=s;t=t;)
 
 #  LANGUAGE HANDLING OPTIONS
 

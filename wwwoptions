@@ -61,7 +61,7 @@ STYLESHEET1=/screens/bridges_styles_s1.css
 STYLESHEET2=/screens/bridges_styles_s2.css
 STYLESHEET7=/screens/bridges_styles_s7.css
 #STYLESHEET9=/screens/bridges_styles_s9.css
-#TIMEOUT=600;URL=http://bridges.missouri.edu/search----->
+#TIMEOUT=600;URL=http://bridges.searchmobius.org/search----->
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
 TOPLOGO2=@screens/toplogo_s2.html
@@ -444,4 +444,4 @@ LOC_ww&ii=http://library.webster.edu/locs/cms-blue-box.html "target=_blank"
 BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=lindenwood&showCaptionBelow=t|i|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=lindenwood&type=rw12&popup=yes
 
 # Permanent URL
-ICON_RECORDLINK2=<div class="bibRecordLink" id="recordnum" align="left"><font size="-1" COLOR="#000099">&nbsp; URL for this record: http://bridges.missouri.edu:80%s</font></div>
+ICON_RECORDLINK2=<div class="bibRecordLink" id="recordnum" align="left"><font size="-1" COLOR="#000099">&nbsp; URL for this record: http://bridges.searchmobius.org:80%s</font></div>

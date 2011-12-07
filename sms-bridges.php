@@ -31,7 +31,7 @@ $item 			= "\nLoc: ".$location."\nCall: ".$callNumber;
 //echo "document.write('Debug: ".$location." ".$callNumber."');";
 
 //Change this url to your own catalog
-$url = "http://bridges.mobius.umsystem.edu/record=".$bib;
+$url = "http://bridges.searchmobius.org/record=".$bib;
 
 //Use the bib number to get the title information for the item from the catalog
 $catalogItemPage = get_url_contents($url);
@@ -46,7 +46,7 @@ if(!strstr($catalogItemPage, $callNumber) || !strstr($catalogItemPage, $location
 }
 
 //defined variables. Set the from address and subject as desired
-$fromAddress 	= 'NoReply@bridges.mobius.umsystem.eduedu';
+$fromAddress 	= 'NoReply@bridges.searchmobius.org';
 $subject 		= "Bridges Library Catalog";
 
 $providers = array(	'att' 	        => '@txt.att.net',

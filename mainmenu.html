@@ -1,184 +1,98 @@
-<HTML>
-<head>
-    <title>Bridges Library Catalog - Welcome</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	
-<script type="text/javascript">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>Bridges Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-16154770-1']);
-  _gaq.push(['_trackPageview']);
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
+</script>
+</head>
+<body>
+<!--{toplogo}-->
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<div class="pageContentInner mainSearch">
 
-</script>	
-</head>
-
-<BODY bgcolor="#ffffff" link="#0000FF" vlink="#0000FF" vlink="#0000FF">
-<center>
-<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="/screens/bridges_styles.css">
-
-<TABLE BORDER="0" WIDTH="570" CELLPADDING="0" CELLSPACING="0">
-	<TR>
-		<TD align="left"><font face="Georgia, Times New Roman, Times, serif" size="-1"><a href="http://searchmobius.org/search/">Search the MOBIUS<br>Union Catalog</a></font></TD>
-		<TD align="center"><a href="/screens/about.html"><IMG SRC="/screens/bridges.gif" HEIGHT="86" WIDTH="250" ALT=" Bridges - a MOBIUS Library Catalog " BORDER="0" ></a></TD>
-		<TD align="right"><font face="Georgia, Times New Roman, Times, serif" size="-1"><a href="/search~/">Search ALL<br>Bridges Libraries</a></font></TD>
-	</TR>
-</TABLE>
-
-  
-
-	
-		
-		<center>
-		  <form name="SearchForm" target="_parent" action="/search/Y" method="GET">
-		    <table border="0" cellspacing="0" cellpadding="2" width="570" bgcolor="#3399CC">
-		      <tr bgcolor="#000000"> 
-			    <td colspan="4" align="left"> 
-			      <b><font color="#FFFFFF" face="Georgia, Times New Roman, Times, serif">Q<font size="-1">UICK</font> 
-			        S<font size="-1">EARCH</font></font></b>
-			    </td>
-			    <td align="right" valign="middle"><a href="/screens/help.html#quicksearch"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Help</b></font></a></td>
-			  </tr>
-		      <tr> 
-		        <td align="right" nowrap> 
-		          <font size="-2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><b> 
-		            Select a library: </b></font>
-		        </td>
-		        <td nowrap> 
-		          <select name="searchscope">
-		
-		            <option value="10" selected>
-						Bridges Catalog</option>
-		
-		            <option value="1" >
-						Covenant Seminary</option>
-		
-		            <option value="2" >
-						Fontbonne University</option>
-		
-		            <option value="3" >
-						Harris-Stowe State University</option>
-		
-		            <option value="4" >
-						Kenrick-Glennon Seminary</option>
-		
-		            <option value="5" >
-						Lindenwood University</option>
-		
-		            <option value="6" >
-						Logan College of Chiropractic</option>
-		
-		            <option value="7" >
-						Maryville University</option>
-		
-		            <option value="8" >
-						Missouri Baptist University</option>
-		
-		            <option value="9" >
-						Webster Univ./Eden Seminary</option>
-		
-		          </select>
-		        </td>
-		        <td align="right" nowrap> 
-		          <font size="-2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><b>Search by:</b></font>
-		        </td>
-		        <td> 
-		          <select name="searchtype">
-		
-		
-			<option value="Y"selected>Keyword</option>
-			
-		
-			<option value="a">Author</option>
-			
-		
-			<option value="t">Title</option>
-			
-		
-			<option value="s">Journal</option>
-			
-		
-			<option value="d">Subject LC</option>
-			
-		
-			<option value="m">Subject Children's</option>
-			
-		
-			<option value="j">Subject MeSH</option>
-			
-		
-			<option value="l">Series Title</option>
-			
-			
-			<option value="v">Genre</option>
-		
-			<option value="i">Standard #</option>
-			
-		
-			<option value="c">Call #</option>
-			
-		
-			<option value="e">Dewey Call #</option>
-			
-		
-			<option value="g">Gov Doc #</option>
-			
-		
-			<option value="f">Local Call #</option>
-			
-		
-		          </select>
-		        </td>
-		        <td><IMG SRC="/screens/shim.gif" HEIGHT="1" WIDTH="1" ALT="" BORDER="0" ></td>
-		      </tr>
-		      <tr> 
-		        <td align="right" nowrap> 
-		          <font size="-2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><b>Search for:</b></font>
-		        </td>
-		        <td colspan="3"> 
-		          <input type="TEXT" name="searcharg" maxlength="75" size="45">
-		        </td>
-		        <td align="right"> 
-		          <input name="cmdSubmit" type="Submit" value="Search">
-		        </td>
-		      </tr>
-		    </table>
-		  </form>
-		</center>
-			
-	
-
-
-
-
-
-
-  <table border="0" cellpadding="1" cellspacing="0" width="570">
-    <tr valign="top"> 
-      <td align="center"><font color="#666666" face="Verdana, Arial, Helvetica, sans-serif" size="-1">
-      <b>Or choose a library below to begin your search ...</b></font></td>
-    </tr>
-    <tr valign="top"> 
-      <td align="center"> <font face="Georgia, Times New Roman, Times, serif">
-        <a href="/search~S1">Covenant Seminary</a> &nbsp &middot &nbsp; 
-        <a href="/search~S2/X">Fontbonne University</a><br> 
-        <a href="/search~S3">Harris-Stowe State University</a> &nbsp &middot &nbsp; 
-        <a href="/search~S4">Kenrick-Glennon Seminary</a><br>
-        <a href="/search~S5">Lindenwood University</a> &nbsp &middot &nbsp; 
-        <a href="/search~S6">Logan College of Chiropractic</a> <br>
-        <a href="/search~S7">Maryville University</a> &nbsp &middot &nbsp; 
-        <a href="/search~S8">Missouri Baptist University</a><br> 
-        <a href="/search~S9">Webster University / Eden Seminary</a><br>
-		<a href="/screens/about.html">About Bridges</a></font></td>
-    </tr>
-  </table>
-  <p>&nbsp;</p>
-</center>
-
-</BODY>
-</HTML>
+<h1 class="accessibleAddInfo">Search</h1>
+
+<div id="accessibleForm" class="form1Part">
+<div class="browseSearchtool">
+<form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
+
+
+<input type="hidden" id="iiiFormHandle_1">
+
+<!-- Optional legend:
+<fieldset>
+<legend>Type the search term you want to find.</legend>-->
+<div class="formEntryArea">
+<div class="inlineBlock">
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" id="searchtype">
+<option value="X" selected="selected">Keyword</option>
+<option value="t">Title</option>
+<option value="a">Author</option>
+<option value="s">Journal, Magazines, Newspapers</option>
+<option value="d">Subject (Library of Congress)</option>
+<option value="j">Subject (Medical)</option>
+<option value="m">Subject (Children's)</option>
+<option value="l">Series Title</option>
+<option value="v">Genre</option>
+</select>
+<!--{nosort}-->
+<label for="searcharg" class="accessibleAddInfo">Search term</label>
+<input maxlength="75" name="searcharg" size="20" >
+</div>
+<div class="inlineBlock">
+<label for="scope" class="accessibleAddInfo">Location</label>
+<!--{scope}-->
+<span class="formButtonArea">
+
+  <!--{submit}-->
+
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+
+<input type="submit" class="submitHidden">
+
+</span>
+</div>
+</div><!-- formEntryArea -->
+<!--</fieldset> optional-->
+</form>
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
+
+<!--{botlogo}-->
+
+</div><!--pageContentInner -->
+
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>

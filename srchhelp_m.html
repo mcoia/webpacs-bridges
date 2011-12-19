@@ -1,68 +1,81 @@
-
-
-
-
-<HTML>
-<HEAD>
-	<TITLE>Bridges/ Bridges Catalog</TITLE>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-
-
-
-</HEAD>
-
-<BODY bgcolor="#ffffff" link="#0000FF" alink="#0000FF" vlink="#0000FF" 
-	onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-<!--{toplogo}-->
-
-<!--{patron}-->
-<!--{logout}-->
-
-<br>
-<!-- Begin Search Help Text -->
-<center><table border="0" width="570"><tr><td>
-<h3 align="center">Children's Subject Search</h3>
-<form METHOD="GET" ACTION="/search/m">
-  <p ALIGN="CENTER">
-    <input TYPE="TEXT" name="SEARCH" maxlength="64" size="48">
-    <input TYPE="SUBMIT" value="Search" name="SUBMIT">
-  </p>
-</form>
-<p>Search here for children's literature subjects. These subject headings 
-  are established by the Library of Congress. If you are unsure of the heading 
-  for a subject, try a <a href="/search/X">KEYWORD</a> search.</p>
-
-<p>Type as much of the CHILDREN'S SUBJECT as you want. For example:</p>
-
-<pre>    &middot; picture book
-    &middot; Baseball fiction
-    &middot; lincoln abraham
-    &middot; Family Life
-    &middot; Pets
-    &middot; fairy tales
-</pre>
-
-<p>If your search is unsuccessful, try a <a href="/search/w">KEYWORD</a> search. </p>
-</td></tr></table></center>
-<!-- End Search Help Text -->
-<p align="center"><A HREF="/search~S0"><IMG SRC="/screens/b_newsrch.gif" BORDER=0 ALT="[START OVER]"></A></p> 
-
-
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3" height="1" bgcolor="#DEDDC9"><IMG SRC="/screens/shim.gif" HEIGHT="2" WIDTH="1" BORDER="0" ALT=""></td>
-  </tr>
-  <tr> 
-    <td align="right" valign="bottom">&nbsp;</td>
-    <td align="right" valign="middle" nowrap><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b> 
-      <a href="http://searchmobius.org/search/">Search MOBIUS</a> | 
-	  <a href="/search~">Search Bridges</a> | 
-      <a href="/">Bridges Home</a> |  
-	  <a href="/screens/help.html">Help</a> 
-      </b></font></td>
-  </tr>
-</table>
-
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Bridges Catalog - Children's Subject</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner">
+
+<h1 class="pageHeader">Children's Subject Search</h1>
+
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the subject you want to find, then press the Enter key or click Submit.</legend>
+-->
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="sortdropdown">Sort by:</label>
+</span>
+<!--{indexsort}-->
+</div>
+<div class="formEntryArea formScopeSearch">
+<span class="formLabel">
+<label for="searchscope">Search in the:</label>
+</span>
+<!--{scope}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+</fieldset>
+</form>
+</div><!--formLeft -->
+
+<div class="formRight">
+<p>Search here for children's literature subjects. These subject headings are established by the Library of Congress. If you are unsure of the heading for a subject, try a <a href="/search/X">keyword</a> search.</p>
+<p>Type as much of the children's subject as you want. For example:</p>
+<ul>
+<li>picture book</li>
+<li>Baseball fiction</li>
+<li>lincoln abraham</li>
+<li>Family Life</li>
+<li>Pets</li>
+<li>fairy tales</li>
+</ul>
+<p>If your search is unsuccessful, try a <a href="/search/X">keyword</a> search.</p>
+</div><!--formRight -->
+
+</div><!--form2Part -->
+</div><!-- pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>

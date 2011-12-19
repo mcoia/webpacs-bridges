@@ -1,112 +1,112 @@
 <!--{toplogo}-->
-
-<!--{patron}-->
-<!--{logout}-->
-
-<FORM METHOD=POST>
+<div class="pageContentInner">
+<h1 class="pageHeader">Login</h1>
+<div class="form1Part formLogin" id="accessibleForm">
+<!--{formbegin}-->
 <!--{iferrmsg}-->
-<FONT COLOR=RED SIZE=+2><EM>
+<span class="errormessage">
 <!--{iferrmsgisPIN}-->
 <!--{newpinmsg}-->
 <!--{else}-->
 <!--{errmsg}-->
 <!--{xif}-->
-</EM></FONT><BR><BR><BR>
+</span>
 <!--{xif}-->
+
+<fieldset>
+<legend>
 <!--{enterinfo}-->
-<table width="100%" border="0" cellspacing="0" cellpadding="2">
+</legend>
 
-<tr>
-<td valign="top">
+<!--{ifextpat}-->
+<h2>Students, Staff, and Faculty</h2>
+<div class="formEntryArea">
+<label for="extpatid"><span class="formLabel">
+Username:
+</span></label>
+<!--{extpatid}-->
+<label for="extpatpw"><span class="formLabel">
+Password:
+</span></label>
+<!--{extpatpw}-->
+</div>
+<h2>Visitors</h2>
+<!--{xif}-->
 
-<TABLE WIDTH=100%>
 <!--{ifneedpatronname}-->
-<TR><TD WIDTH=30%></TD><TD><FONT SIZE=-1>
-<!--{nameexample}-->
-</FONT></TD></TR><TR><TD>
+<div class="formEntryArea">
 <!--{nameprompt}-->
-</TD><TD>
 <!--{name}-->
-</TD></TR>
+<span class="formLabelExample">
+<!--{nameexample}-->
+</span>
+</div>
 <!--{xif}-->
+
 <!--{ifneedpatronverify}-->
-<TR><TD></TD><TD><FONT SIZE=-1>
-<!--{barcodeexample}-->
-</FONT></TD></TR>
-<TR><TD>
+<div class="formEntryArea">
 <!--{barcodeprompt}-->
-</TD><TD>
 <!--{barcode}-->
-</TD></TR>
+<span class="formLabelExample">
+<!--{barcodeexample}-->
+</span>
+</div>
+
 <!--{ifneedspin}-->
+
 <!--{iferrmsgisPIN}-->
-<TR><TD COLSPAN=2>
+<p>
 <!--{newpinmsg}-->
-</TD></TR><TR><TD>
+</p>
+<div class="formEntryArea">
+<!-- <label for="pin1"> -->
+<span class="formLabel">
 <!--{pin1prompt}-->
-</TD><TD>
+</span>
 <!--{pin1}-->
-</TD></TR><TR><TD>
+<!-- </label> -->
+</div>
+<div class="formEntryArea">
+<!-- <label for="pin2"> -->
+<span class="formLabel">
 <!--{pin2prompt}-->
-</TD><TD>
+</span>
 <!--{pin2}-->
-</TD></TR>
+<!-- </label> -->
+</div>
+
 <!--{else}-->
-<TR><TD></TD><TD><FONT SIZE=-1>
-<!--{pininstructions}-->
-</FONT></TD></TR><TR><TD>
+<div class="formEntryArea">
 <!--{pinprompt}-->
-</TD><TD>
 <!--{pin}-->
-</TD></TR>
+<span class="formLabelExample">
+<!--{pininstructions}-->
+</span>
+</div>
+
 <!--{xif}-->
 <!--{xif}-->
 <!--{xif}-->
-<tr><td colspan="2">
-<input type="submit" name="submit" value="Submit" />
-</td></tr>
-</TABLE>
 
-</td>
+    <!--{ifalternate_id}-->
+    <!--{user_name}-->
+    <!--{xif}-->
 
-<td valign="top">
-<table width="200" border="0" cellspacing="0" cellpadding="2">
-  <tr bgcolor="#99CCFF"> 
-    <td> 
-      <p><b><font size="-1" face="Arial, Helvetica, sans-serif">Campus ID Help</font></b><br>
-      <font size="-2" face="Arial, Helvetica, sans-serif">
-		&middot; Covenant Theological Seminary - <b>CS</b><br>
-		&middot; Fontbonne University - <b>F</b><br>
-		&middot; Harris-Stowe State University - <b>HS</b><br>
-		&middot; Kenrick-Glennon Seminary - <b>KGS</b><br>
-		&middot; Lindenwood University - <b>LU</b><br>
-		&middot; Logan College of Chiropractic - <b>LCC</b><br>
-		&middot; Maryville University - <b>M</b><br>
-		&middot; Missouri Baptist University - <b>MBU</b><br>
-		&middot; Webster Univ./Eden Seminary - <b>EWL</b></font></p>
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+<!--{submit}-->
+<input type="submit" class="submitHidden">
+</div>
+</fieldset>
+<!--{formend}-->
 
-	  <p><font size="-2" face="Arial, Helvetica, sans-serif">
-	&nbsp;&nbsp;&nbsp; Type your ID number (dashes are not necessary) plus your institution code.
-	  <br>&nbsp;&nbsp;&nbsp; For example: <tt><font size="-1" color="#FF0000">999999999FC</font></tt> would be a Campus 
-        ID for a student at Fontbonne University.<br><br></font></p>
-      </td>
-  </tr>
-</table>
+</div>
 
-</td>
-</tr>
-</table>
-
-<P>
-
-</FORM>
-<TABLE WIDTH=100%>
-<TR><TD>
-<!--{startover}-->
-</TD></TR>
-</TABLE>
-
+</div><!-- pageContentInner -->
 <!--{botlogo}-->
-
-</BODY>
-</HTML>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>

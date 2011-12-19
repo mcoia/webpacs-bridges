@@ -1,57 +1,64 @@
-
-
-
-
-<HTML>
-<HEAD>
-	<TITLE>Bridges/ Bridges Catalog</TITLE>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-
-
-
-</HEAD>
-
-<BODY bgcolor="#ffffff" link="#0000FF" alink="#0000FF" vlink="#0000FF" 
-	onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-<!--{toplogo}-->
-<!--{patron}-->
-<!--{logout}-->
-
-<br>
-<!-- Begin Search Help Text -->
-<center><table border="0" width="570"><tr><td>
-<h3 align="center"><b>Reserve List Search, by Name of Course</b></h3>
-<form METHOD="GET" ACTION="/search/r">
-  <p ALIGN="CENTER">
-    <input TYPE="TEXT" name="SEARCH" maxlength="64" size="48">
-    <input TYPE="SUBMIT" value="Search" name="SUBMIT">
-  </p>
-</form>
-<p>Type as much of the COURSE NAME as you want. For example:</p>
-<pre>    &middot; nurs
-    &middot; stat190
-    &middot; acct212
-</pre>
-</td></tr></table></center>
-<!-- End Search Help Text -->
-<p align="center"><A HREF="/search~S0"><IMG SRC="/screens/b_newsrch.gif" BORDER=0 ALT="[START OVER]"></A></p> 
-
-
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3" height="1" bgcolor="#DEDDC9"><IMG SRC="/screens/shim.gif" HEIGHT="2" WIDTH="1" BORDER="0" ALT=""></td>
-  </tr>
-  <tr> 
-    <td align="right" valign="bottom">&nbsp;</td>
-    <td align="right" valign="middle" nowrap><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b> 
-      <a href="http://searchmobius.org/search/">Search MOBIUS</a> | 
-	  <a href="/search~">Search Bridges</a> | 
-      <a href="/">Bridges Home</a> |  
-	  <a href="/screens/help.html">Help</a> 
-      </b></font></td>
-  </tr>
-</table>
-
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Bridges Catalog - Course Search</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner">
+
+<h1 class="pageHeader">Reserve List Search, by Name of Course</h1>
+
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the course name or number you want to find, then press the Enter key or click Submit.</legend>
+-->
+
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+
+</fieldset>
+</form>
+</div><!--formLeft -->
+<div class="formRight">
+<p>Type as much or as little of the course name or course number as you wish. For example:</p>
+<ul>
+<li>nurs</li>
+<li>stat190</li>
+<li>acct212</li>
+</ul>
+</div><!--formRight -->
+</div><!--form2Part -->
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>

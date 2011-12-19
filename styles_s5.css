@@ -1,0 +1,9 @@
+.topLogoSmall {
+    padding:22px 0;
+}
+
+.briefcitJacket {
+    float:left; margin:5px 15px; width:80px; display:inline; 
+}
+
+.briefcitDetail, .briefcitAuthDetail  { padding:0px 0 0px 3px; width:73.75% }

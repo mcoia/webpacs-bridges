@@ -1,118 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Bridges Catalog - Genre Search</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
 
-
-
-
-
-
-
-
-<HTML>
-
-<HEAD>
-
-	<TITLE>Bridges/ Bridges Catalog</TITLE>
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-
-
-
-
-
-
-
-
-
-</HEAD>
-
-
-
-<BODY bgcolor="#ffffff" link="#0000FF" alink="#0000FF" vlink="#0000FF" 
-
-	onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
 <!--{toplogo}-->
+<div class="pageContentInner">
 
+<h1 class="pageHeader">Genre Search</h1>
 
-<!--{patron}-->
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the subject you want to find, then press the Enter key or click Submit.</legend>
+-->
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="sortdropdown">Sort by:</label>
+</span>
+<!--{indexsort}-->
+</div>
+<div class="formEntryArea formScopeSearch">
+<span class="formLabel">
+<label for="searchscope">Search in the:</label>
+</span>
+<!--{scope}-->
+</div>
 
-<!--{logout}-->
-
-
-
-<br>
-
-<!-- Begin Search Help Text -->
-
-<center><table border="0" width="570"><tr><td>
-
-<h3 align="center"><b>Genre Search</b></h3>
-
-<form METHOD="GET" ACTION="/search/d">
-
-  <p ALIGN="CENTER"> 
-
-    <input TYPE="TEXT" NAME="SEARCH" MAXLENGTH="64" SIZE="48">
-
-    <input TYPE="SUBMIT" VALUE="Search">
-
-  </p>
-
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+</fieldset>
 </form>
+</div><!--formLeft -->
 
-<p>Type as much of the GENRE as you want. For example:</p>
+<div class="formRight">
+<p>Type as much of the genre as you want. For example:</p>
+<ul>
+<li>academic disserations</li>
+<li>booksellers advertisements</li>
+<li>fantasy fiction</li>
+<li>comedy films</li>
+</ul>
+</div><!--formRight -->
 
-<pre>    &middot; academic disserations
+</div><!--form2Part -->
+</div><!-- pageContentInner -->
 
-    &middot; booksellers advertisements
-
-    &middot; fantasy fiction
-
-    &middot; comedy films
-
-</pre>
-
-</td></tr></table></center>
-
-<!-- End Search Help Text -->
-
-<p align="center"><A HREF="/search~S0"><IMG SRC="/screens/b_newsrch.gif" BORDER=0 ALT="[START OVER]"></A></p> 
-
-
-
-
-
-
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-
-  <tr>
-
-    <td colspan="3" height="1" bgcolor="#DEDDC9"><IMG SRC="/screens/shim.gif" HEIGHT="2" WIDTH="1" BORDER="0" ALT=""></td>
-
-  </tr>
-
-  <tr> 
-
-    <td align="right" valign="bottom">&nbsp;</td>
-
-    <td align="right" valign="middle" nowrap><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b> 
-
-      <a href="http://searchmobius.org/search/">Search MOBIUS</a> | 
-
-	  <a href="/search~">Search Bridges</a> | 
-
-      <a href="/">Bridges Home</a> |  
-
-	  <a href="/screens/help.html">Help</a> 
-
-      </b></font></td>
-
-  </tr>
-
-</table>
-
-
-
-
-
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>

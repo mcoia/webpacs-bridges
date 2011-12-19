@@ -1,0 +1,25 @@
+.clusterLogo {
+    top: 5px;
+}
+
+.topLogoSmall {
+    padding:10px;
+}
+
+.linkBanner {
+    background-color:#5F0A68;
+}
+
+.form2Part, .form1Part, .form3PartBelow {
+    border-color:#d3cddd;
+    background: url("tile_vgradient_yellow.jpg") repeat-x scroll left top #FFFFFF;
+}
+
+.mylistsSavePage form, .pageNavColumn, .form3Part {
+    border-color:#d3cddd;
+    background-color:#FFFDEE;
+}
+
+.browseHeaderData, .browseHeaderEntries, .browseHeaderMark, .browseHeaderNum, .browseHeaderYear, .browseHeaderMedia {
+    background-color:#e2dfe6;
+}

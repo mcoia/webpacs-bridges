@@ -26,6 +26,8 @@
 <script type="text/javascript">
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
+	$('#b option:not([value^="h"])').hide();
+	$('#b option[value=""]').show();
 });
 </script>
 

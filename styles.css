@@ -177,7 +177,7 @@ a:hover  { color: #7C14B8; }
 
 .bibDisplayContentMain > a, .resourceDisplayContentMain > a { margin:4px 4px 4px 9%; border:none; }
 
-.bibDisplayContentMore { border-top:1px dashed #767C70; clear:both; margin-bottom:15px; padding-top:20px; }
+.bibDisplayContentMore { border-top:1px dashed #767C70; clear:both; margin-bottom:15px; }
 
 .bibDisplayItems  { margin:8px 0 0 10%; width:80%; }
 
@@ -201,7 +201,7 @@ a:hover  { color: #7C14B8; }
 
 .bibMedia   img { margin-top:10px;  }
 
-.bibDisplayPermLink { float:right; }
+.bibDisplayPermLink { margin: 1em 0; }
 
 .bibDisplayProgramInfo { float:right; font-size:1.1em; margin:5% 5% 15px 0; }
 

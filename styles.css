@@ -196,11 +196,12 @@ a:hover  { color: #7C14B8; }
 .bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
 
 .bibDisplayUrls {
-    background: url("/screens/tile_search.jpg") repeat-x scroll left bottom transparent;
+    background-color:#F4F4F4;
     height:85px;
     border-bottom: solid 1px #D3D3D3;
     -moz-border-radius: 15px;
     border-radius: 15px;
+    margin-top:1em;
 }
 
 .bibDisplayUrls td, .bibDisplayUrls th{

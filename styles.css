@@ -195,6 +195,18 @@ a:hover  { color: #7C14B8; }
 
 .bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
 
+.bibDisplayUrls {
+    background: url("/screens/tile_search.jpg") repeat-x scroll left bottom transparent;
+    height:85px;
+    border-bottom: solid 1px #D3D3D3;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.bibDisplayUrls td, .bibDisplayUrls th{
+    padding-top:.5em;
+}
+
 .bibLinks th { text-align:center; }
 
 .bibMedia  { margin-left:auto; margin-right:auto; }

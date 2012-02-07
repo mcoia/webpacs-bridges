@@ -629,6 +629,10 @@ div .bibResourceSidebar { display:none; }
 
 .pageContent > table .browseSearchtool em { margin-left:0px; }
 
+#googlebooks { display: none; font-size:.9em; }
+
+#googlebooks img {margin-top:1em; }
+
 .helpContent h3 { font-size:1.1em; margin-bottom:0px; }
 
 .helpContent h4 { font-size:1em; margin-bottom:0px; }

@@ -1091,11 +1091,9 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogo { position:relative; }
 
-.topLogoSmall { padding:10px; }
+.topLogo img { border:0; display:block; margin-left:auto; margin-right:auto }
 
-.topLogoSmall, .mobiusLogo { width: 250px; }
-
-.topLogoImage {float:left; padding:20px 10px;}
+.topLogoImage { padding: 10px;}
 
 .topLogoImage, .mobiusLogo {width:250px;}
 

@@ -2,8 +2,9 @@
     top: 5px;
 }
 
-.topLogoSmall {
+.topLogoImage {
     padding:10px;
+    width:200px;
 }
 
 .linkBanner {

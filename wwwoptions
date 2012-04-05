@@ -618,7 +618,7 @@ LOCKSCOPE=no
 SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
 SMS_TERMS_DESC=Lindenwood University
 SMS_TERMS_EMAIL=<a href="mailto:library@lindenwood.edu">library@lindenwood.edu</a>
-SMS_TERM_LIB=Butler Library - Lindenwood University
+SMS_TERMS_LIB=Butler Library - Lindenwood University
 
 
 # Webster Locations

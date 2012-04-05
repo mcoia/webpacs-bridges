@@ -310,13 +310,13 @@ ICON_PIN_RESET=<span class="button"><img src="/screens/ico_questionmark.png" alt
 ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Pickup</span></span></div></div>
 ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
 MIN_PIN_LENGTH=6
-MODIFY_PFLDS=ahtopz
+MODIFY_PFLDS=o
 MY_WEBPAC=F,2
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
 #PATRON_MSG=z|Message from the library
-PATRON_NOTICES=amz
+PATRON_NOTICES=m
 PIN_ALPHA_NUM=false
 PIN_NUM_ONLY=false
 PIN_RESET=true
@@ -613,7 +613,7 @@ LOCKSCOPE=no
 
 # SMS Options
 
-#ICON_SMSTERMS
+ICON_SMSTERMS=<img src="/screens/smsterms.gif" alt="Terms and Conditions" border="0" />
 #SMS_OPTOUT_WARN
 SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
 SMS_TERMS_DESC=Lindenwood University

@@ -6,7 +6,7 @@ var sms = 1
 var changing_examples = 0
 var out_of_scope_locations = 0
 
-// Find the scope 
+// Script that will find URL variables
 $.extend({
   getUrlVars: function(){
     var vars = [], hash;
@@ -23,15 +23,6 @@ $.extend({
     return $.getUrlVars()[name];
   }
 });
-
-var scope;
-var scopeMatch = /~S(\d+)/.exec(window.location.href);
-
-if ($.getUrlVar('searchscope')) {
-  scope = $.getUrlVar('searchscope');
-} else if (scopeMatch) {
-  scope = scopeMatch[1];
-}
 
 /**
 * jQuery Cookie plugin

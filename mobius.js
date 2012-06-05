@@ -5,7 +5,6 @@ var menu_collapse = 1
 var sms = 1
 
 var location_initial = new Array ();
-location_initial[0] = "z";
 location_initial[1] = "c";
 location_initial[2] = "f";
 location_initial[3] = "h";
@@ -410,7 +409,9 @@ $(document).ready(function () {
 *
 */
 
-	var selectAny = $('#b option[value=""]')
-	$('#b option:not([value^=' + location_initial[scope] + '])').detach(); 
-	selectAny.prependTo("#b")
+      if(location_initial[scope]){
+          var selectAny = $('#b option[value=""]')
+          $('#b option:not([value^=' + location_initial[scope] + '])').detach(); 
+          selectAny.prependTo("#b")
+      }
 });

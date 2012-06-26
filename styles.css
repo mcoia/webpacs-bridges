@@ -790,6 +790,8 @@ padding:2px;
 
 .navigationRow select { font-size:.83333em; width:200px; margin-top: 15px; }
 
+#newpinfo fieldset { padding:1em; }
+
 .pageContent { clear:both; }
 
 .pageContent > br { display:none; }
@@ -848,7 +850,7 @@ width:19%;
 
 #patButFines, #patButHolds, #patButChkouts, #patButBookings { }
 
-.patActionItem a {height:27px; display:block;}
+.patActionItem a { height:27px; display:block;}
 
 .patHelp { border-top:1px dotted #D3D3D3; margin-top:10px; }
 
@@ -1069,6 +1071,8 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #skipNav a:active, #skipNav a:focus { position:static; width:auto; height:auto; margin-bottom:3px; background:#FFFFFF; }
 
+#smsFunctions p, #smsFunctions h3, #smsFunctions ul { display:none; }
+
 #specializedSearch { vertical-align:bottom; margin-bottom:3px; }
 
 .submitHidden { position:absolute; left:-999px; top:-999px; }
@@ -1094,6 +1098,8 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 /* end staff */
 
 .testLinkedDocs img { border:0; }
+
+#textMessage { display:none; }
 
 .tipsTable caption { margin-top:10px; }
 

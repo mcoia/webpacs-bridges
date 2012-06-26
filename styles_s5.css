@@ -7,3 +7,5 @@
 }
 
 .briefcitDetail, .briefcitAuthDetail  { padding:0px 0 0px 3px; width:73.75% }
+
+#textMessage { display: block; }

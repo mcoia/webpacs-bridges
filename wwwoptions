@@ -615,7 +615,7 @@ LOCKSCOPE=no
 
 # SMS Options
 
-ICON_SMSTERMS=<img src="/screens/smsterms.gif" alt="Terms and Conditions" border="0" />
+ICON_SMSTERMS=Terms and Conditions
 #SMS_OPTOUT_WARN
 SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
 SMS_TERMS_DESC=Lindenwood University

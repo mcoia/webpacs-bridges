@@ -1,0 +1,11 @@
+.pageContentColumn {
+    float:left;
+    margin-left:1%;
+    padding:1%;
+    width:95%;
+}
+
+.pageNavColumn {
+    display:none;
+}
+

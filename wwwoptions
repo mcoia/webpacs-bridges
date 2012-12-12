@@ -75,6 +75,7 @@ TOPLOGO6=@screens/toplogo_s6.html
 TOPLOGO7=@screens/toplogo_s7.html
 TOPLOGO8=@screens/toplogo_s8.html
 TOPLOGO9=@screens/toplogo_s9.html
+TOPLOGO11=@screens/toplogo_s11.html
 #UPDATECIRC=true
 XSTARTOVER=/search
 
@@ -497,6 +498,7 @@ BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
 #WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=N||<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
 #WEBADDRESS=http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;field-keywords=%s|I|http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&field-isbn=%s|<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
+WEBADDRESS=http://www.worldcat.org/search?q=%s|I|http://www.worldcat.org/search?q=bn:%s|<span class="Button"><img src="/screens/ico_worldcat.png" border="0" alt=""><span class="buttonText">Search WorldCat</span>|<span class="Button"><img src="/screens/ico_worldcat.png" border="0" alt=""><span class="buttonText">Search WorldCat</span>|-1
 
 # WebBridge/Pathfinder Pro
 ICON_BUT_CLOSEFRAME=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Frame</span></span>

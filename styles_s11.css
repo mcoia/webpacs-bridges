@@ -6,7 +6,9 @@
     width: 8em;
 }
 
-div .bibResourceSidebar { display: block;}
+div .bibResourceSidebar { display: block; text-align: center; }
+
+.bibResourceSidebar .resourceButton {display:block;}
 
 .bibDisplayContentMain, .resourceDisplayContentMain {
     display: inline;
@@ -69,4 +71,8 @@ span.navButton, span.navButtonOneLine {
     line-height: 11px;
     text-align: center;
     width: 65px;
+}
+
+#searchNavMenu {
+    visibility:hidden;
 }

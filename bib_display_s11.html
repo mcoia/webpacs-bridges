@@ -33,8 +33,6 @@
 <!--Optional INNReach resources.-->
 <!--{innreach}-->
 <!--{navrow}-->
-<!--{relsearch}-->
-<div id="googlebooks" class="resourceButton" ></div>
 <div id="citeoclc"></div>
 <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
     <script>
@@ -57,7 +55,7 @@
     </script>
 <a href="#here" class="resourceButton" name=smsbutton id=smsbutton onClick="showsms();return false;">
 <div id="smsfeatures">
-    <span class="button">
+    <span class="button resourceButton">
     <img src="/screens/ico_phone.gif">
         <span class="buttonText">Text item location</span>
     </span>
@@ -65,6 +63,7 @@
     
 </a>
 
+<div id="googlebooks" class="resourceButton"></div>
 
 <div id="qr" onclick="getInfo()">
 </div>
@@ -217,9 +216,9 @@ document.documentElement.firstChild.appendChild(s);
 var OCLC = $(".bibInfoLabel:contains('OCLC')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
 var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
 if (OCLC > 0) {
-     document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + OCLC + "?page=citation'><span class='button'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Cite This</span></span></a>";}
+     document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + OCLC + "?page=citation'><span class='button resourceButton'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Cite This</span></span></a>";}
 else if (ISBN > 0) {
-     document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + ISBN + "&qt=advanced'><span class='button'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Check for citation in WorldCat.</span></span></a>";}
+     document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + ISBN + "&qt=advanced'><span class='button resourceButton'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Check for citation in WorldCat.</span></span></a>";}
 else {
      document.getElementById("citeoclc").innerHTML = "No citation available.";}
 </script>

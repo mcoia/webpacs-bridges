@@ -24,6 +24,7 @@ div .bibResourceSidebar { display: block; text-align: center; }
 #googlebooks {
     display: block;
     font-size: 0.9em;
+    text-align: center;
 }
 
 #googlebooks img {

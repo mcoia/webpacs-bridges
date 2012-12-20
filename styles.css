@@ -511,6 +511,18 @@ span.buttonText:hover {text-decoration:underline;}
 
 .confirmationprompt { margin:5px 20px 0; }
 
+.concordMessage {
+    list-style-type: none;
+    text-align: center;
+    color: #444444;
+    font-size: 1em;
+    font-style: normal;
+    margin: 1px 5px 0 0;
+}
+.concordMessage li {
+    padding-left: 6px;
+}
+
 .checkinCardTable td { border:1px solid #CCCCCC; padding:3px 3px 0; }
 
 .checkinInfo { margin:1em 1em 0.5em; }

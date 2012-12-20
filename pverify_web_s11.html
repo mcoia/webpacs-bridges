@@ -1,0 +1,138 @@
+<!--{toplogo}-->
+<link rel="stylesheet" type="text/css" href="/screens/styles_nosearchoptions.css" />
+<div class="form1Part codeHelp">
+<h2>Institution Code Help</h2>
+	  <p> For example, a student at Lindenwood University would enter 999999999LU.</p>
+          
+          <ul>
+        <li>Concordia Seminary - <strong>CL</strong></li>
+        <li>Covenant Theological Seminary - <strong>CS</strong></li>
+		<li>Fontbonne University - <strong>F</strong></li>
+		<li>Harris-Stowe State University - <strong>HS</strong></li>
+		<li>Kenrick-Glennon Seminary - <strong>KGS</strong></li>
+		<li>Lindenwood University - <strong>LU</strong></li>
+		<li>Logan College of Chiropractic - <strong>LCC</strong></li>
+		<li>Maryville University - <strong>M</strong></li>
+		<li>Missouri Baptist University - <strong>MBU</strong></li>
+		<li>Webster Univ./Eden Seminary - <strong>EWL</strong></li>
+            </ul>
+
+		<p>Please contact your library if you have any questions.</p>     
+</div>
+<div class="pageContentInner">
+<h1 class="pageHeader">Login</h1>
+<div class="form1Part formLogin" id="accessibleForm">
+<!--{formbegin}-->
+<!--{iferrmsg}-->
+<span class="errormessage">
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</span>
+<!--{xif}-->
+
+<fieldset>
+<legend>
+<!--{enterinfo}-->
+</legend>
+
+<!--{ifextpat}-->
+<h2>Students, Staff, and Faculty</h2>
+<div class="formEntryArea">
+<label for="extpatid"><span class="formLabel">
+Username:
+</span></label>
+<!--{extpatid}-->
+<label for="extpatpw"><span class="formLabel">
+Password:
+</span></label>
+<!--{extpatpw}-->
+</div>
+<h2>Visitors</h2>
+<!--{xif}-->
+
+<!--{ifneedpatronname}-->
+<div class="formEntryArea">
+<!--{nameprompt}-->
+<!--{name}-->
+<span class="formLabelExample">
+<!--{nameexample}-->
+</span>
+</div>
+<!--{xif}-->
+
+<!--{ifneedpatronverify}-->
+<div class="formEntryArea">
+<!--{barcodeprompt}-->
+<!--{barcode}-->
+<span class="formLabelExample">
+<!--{barcodeexample}-->
+</span>
+</div>
+
+<!--{ifneedspin}-->
+
+<!--{iferrmsgisPIN}-->
+<p>
+<!--{newpinmsg}-->
+</p>
+<div class="formEntryArea">
+<!-- <label for="pin1"> -->
+<span class="formLabel">
+<!--{pin1prompt}-->
+</span>
+<!--{pin1}-->
+<!-- </label> -->
+</div>
+<div class="formEntryArea">
+<!-- <label for="pin2"> -->
+<span class="formLabel">
+<!--{pin2prompt}-->
+</span>
+<!--{pin2}-->
+<!-- </label> -->
+</div>
+
+<!--{else}-->
+<div class="formEntryArea">
+<!--{pinprompt}-->
+<!--{pin}-->
+<span class="formLabelExample">
+<!--{pininstructions}-->
+</span>
+</div>
+
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+
+    <!--{ifalternate_id}-->
+    <!--{user_name}-->
+    <!--{xif}-->
+
+<div class="formButtonArea">
+<!--{ifneedspin}-->
+<!--{pinresetrequest}-->
+<!--{xif}-->
+<!--{submit}-->
+<input type="submit" class="submitHidden">
+</div>
+</fieldset>
+<!--{formend}-->
+
+</div>
+</div>
+	<ul class="concordMessage">
+        <li>Concordia Seminary students - <strong>P-Number + CL</strong></li>
+		<li> COSL patrons - <strong>COSLXXXXXX + CL</strong></li>
+	</ul>
+</div> 
+
+<!-- pageContentInner -->
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>

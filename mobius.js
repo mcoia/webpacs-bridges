@@ -224,7 +224,7 @@ if (menu_collapse == 1){
 // set this to be the URL for the SMS script
 
 if (sms == 1){
-    var smsurl = "http://mobiusconsortium.org/sms/sms-" + cluster + ".php?";
+    var smsurl = "//mobiusconsortium.org/sms/sms-" + cluster + ".php?";
     
        function showsms() {
     

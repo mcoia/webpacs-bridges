@@ -14,6 +14,7 @@ location_initial[6] = "o";
 location_initial[7] = "M";
 location_initial[8] = "b";
 location_initial[9] = "w";
+location_initial[11] = "n";
 
 changing_examples = 0
 var out_of_scope_locations = 0

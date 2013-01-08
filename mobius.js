@@ -417,6 +417,14 @@ $(document).ready(function () {
       }
 });
 
+/*
+*
+*
+* Create QR code in resource bar.
+*
+*
+*/
+
 var catalog = "http://bridges.searchmobius.org"
 var loc;
 var call;
@@ -476,3 +484,4 @@ return;
 $(document).ready(function () {
     showQR();
 });
+

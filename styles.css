@@ -511,6 +511,18 @@ span.buttonText:hover {text-decoration:underline;}
 
 .confirmationprompt { margin:5px 20px 0; }
 
+.concordMessage {
+    list-style-type: none;
+    text-align: center;
+    color: #444444;
+    font-size: 1em;
+    font-style: normal;
+    margin: 1px 5px 0 0;
+}
+.concordMessage li {
+    padding-left: 6px;
+}
+
 .checkinCardTable td { border:1px solid #CCCCCC; padding:3px 3px 0; }
 
 .checkinInfo { margin:1em 1em 0.5em; }
@@ -973,10 +985,6 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 .requestResult table { display:none; }
 
 .requestResult font { font-size:1.4em; }
-
-.resourceButton {text-align:center;}
-
-.resourceButton img {margin:.5em;border:none;}
 
 .resourceDisplayContentMain { width:68%; }
 
@@ -1522,9 +1530,15 @@ table.bibItems { clear:both; }
 
 .bibRecordLink { padding:8px 0 8px 6px; }
 
-.bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; margin-right:10px; width:192px; padding-bottom:10px; }
+.bibResourceSidebar { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; display:inline; float:right; margin-right:10px; width:234px; padding-bottom:10px; }
 
-.bibResourceSidebar .button { margin:1% 3%; }
+.bibResourceSidebar a:link, .bibResourceSidebar a:visited {padding:0 !important;}
+
+.bibResourceSidebar .navRow  {
+    display: none;
+}
+
+.bibResourceSidebar .button { margin:1% 6%; }
 
 table.bibResourceTable { border:0; }
 
@@ -1544,7 +1558,7 @@ table.bibResourceTable { border:0; }
 
 .bibHolds { border:0; background-color:#FFFEE4; font-weight:bold; margin-left:9%; }
 
-.bibPager, .resourcePager, .recordPager { text-align:right; margin:5px 3px 10px 5px; }
+.bibPager, .resourcePager, .recordPager { text-align:right; margin:5px 18px 10px 5px; }
 
 .bibPager, .resourcePager, .recordPager { font-size:.9167em; }
 
@@ -2244,9 +2258,9 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 
 .requestResult font { font-size:1.4em; }
 
-.resourceButton {text-align:center;}
+/*.resourceButton {text-align:center; display: none ;}*/
 
-.resourceButton img {margin:.5em;border:none;}
+.resourceButton img {margin:.5em; border:none;}
 
 .resourceDisplayContentMain { width:68%; }
 

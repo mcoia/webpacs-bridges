@@ -1,13 +1,94 @@
-<!--{toplogo}-->
-<link rel="stylesheet" type="text/css" href="/screens/styles_no_right.css" />
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+<script>
+var scope = 0
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="/screens/mobius.js"></script>
+
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+<link rel="stylesheet" type="text/css" href="/screens/styles_s0.css" / >
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLogoImage">
+<a href="/search/" tabindex="10"><img src="/screens/bridges.png" alt="Bridges: A MOBIUS Library Catalog"></a>
+</div>
+
+<div class="mobiusLogo">
+<a href="http://searchmobius.org"><img src="/screens/mobius.png" alt="MOBIUS Catalog"></a>
+</div>
+
+<div id="alertMessage"></div>
+
+</div><!--topLogo-->
+
+<div class="linkBanner">
+
+<div class="navRight">
+<ul>
+<li><a href="http://searchmobius.org/">MOBIUS</a></li>
+<li><a href="/">Bridges</a></li>
+<li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
+<li><a href="/help" tabindex="115">Help</a></li>
+</ul>   
+
+</div>
+
+<div class="clear"></div>
+
+</div><!--searchNav-->
+<div class="clear"></div>
+
+
+<div class="clear"></div>
+
+
+<div class="pageNavColumn"><!-- nav menu column-->
+
+<h1 class="navHeader">Search Options</h1>
+
+<ul id="rightCol">
+<li><a href="/search/X">Advanced Search</a></li>
+<li><a href="/search/a">Author</a></li>
+<li><a href="/search/t">Title</a></li>
+<li><a href="/search/s">Journals, Magazines, Newspapers</a></li>
+<li><a href="#">Numbers</a>
+            <ul>
+                <li><a href="/search/c">Library of Congress (LC) Call Number</a></li>
+                <li><a href="/search/e">Dewey Call Number</a></li>
+                                <li><a href="/search/f">Other Call Number</a></li>
+                                <li><a href="/search/g">Government Document Call Number</a></li>
+                                <li><a href="/search/i">ISBN, ISSN, Music, Etc., Number</a></li>
+                                <li><a href="/search/o">OCLC Number</a></li>
+            </ul>
+</li>
+<li><a href="/search/d">Subject (LC)</a></li>
+<li><a href="/search/m">Children's Subject</a></li>
+<li><a href="/search/j">Medical Subject</a></li>
+<li><a href="/search/l">Series Title</a></li>
+<li><a href="/search/q">Author and Title</a></li>
+<li><a href="/search/v">Genre</a></li>
+</ul>
+        
+</div>
+<div class="pageContentColumn"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
 <!--{ifbibdisplay}-->
-<!--{xif}-->
 <!--{catedit}-->
 
 <div id="bibDisplayBody">
 <div class="navigationRowRecord">
 <!--{navrow}-->
-<!--{innreach}-->
 </div>
 <div id="bibDisplayContent">
 <div class="bibSearch">
@@ -26,56 +107,12 @@
 <div class="bibResourceSidebar">
 <!--{ifhasresourcetable}-->
 <!--{resourcetable}-->
-<!--{xif}-->
-
-<div class="bibResourceTableHeader">Resources</div>
-       
 <!--Optional INNReach resources.-->
-<!--{innreach}-->
-<!--{navrow}-->
-<!--{relsearch}-->
-<div id="googlebooks" class="resourceButton" ></div>
-<div id="citeoclc"></div>
-<!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
-    <script>
-       var f = document.getElementById('bib_detail');
-       try { 
-        var itms = document.getElementById('bib_items');
-        var tr = itms.getElementsByTagName('TR');
-        for(i = 1; i < tr.length; i++) {
-         var x=tr[i].getElementsByTagName('TD');
-         if (x.length == 3) {
-          var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
-          var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
-          var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
-         }
-        }
-       } catch (e) {
-         document.getElementById('smsfeatures').style.visibility='hidden';
-       }
-
-    </script>
-<a href="#here" class="resourceButton" name=smsbutton id=smsbutton onClick="showsms();return false;">
-<div id="smsfeatures">
-    <span class="button">
-    <img src="/screens/ico_phone.gif">
-        <span class="buttonText">Text item location</span>
-    </span>
-    </div>
-    
-</a>
-
-
-<div id="qr" onclick="getInfo()">
-</div>
-
-<form id="qrChoice">
-<p>Choose a QR code to display:</p>
-</form>
 </div>
 
 <div class="bibDisplayJacket">
-<div id="googlejacket"></div>
+    <!--{bibimage}-->
+<div id="googlebooks" name="googlebooks"></div>
 <div class="bibMedia">
 <!--{media}-->
 </div>
@@ -99,7 +136,6 @@
 <div class="bibDisplayRatings">
 <!--{ratings}-->
 </div>
-<!--{xif}-->
 
 <!--{booking}-->
 <!--{holdingslink}-->
@@ -121,8 +157,35 @@
 <div class="bibDisplayItemsHeader"><h2>Copies</h2></div>
 <div class="bibDisplayItemsMain">
 <!--{items}-->
+    <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
+       <script>
+       var f = document.getElementById('bib_detail');
+       try { 
+        var itms = document.getElementById('bib_items');
+        var tr = itms.getElementsByTagName('TR');
+        for(i = 1; i < tr.length; i++) {
+         var x=tr[i].getElementsByTagName('TD');
+         if (x.length == 3) {
+          var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+          var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+          var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+         }
+        }
+       } catch (e) {
+         document.getElementById('smsfeatures').style.visibility='hidden';
+       }
 
+    </script>
 
+<a href="#here" name=smsbutton id=smsbutton onClick="showsms();return false;">
+<div id="smsfeatures" class="resourceButton">
+    <span class="button">
+    <img src="/screens/ico_phone.gif">
+        <span class="buttonText">Text item location</span>
+    </span>
+    </div>
+    
+</a>  
 </div>
 </div>
 
@@ -131,7 +194,6 @@
 <div class="bibDisplayContentMore">
 <!--{ifTOC}-->
 <!--{TOC}-->
-<!--{xif}-->
 <div class="bibDisplayPermLink actionButtonArea">
 <!--{recordlink}-->
 </div>
@@ -145,7 +207,6 @@
 <!--{ELCONTENT:365}-->
 </ul>
 </div>
-<!--{xif}-->
 
 <div class="bibDisplayContentMore bibDisplayReviews">
 <!--{patronreviewsfull}-->
@@ -158,10 +219,35 @@
 <div class="clear"></div>
 </div><!-- close bibDisplayBody -->
 
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+<div id="botlogo">
+<p><a href="/search~S11">Concordia Seminary</a> &#x00B7; <a href="/search~S1">Covenant Seminary</a> &#x00B7; <a href="/search~S2">Fontbonne University</a> &#x00B7; <a href="/search~S3">Harris-Stowe State University</a></p>
+<p><a href="/search~S4">Kenrick-Glennon Seminary</a> &#x00B7; <a href="/search~S5">Lindenwood University</a> &#x00B7; <a href="/search~S6">Logan College of Chiropractic</a></p>
+<p><a href="/search~S7">Maryville University</a> &#x00B7; <a href="/search~S8">Missouri Baptist University</a> &#x00B7; <a href="/search~S9">Webster University &#x00B7; Eden Seminary</a></p>
+</div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript">
 
-   
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16154770-1']);
+  _gaq.push(['_trackPageview']);
 
-       
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end botlogo.html file -->
+
+
 <script type='text/javascript'> 
     var ProcessResults = function(bookInfo) {
         var buttonImg = "<img src='/screens/googlebutton.gif' alt='Google Preview'>"
@@ -171,23 +257,19 @@
             var bookJacket =  "<img src='" + b.thumbnail_url + "&zoom=1'>";
             //form the text of Google Book contents
             if (b && (b.preview == "full")) {
-                //textGBS = "<p>Full Text</p>";
+                textGBS = "<p>Full Text</p>";
                 //"Google Book Search";
-                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>";
-                document.getElementById("googlejacket").innerHTML = bookJacket;
+                document.getElementById("googlebooks").innerHTML = bookJacket + "<a href='" + b.preview_url + "'>" + buttonImg + textGBS + "</a>"
             }
             else if (b && (b.preview == "partial")) {
-                // textGBS = "<p>Limited Preview</p>"
+                textGBS = "<p>Limited Preview</p>"
                 //"Preview at Google Book Search";
-                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>";
-                document.getElementById("googlejacket").innerHTML = bookJacket
+                document.getElementById("googlebooks").innerHTML = bookJacket + "<a href='" + b.preview_url + "'>" + buttonImg + textGBS + "</a>"
             }
             else if (b && (b.preview == "noview")) {
-                // textGBS = "<p>Limited Preview</p>"
                 //"Preview at Google Book Search";
-                document.getElementById("googlebooks").innerHTML = "<a href='" + b.preview_url + "'>" + buttonImg + "</a>";
                 if (b.thumbnail_url != undefined){
-                    document.getElementById("googlejacket").innerHTML = bookJacket
+                document.getElementById("googlebooks").innerHTML = bookJacket + "<a href='" + b.preview_url + "'>" + buttonImg + "</a>"
                 }
             }
             else {
@@ -196,7 +278,6 @@
     }
 }
 </script>
-
 <script type='text/javascript'>
        
 var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
@@ -213,17 +294,7 @@ document.documentElement.firstChild.appendChild(s);
 
 </script>
 
-<script type="text/javascript">
-var OCLC = $(".bibInfoLabel:contains('OCLC')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
-var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
-if (OCLC > 0) {
-     document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + OCLC + "?page=citation'><span class='button'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Cite This</span></span></a>";}
-else if (ISBN > 0) {
-     document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + ISBN + "&qt=advanced'><span class='button'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Check for citation in WorldCat.</span></span></a>";}
-else {
-     document.getElementById("citeoclc").innerHTML = "No citation available.";}
-</script>
+<!--this is customized <screens/bib_display.html>-->
 
 
-<!--{botlogo}-->
 

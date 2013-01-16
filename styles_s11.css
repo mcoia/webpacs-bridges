@@ -1,4 +1,3 @@
-
 .bibDisplayJacket {
     display: inline;
     float: left;
@@ -6,7 +5,9 @@
     width: 8em;
 }
 
-div .bibResourceSidebar { display: block;}
+div .bibResourceSidebar { display: block; text-align: center; }
+
+.bibResourceSidebar .resourceButton {display:block;}
 
 .bibDisplayContentMain, .resourceDisplayContentMain {
     display: inline;
@@ -22,6 +23,7 @@ div .bibResourceSidebar { display: block;}
 #googlebooks {
     display: block;
     font-size: 0.9em;
+    text-align: center;
 }
 
 #googlebooks img {
@@ -70,3 +72,8 @@ span.navButton, span.navButtonOneLine {
     text-align: center;
     width: 65px;
 }
+
+#searchNavMenu {
+    visibility:hidden;
+}
+

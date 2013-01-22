@@ -36,22 +36,26 @@ div .bibResourceSidebar { display: block; text-align: center; }
 }
 
 .linkBanner {
-    background-color:#005A50;
+    background-color: #005A50;
 }
 
 .linkBanner a {
     color: #FBCB60;
-    font-weight: bold;
-    text-decoration: none;
 }
 
-.linkBanner .linkBannerLeft {float: left;}
+.linkBanner .navLeft {float: left;}
 
-.linkBanner .linkBannerRight {float: right;}
+.linkBanner .navRight {float: right;}
 
-.linkBanner .linkBannerLeft ul li, .linkBanner .linkBannerRight ul li {margin-left: 0; margin-right:2em;}
+.linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
 
-.linkBanner .linkBannerRight ul li:last-child { margin-right:0;}
+.linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.linkBanner ul li {display: inline; margin-left:2em;}
+
+.linkBanner .navLeft, .linkBanner .navRight {
+    padding-top:.15em;
+}
 
 #qr {
     text-align: center;

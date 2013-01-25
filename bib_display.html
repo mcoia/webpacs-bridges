@@ -176,7 +176,7 @@
 </script>
 <script type='text/javascript'>
        
-var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
+var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/(w).*/g,"$1")
 
 var cburl = "http://books.google.com/books";
 // Retrieve the info for these bibkeys

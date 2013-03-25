@@ -3,7 +3,7 @@
 <div class="pageContent">
 <div class="pageContentInner popupContentInner">
 <!--Beginning main page content-->
-<h1 class="popupFormHeading">Text Message Alerts</h1>
+<h1 class="popupFormHeading">Modify Patron Information</h1>
 <div id="accessibleForm" class="form1Part">
 <!--{formbegin}-->
 <fieldset>
@@ -11,48 +11,57 @@
 <!--{newpinfo}-->
 </legend>
 
-To enable text message alerts:
-<ul>
-    <li>Click the Terms and Conditions/Privacy Policy link, to read important terms and conditions.</li>
-    <li>If you agree, click the Opt In checkbox.</li>
-    <li>Enter your mobile phone number.</li>
-    <li>Click Submit.</li>
-</ul>
-<p><strong>To complete your opt-in, wait for a message on your mobile phone, then follow the directions in the confirmation message.</strong></p>
+<!--
+<div class="formEntryArea">
+<label for="name"><span class="formLabel">
+Alias/Nickname:
+</span>
+-->
+ <!--{user_name}-->
+ <!--
+</label>
+</div>
+-->
 
 <div class="formEntryArea">
 <span class="formLabel">
-<!--{mobileprompt}-->
+<!--{addr1prompt}-->
 </span>
-<!--{mobile}-->
+<!--{addr1a}-->
+
 </div>
 
-<h2>Text Message Alerts</h2>
+<div class="formEntryArea">
+<span class="formLabel"><label for="addr1c">
+State
+</label></span>
+<!--{addr1c}-->
 
-<!--{ifhassms2}-->
-<!--{smsmod}-->
-<!--{xif}-->
+</div>
 
+<div class="formEntryArea">
+<span class="formLabel"><label for="addr1d">
+ZIP Code
+</label></span>
+<!--{addr1d}-->
+
+</div>
+
+<div class="formEntryArea">
+<span class="formLabel">
+<!--{emailprompt}-->
+</span>
+<!--{email}-->
+</div>
+
+<div class="formEntryArea">
+<!--{notices}-->
+</div>
 
 <div class="formButtonArea">
 <!--{submit}-->
 <!--{cancel}-->
 </div>
-
-<h3>Carriers supported on the program</h3>
-<ul>
-<li>Sprint / Nextel</li>
-<li>Verizon Wireless</li>
-<li>Boost </li>
-<li>Alltel </li>
-<li>US Cellular</li>
-<li>Cellular South</li>
-<li>AT&amp;T</li>
-<li>Virgin </li>
-<li>Cricket</li>
-<li>Cellcom</li>
-</ul>
-
 </fieldset>
 <!--{formend}-->
 </div><!-- accessibleForm -->

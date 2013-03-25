@@ -291,7 +291,7 @@ ICON_BUT_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmous
 #ICON_BUT_PAT_CHKOUTS=
 #ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Fines</span></span>
 #ICON_BUT_PAT_HOLDS=
-ICON_BUT_PAT_INFO=<span class="button"><img src="/screens/ico_simple_phone.png" alt=""><span class="buttonText">Text Message Alerts</span></span>
+ICON_BUT_PAT_INFO=<span class="button"><img src="/screens/ico_patron.png" alt=""><span class="buttonText">Modify Personal Information</span></span>
 ICON_BUT_PAT_MSGS=<span class="button"><img src="/screens/ico_browse_brief.png" alt=""><span class="buttonText">Message from the library</span></span>
 ICON_BUT_PAT_PIN=<span class="button"><img src="/screens/ico_pin.png" alt=""><span class="buttonText">Modify PIN</span></span>
 ICON_BUT_PAT_RENEWALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renew All</span></span></div></div>
@@ -313,13 +313,13 @@ ICON_PIN_RESET=<span class="button"><img src="/screens/ico_questionmark.png" alt
 ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Pickup</span></span></div></div>
 ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
 MIN_PIN_LENGTH=6
-MODIFY_PFLDS=o
+#MODIFY_PFLDS=o
 MY_WEBPAC=F,2
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
 #PATRON_MSG=z|Message from the library
-PATRON_NOTICES=m
+#PATRON_NOTICES=m
 PIN_ALPHA_NUM=false
 PIN_NUM_ONLY=false
 PIN_RESET=true
@@ -617,12 +617,12 @@ LOCKSCOPE=no
 
 # SMS Options
 
-ICON_SMSTERMS=Terms and Conditions
+#ICON_SMSTERMS=Terms and Conditions
 #SMS_OPTOUT_WARN
-SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
-SMS_TERMS_DESC=Lindenwood University
-SMS_TERMS_EMAIL=<a href="mailto:library@lindenwood.edu">library@lindenwood.edu</a>
-SMS_TERMS_LIB=Butler Library - Lindenwood University
+#SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
+#SMS_TERMS_DESC=Lindenwood University
+#SMS_TERMS_EMAIL=<a href="mailto:library@lindenwood.edu">library@lindenwood.edu</a>
+#SMS_TERMS_LIB=Butler Library - Lindenwood University
 
 
 # Webster Locations

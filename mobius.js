@@ -224,8 +224,8 @@ if (menu_collapse == 1){
 
 // set this to be the URL for the SMS script
 
-if (sms == 1){
-    var smsurl = "//mobiusconsortium.org/sms/sms-" + cluster + ".php?";
+//if (sms == 1){
+    var smsurl = "http://mobiusconsortium.org/sms/sms-bridges.php?";
     
        function showsms() {
     
@@ -297,7 +297,7 @@ if (sms == 1){
        sms.style.visibility = 'visible';
        sms.style.display = 'block';
             // some fancy positioning
-        findPos(document.getElementById('smsbutton'),sms,25,-320);
+        findPos(document.getElementById('smsbutton'),sms,25,-329);
     } catch (e) {
             // doesn't work?  hide the SMS buttons
     document.getElementById('smsfeatures').style.visibility='hidden';
@@ -370,7 +370,7 @@ if (sms == 1){
              sms.style.visibility = 'hidden';
              sms.style.display = 'none';
              }
-}
+//}
 
 
 

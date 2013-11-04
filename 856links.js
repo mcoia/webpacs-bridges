@@ -3,6 +3,7 @@ function hideLinks(){
     var stringsToHide = new Array ();
     stringsToHide[1] = new Array ("covenantseminary");
     stringsToHide[2] = new Array ("fontbonne");
+
     stringsToHide[5] = new Array ("lindenwood");
     stringsToHide[6] = new Array ("logan");
     stringsToHide[7] = new Array ("maryville");

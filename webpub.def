@@ -101,7 +101,9 @@ b|q|760|-67xw|Link||b|
 b|q|762|-67xw|Link||b|
 b|q|765|-67xw|Link||b|
 b|q|767|-67xw|Link||b|
-b|q|77[0-7]|-67xw|Link||b|
+b|q|77[0-5]|-67xw|Link||b|
+b|q|776|-67xw|||b|
+b|q|777|-67xw|Link||b|
 b|q||-67xw|Related To||b|
 b|d|600.0|-26|Subjects||b|
 b|d|610.0|-26|Subjects||b|

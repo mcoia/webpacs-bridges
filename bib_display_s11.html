@@ -34,6 +34,7 @@
 <!--{innreach}-->
 <!--{navrow}-->
 <div id="citeoclc"></div>
+<div id="worldcat"></div>
 <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
     <script>
        var f = document.getElementById('bib_detail');
@@ -219,6 +220,16 @@ if (OCLC > 0) {
      document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + OCLC + "?page=citation'><span class='button resourceButton'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Cite This</span></span></a>";}
 else if (ISBN > 0) {
      document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + ISBN + "&qt=advanced'><span class='button resourceButton'><img src='/screens/ico_browse_brief.png' alt=''><span class='buttonText'>Check for citation in WorldCat.</span></span></a>";}
+else {
+     //document.getElementById("citeoclc").innerHTML = "No citation available.";
+   }
+</script>
+
+<script type="text/javascript">
+var OCLC = $(".bibInfoLabel:contains('OCLC')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
+var ISBN = $(".bibInfoLabel:contains('ISBN')").siblings(".bibInfoData").text().replace(/[^0123456789]/g,"")
+if (ISBN > 0) {
+     document.getElementById("worldcat").innerHTML = "<a href='http://worldcat.org/search?q=bn:" + ISBN + "''><span class='button resourceButton'><img src='/screens/ico_worldcat.png' border='0' alt=''><span class='buttonText'>Search WorldCat</span></span></a>";}
 else {
      //document.getElementById("citeoclc").innerHTML = "No citation available.";
    }

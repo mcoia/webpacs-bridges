@@ -14,6 +14,9 @@ $(document).ready(function () {
 	if(pathnameFtList.indexOf('ftlist') > -1){
 		$('.browseEntry:not(:contains("Fontbonne"))').addClass('hideMe');
 		$(".hideMe").hide();
+		text = $('.ftlistHeader').text();
+		listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{1,2}/m, " ").replace("entries", " ");
+		namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
 	}
 
 });

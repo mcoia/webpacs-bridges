@@ -9,6 +9,7 @@ var scope = 2
 
 <script type="text/javascript">
 $(document).ready(function () {
+	//hides out of scope featured lists
 	var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
 	if(pathnameFtList.indexOf('ftlist') > -1){
 		$('.browseEntry:not(:contains("Fontbonne"))').addClass('hideMe');

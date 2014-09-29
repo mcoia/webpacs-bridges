@@ -8,6 +8,21 @@ var scope = 5
 <script type="text/javascript" src="/screens/mobius.js"></script>
 
 <script type="text/javascript">
+$(document).ready(function () {
+	//hides out of scope featured lists
+	var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
+	if(pathnameFtList.indexOf('ftlist') > -1){
+		$('.browseEntry:not(:contains("LU"))').addClass('hideMe');
+		$(".hideMe").hide();
+		text = $('.ftlistHeader').text();
+		listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{1,2}/m, " ").replace("entries", " ");
+		namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
+	}
+
+});
+</script>
+
+<script type="text/javascript">
 if (document.body){document.body.className = "bodybg";}
 </script>
 
@@ -41,7 +56,7 @@ if (document.body){document.body.className = "bodybg";}
 <li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
 <li><a href="/help" tabindex="115">Help</a></li>
 <li><a href="/search/b">Course Reserves</a></li>
-<li><a href="/ftlists">Featured Lists</a></li>
+<li><a href="/search~S5/ftlists">Featured Lists</a></li>
 </ul>	
 
 </div>
@@ -81,7 +96,7 @@ if (document.body){document.body.className = "bodybg";}
 <li><a href="/search/l">Series Title</a></li>
 <li><a href="/search/q">Author and Title</a></li>
 <li><a href="/search/v">Genre</a></li>
-<li><a href="/ftlists">Featured Lists</a></li>
+<li><a href="/search~S5/ftlists">Featured Lists</a></li>
 </ul>
         
 </div>

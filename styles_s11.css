@@ -1,0 +1,83 @@
+.bibDisplayJacket {
+    display: inline;
+    float: left;
+    margin: 0 0 1em 1%;
+    width: 8em;
+}
+
+div .bibResourceSidebar { display: block; text-align: center; }
+
+.bibResourceSidebar .resourceButton {display:block;}
+
+.bibDisplayContentMain, .resourceDisplayContentMain {
+    display: inline;
+    float: left;
+    margin-left: 1.5em;
+    width: 59%;
+}
+
+.clusterLogo {
+    top: 5px;
+}
+
+#googlebooks {
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#googlebooks img {
+    margin-top: 1em;
+}
+
+.topLogoImage {
+    padding:10px;
+    width:200px;
+}
+
+.linkBanner {
+    background-color: #005A50;
+}
+
+.linkBanner a {
+    color: #FBCB60;
+}
+
+.linkBanner .navLeft {float: left;}
+
+.linkBanner .navRight {float: right;}
+
+.linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
+
+.linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.linkBanner ul li {display: inline; margin-left:2em;}
+
+.linkBanner .navLeft, .linkBanner .navRight {
+    padding-top:.15em;
+}
+
+#qr {
+    text-align: center;
+}
+
+span.navButton {
+    padding: 6px 7px;
+}
+
+span.navButton, span.navButtonOneLine {
+    background: url("button_blank.gif") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: normal;
+    height: 27px;
+    line-height: 11px;
+    text-align: center;
+    width: 65px;
+}
+
+#searchNavMenu {
+    visibility:hidden;
+}
+

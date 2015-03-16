@@ -1,17 +1,27 @@
 <!-- begin toplogo.html file -->
 <!-- Rel 2009B Example Set -->
 <!-- Updated: 06 Oct 2010 -->
+
 <script>
 var scope = 5
-	$('#textMessage').parent().show(); //Shows the text message link;
-</script>
-<script type="text/javascript">
-$(document).ready(function () {
-	$('#textMessage').parent().show(); //Shows the text message link;
-});
 </script>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="/screens/mobius.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+	//hides out of scope featured lists
+	var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
+	if(pathnameFtList.indexOf('ftlist') > -1){
+		$('.browseEntry:not(:contains("LU"))').addClass('hideMe');
+		$(".hideMe").hide();
+		text = $('.ftlistHeader').text();
+		listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{1,2}/m, " ").replace("entries", " ");
+		namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
+	}
+
+});
+</script>
 
 <script type="text/javascript">
 if (document.body){document.body.className = "bodybg";}
@@ -50,10 +60,10 @@ if (document.body){document.body.className = "bodybg";}
 <!--{patronrecord}-->
 </li>
 <li>
-<!--{logout}-->
 </li>
 <li><a href="/help" tabindex="115">Help</a></li>
 <li><a href="/search/b">Course Reserves</a></li>
+<li><a href="/search~S5/ftlists">Featured Lists</a></li>
 </ul>	
 
 </div>
@@ -61,6 +71,7 @@ if (document.body){document.body.className = "bodybg";}
 <div class="clear"></div>
 
 </div><!--searchNav-->
+
 <div class="clear"></div>
 
 
@@ -92,6 +103,7 @@ if (document.body){document.body.className = "bodybg";}
 <li><a href="/search/l">Series Title</a></li>
 <li><a href="/search/q">Author and Title</a></li>
 <li><a href="/search/v">Genre</a></li>
+<li><a href="/search~S5/ftlists">Featured Lists</a></li>
 </ul>
         
 </div>

@@ -81,3 +81,26 @@ span.navButton, span.navButtonOneLine {
     visibility:hidden;
 }
 
+.rightColumn {
+    float: right;
+    margin: 3em 0em;
+    padding-bottom: 10px;
+    width: 160px;
+}
+
+.sidebarCov {
+    float: right;
+    margin: 2% 0 2% 1.75%;
+    padding-bottom: 10px;
+    width: 192px;
+    width:22%;
+    padding:0.5%;
+}
+
+.pageNavColumnCov {
+    background-color:#F3F3F3;
+    border: 1px solid #d3d3d3;
+    margin:2% 1.75%;
+    padding: 2.5%;
+}
+

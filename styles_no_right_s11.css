@@ -25,13 +25,10 @@ div .bibResourceSidebar {
 }
 
 .pageContentColumn {
-    float: left;
+    float: none;
     margin-left: 1%;
     padding: 1%;
     width: 95%;
 }
 
-.pageNavColumnCov {
-    display: none;
-}
 

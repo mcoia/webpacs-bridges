@@ -18,7 +18,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="/screens/mobius.js"></script>
+<<<<<<< HEAD
 <script type="text/javascript" src="/screens/innReachEncoreNavButton.js"></script>
+=======
+<script type="text/javascript">
+$(document).ready(function () {
+  //Hides the out-of-scope locations 
+  if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+}
+});
+</script>
+
+>>>>>>> refs/heads/chat_widget_Concordia_70443
 <script type="text/javascript">
 if (document.body){document.body.className = "bodybg";}
 </script>
@@ -69,9 +81,9 @@ if (document.body){document.body.className = "bodybg";}
 
 
 <div class="clear"></div>
+<div class="sidebarCov">
 
-
-<div class="pageNavColumn"><!-- nav menu column-->
+<div class="pageNavColumnCov"><!-- nav menu column-->
 
 <h1 class="navHeader">Search Options</h1>
 
@@ -97,6 +109,18 @@ if (document.body){document.body.className = "bodybg";}
 </ul>
         
 </div>
+
+<div class="rightColumn">
+<div class="chat-widget" id="sideChat">
+  <div class="needs-js">
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
 <div class="pageContentColumn"><!-- content container -->
 <a name="content" id="content"></a>
 <!--end toplogo.html-->

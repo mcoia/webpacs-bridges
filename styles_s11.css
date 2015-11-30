@@ -85,7 +85,7 @@ span.navButton, span.navButtonOneLine {
     float: right;
     margin: 3em 0em;
     padding-bottom: 10px;
-    width: 160px;
+    width: 220px;
 }
 
 .sidebarCov {
@@ -104,3 +104,15 @@ span.navButton, span.navButtonOneLine {
     padding: 2.5%;
 }
 
+.concordMessage {
+    clear: both;
+    list-style-type: none;
+    text-align: center;
+    color: #444444;
+    font-size: 1em;
+    font-style: normal;
+    margin: 1px 5px 0 0;
+}
+.concordMessage li {
+    padding-left: 6px;
+}

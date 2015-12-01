@@ -1,0 +1,40 @@
+div .bibResourceSidebar {
+    display:block;
+}
+
+.bibResourceSidebar {
+    width:208px;
+}
+
+.libraryh3lp {
+    width:230px;
+    margin-bottom:1em;
+}
+
+.mainColumn {
+    width:100%;
+}
+
+.rightBib {
+    float:right;
+    width:294px;
+}
+
+
+.rightColumn {
+    display:none;
+}
+
+.pageNavColumnCov {
+    display: none;
+}
+.sidebarCov {
+    display: none;
+}
+
+.pageContentColumn {
+    float: left;
+    margin-left: 1%;
+    padding: 1%;
+    width: 96%;
+}

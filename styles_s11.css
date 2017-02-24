@@ -59,7 +59,13 @@ div .bibResourceSidebar { display: block; text-align: center; }
 
 #qr {
     text-align: center;
-}
+	}
+
+.reqlinks {
+	font-size: 15px;
+	}
+
+.reqlinks p {font-weight:bold;}
 
 span.navButton {
     padding: 6px 7px;

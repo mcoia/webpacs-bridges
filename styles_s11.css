@@ -57,6 +57,8 @@ div .bibResourceSidebar { display: block; text-align: center; }
     padding-top:.15em;
 }
 
+#patButAR { display: none; }
+
 #qr {
     text-align: center;
 	}

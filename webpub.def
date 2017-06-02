@@ -16,6 +16,7 @@ b|a||-6|Author||b|
 #
 b|t|240|-6|Other Title||b|
 b|t||-6|Title||b|
+b|t|776|-67xw|||b|
 #
 # converted from HOLDINGS_POS field tag: 'p'
 #
@@ -103,7 +104,7 @@ b|q|762|-67xw|Link||b|
 b|q|765|-67xw|Link||b|
 b|q|767|-67xw|Link||b|
 b|q|77[0-5]|-67xw|Link||b|
-b|q|776|-67xw|||b|
+#b|q|776|-67xw|||b|
 b|q|777|-67xw|Link||b|
 b|q||-67xw|Related To||b|
 b|d|600.0|-26|Subjects||b|

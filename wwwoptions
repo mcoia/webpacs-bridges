@@ -1,7 +1,7 @@
 #<!-- Rel 2009B Example Set -->*/
 #<!-- This File Last Changed: 24 Mar 2010 -->*/
 
-#Directory:
+# Directory:
 # General Display and Behavior
 # Staff
 # General and Phrase Searching
@@ -243,7 +243,8 @@ CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFF
 CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
 CHECKIN_STATUS=EXPECTED=Expected|ARRIVED=Arrived|PARTIALLY RECEIVED=Partial|MISSING=Missing|BOUND=Bound|AT BINDERY=To bind|BINDERY PREP=Binding prepration|REMOVED=Removed|NOT PUBLISHED=Not published|OUT OF PRINT=Out of print|UNAVAILABLE=Unavailable|LATE=Late|CLAIMED=Claimed
 CHECKIN_STATUS2=EXPECTED=Expected|ARRIVED=Arrived|PARTIALLY RECEIVED=Received part|MISSING=Missing|BOUND=Bound|AT BINDERY=Sent to bindery|BINDERY PREP=Prepared for binding|REMOVED=Removed|NOT PUBLISHED=Not published|OUT OF PRINT=Out of print|UNAVAILABLE=Not available|LATE=Late|CLAIMED=Replacement ordered
-#For the above wwwoption, see page 106918 of the manual for the correct label terminology.  For the left (all caps) side of the wwwoption, use what's in the manual, not what's in Millennium. 
+
+# For the above wwwoption, see page 106918 of the manual for the correct label terminology.  For the left (all caps) side of the wwwoption, use what's in the manual, not what's in Millennium. 
 DISPLAY_CHECKIN_856=z
 HOLDINGS_REQ=Deliver this article to me
 SORT_ITEMS=true
@@ -274,7 +275,7 @@ EMAILOP=Bridges Mail|mcohelp@mobiusconsortium.org|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
 XRECTYPE=boi
 
-#Requesting
+# Requesting
 BIBREQUEST=false
 ICON_BUT_REQUEST=<span class="button navRow"><img src="/screens/ico_checkmark.png" alt=""><span class="buttonText">Request</span></span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
@@ -495,7 +496,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
-FEATURED_LIST=140,04,45,360,68,394,41,35,26,24,17,37,126,367,40,128,350,373,148,374,376,380,371,375,379,428,416,417,356,425,450,359,368,421,422,357,396,379|FEATURED LISTS|CATEGORY|# of Titles
+FEATURED_LIST=68,394,41,35,26,17,37,126,40,128,350,373,148,356,425,450,359,368,357,396,362,442,421,422,76,382,146,385,180,182,184,13,3,22|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
@@ -545,7 +546,7 @@ Z39MULTI=500:100
 ICON_BUT_RETHOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
 
 # AirPAC
-AIRPAC_PORT=6060
+AIRPAC_PORT=63200
 
 # Patron Registration
 #SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
@@ -624,17 +625,10 @@ ARTICLEREACH_LABELS=1|2|14|15
 ICON_ARTICLEREACH=Request Article
 ICON_MYARTICLEREACH=<span class="button"><img src="/screens/media_periodicalsmall.gif" alt=""><span class="buttonText">Article Requests</span></span>
 
-  # Scoping
-  
-  LOCKSCOPE=no
-
-
 # Scoping
-
 LOCKSCOPE=no
 
 # SMS Options
-
 #ICON_SMSTERMS=Terms and Conditions
 #SMS_OPTOUT_WARN
 #SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
@@ -644,7 +638,8 @@ LOCKSCOPE=no
 
 
 # Webster Locations
-
 LOC_ww&ci=http://library.webster.edu/locs/cms.html "target=_blank"
-
 LOC_ww&ii=http://library.webster.edu/locs/cms-blue-box.html "target=_blank"
+
+# FOR Encore
+PATFEEDS_MT=10.17.202.57

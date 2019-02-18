@@ -1,10 +1,13 @@
 .topLogoImage {
-    padding:18px 5px;
-    width:200px;
-}
+    padding:18px 10px;
+  }
 
+.topLogoImage img { max-width: 100%; height: auto; }
+  
 .clusterLogo {
     top:10px;
 }
 
 #patButAR { display: none; }
+
+.linkBanner { background: #003764; }

@@ -7,8 +7,13 @@
     width:200px;
 }
 
+.topLogoImage img {
+    max-width: 275px;
+    padding-bottom: 15px;
+}
+
 .linkBanner {
-    background-color:#5F0A68;
+    background-color:#250E62;
 }
 
 .form2Part, .form1Part, .form3PartBelow {

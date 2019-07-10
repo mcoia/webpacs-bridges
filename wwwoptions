@@ -483,6 +483,7 @@ INNREACH_ENCORE=http://searchmobius.org/iii/encore/search/C__S%s__Orightresult__
 #INNREACH=<span class="button"><img src="/screens/ico_mobius.png" alt=""><span class="buttonText">Search MOBIUS</span></span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;j=m;m=h;o=o;s=s;t=t;v=l)
 
 # Media Management
+ENABLE_DIRECT_ARTICLE_LINK=true
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Course</span></span>
 ERESERVE=[0123456789]
 #IMAGE_PRINT=yes
@@ -497,7 +498,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
-FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,373,148,356,425,450,359,368,357,396,362,421,422,76,458,95,387,196,145,146,540,473,89,355|FEATURED LISTS|CATEGORY|# of Titles
+FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,373,148,356,425,450,359,368,357,396,362,421,422,76,458,95,387,196,145,146,540,473,89,355,84,363,474|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.

@@ -1,0 +1,152 @@
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+<script>
+var scope = 9
+</script>
+<!-- Google Tag Manager -->
+<script>
+  dataLayer = [];
+</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDMS6Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDMS6Q');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="/screens/mobius.js"></script>
+<!--<script type="text/javascript" src="/screens/mobileredirect.js"></script>-->
+
+<script type="text/javascript">
+$(document).ready(function () {
+	//hides out of scope featured lists
+	var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
+	if(pathnameFtList.indexOf('ftlist') > -1){
+		$('.browseEntry:not(:contains("Tashkent"))').addClass('hideMe');
+		$(".hideMe").hide();
+		text = $('.ftlistHeader').text();
+		listName = text.replace(/[^a-z0-9]/gmi, " ").replace(/[\d]{1,2}/m, " ").replace("entries", " ");
+		namewoNum = $('.ftlistHeader').replaceWith("<th colSpan='3'>" + listName + "</th>");
+	}
+
+});
+</script>
+<!--<script type="text/javascript">
+ $(document).ready(function () {
+ 	$("#searchtype option[value='j']").remove();
+	$("#searchtype option[value='m']").remove();
+
+
+	var newOptionCallNum = "<option value='"+"c"+"'>LC CALL NUMBER</option>"; 
+	$("#searchtype").append(newOptionCallNum);
+
+ 	    });
+</script>-->
+
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="/screens/styles_s9.css" />
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLogoImage">
+<img usemap="#commonbanner" src="/screens/webstereden.png" class="logo" alt="Webster-Eden Library System Banner" />
+
+<map id="commonbanner" name="commonbanner">
+
+<area shape="rect" coords="0,0,127,100" href="http://library.webster.edu/index.html" alt="Webster University Library-Home page" />
+
+<area shape="rect" coords="127,0,254,100" href="http://www.eden.edu/s/1645/index.aspx?sid=1645&gid=1&pgid=383" alt="Eden Theological Seminary Library-Home page" />
+
+</map/a>
+</div>
+
+<div class="clusterLogo">
+<a href="/"><img src="/screens/bridges.png" alt="Bridges"></a>
+</div>
+
+<div id="alertMessage"></div>
+
+</div><!--topLogo-->
+
+<div class="linkBanner">
+
+<div class="navRight">
+<ul>
+<li><a href="http://searchmobius.org/">MOBIUS</a></li>
+<li><a href="/">Bridges</a></li>
+<li><a href="/search/">Webster University / Tashkent</a></li>
+<li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
+<li><a href="https://commerce.cashnet.com/webulibrary">Pay Fines</a></li>
+<li><a href="/help" tabindex="115">Help</a></li>
+<li><a href="/search/b">Course Reserves</a></li>
+<li><a href="/search~S16/ftlists">Featured Lists</a></li>
+</ul>	
+
+</div>
+
+<div class="clear"></div>
+
+</div><!--searchNav-->
+
+<div class="clear"></div>
+
+
+<div class="clear"></div>
+
+
+<div class="pageNavColumn"><!-- nav menu column-->
+
+<h1 class="navHeader">Search Options</h1>
+
+<ul id="rightCol">
+<li><a href="/search/X">Advanced Search</a></li>
+<li><a href="/search/a">Author</a></li>
+<li><a href="/search/t">Title</a></li>
+<li><a href="/search/s">Journals, Magazines, Newspapers</a></li>
+<li><a href="#">Numbers</a>
+			<ul>
+				<li><a href="/search/c">Library of Congress (LC) Call Number</a></li>
+				<li><a href="/search/e">Dewey Call Number</a></li>
+                                <li><a href="/search/f">Other Call Number</a></li>
+                                <li><a href="/search/g">Government Document Call Number</a></li>
+                                <li><a href="/search/i">ISBN, ISSN, Music, Etc., Number</a></li>
+                                <li><a href="/search/o">OCLC Number</a></li>
+			</ul>
+</li>
+<li><a href="/search/d">Subject (LC)</a></li>
+<li><a href="/search/l">Series Title</a></li>
+<li><a href="/search/q">Author and Title</a></li>
+<li><a href="/search/v">Genre</a></li>
+<li><a href="http://libanswers.webster.edu/">Ask a Librarian</a></li>
+<li><a href="http://library.webster.edu/newtitles/index.html">New Titles in the Catalog</a></li>
+</ul>
+<div class="needs-js">chat loading...</div>
+<!-- Place this script as near to the end of your BODY as possible.
+--><script type="text/javascript">
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript";
+x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" :
+"http://") + "libraryh3lp.com/js/libraryh3lp.js?9638";
+    var y = document.getElementsByTagName("script")[0];
+y.parentNode.insertBefore(x, y);
+  })();
+</script>
+        
+</div>
+<div class="pageContentColumn"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->

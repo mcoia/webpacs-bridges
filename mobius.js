@@ -7,14 +7,17 @@ var location_initial = new Array ();
 location_initial[1] = "c";
 location_initial[2] = "f";
 location_initial[3] = "h";
-location_initial[4] = "c";
+location_initial[4] = "k";
 location_initial[5] = "l";
 location_initial[6] = "o";
 location_initial[7] = "M";
 location_initial[8] = "b";
 location_initial[9] = "w";
 location_initial[11] = "n";
-
+location_initial[12] = "w";
+location_initial[13] = "w";
+location_initial[14] = "w";
+location_initial[16] = "w";
 
 changing_examples = 0
 var out_of_scope_locations = 0

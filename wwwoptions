@@ -57,7 +57,7 @@ ICON_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="thi
 ICON_CLEAR_FORM=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear Form</span></span></div></div>
 ICON_DELETE_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Selected</span></span></div></div>
 ICON_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Select All</span></span></div></div>
-#RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Resources
+# RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Resources
 INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
 INSERTTAG_HTML=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
 RIGHT_CELL_WIDTH=18|25
@@ -67,7 +67,7 @@ STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
 SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
-#TIMEOUT=600;URL=/
+# TIMEOUT=600;URL=/
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
 TOPLOGO2=@screens/toplogo_s2.html
@@ -83,7 +83,7 @@ TOPLOGO12=@screens/toplogo_s12.html
 TOPLOGO13=@screens/toplogo_s13.html
 TOPLOGO14=@screens/toplogo_s14.html
 TOPLOGO16=@screens/toplogo_s16.html
-#UPDATECIRC=true
+# UPDATECIRC=true
 XSTARTOVER=/search
 
 # Staff
@@ -106,7 +106,6 @@ ICON_BUT_NEWSRCH8=Missouri Baptist University
 ICON_BUT_NEWSRCH9=Webster University / Eden Theological Seminary
 ICON_BUT_WORDSRCH=<span class="button"><img src="/screens/ico_magnifyingglass.png" alt=""><span class="buttonText">Search as Words</span></span>
 DROP_DOWN=Xtasdjmlv
-FRAMEURL=0
 IBROWSE_MAX=10000
 KEYWORD_COLOR=Y|all|red
 MULT_LIMITS=true
@@ -128,9 +127,9 @@ IMAGE_AVS2=/screens/relevance2.gif
 IMAGE_AVS3=/screens/relevance3.gif
 IMAGE_AVS4=/screens/relevance4.gif
 IMAGE_AVS5=/screens/relevance5.gif
-#ICON_AWS_BYRELEVANCE_LINK=
-#ICON_AWS_BYDATE_LINK=
-#ICON_AWS_BYTITLE_LINK=
+# ICON_AWS_BYRELEVANCE_LINK=
+# ICON_AWS_BYDATE_LINK=
+# ICON_AWS_BYTITLE_LINK=
 RELSEARCH=restable||<span class="button"><img src="/screens/ico_magnifyingglass.png" border="0" alt=""><span class="buttonText">Related Searches</span>
 
 # Search Results
@@ -154,7 +153,7 @@ EXTENDED=CT
 HEADING_LENGTH=100
 ICON_856LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Website
 ICON_962LINK=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Digital Image
-#ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.png" alt=""><span class="buttonText">Add to Bag</span></span>
+# ICON_BOOKCART=<span class="button"><img src="/screens/ico_bag_add.png" alt=""><span class="buttonText">Add to Bag</span></span>
 ICON_BOOKCART_SAVED=<span class="button"><img src="/screens/ico_bag_minus.png" alt=""><span class="buttonText">Remove From Bag</span></span>
 ICON_FULLRECORD=See Full Record
 ICON_LOCATEINRESULTS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Locate in results</span></span></div></div>
@@ -195,9 +194,9 @@ ICON_BUT_REGULAR_DISPLAY=<span class="button"><img src="/screens/ico_back.png" a
 ICON_BUT_RTRNTB=<span class="button navRow"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Browse</span></span>
 DISPLAY_856=3z|true
 HOLDINGS_POS=atpe
-#HOTLINK=i^020,c^09,n^505
+# HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
-#ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
+# ICON_NEARBY=<img src="/screens/bullet.gif" alt="Nearby on shelf" border="0">
 ICON_BIB_PAGING_CAPTION= 
 ICON_BIB_PAGING_NEXT=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span>
 ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span>
@@ -216,11 +215,11 @@ TABLEPARAM_BIB_ORDER=width="100%" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_PAGER=border="0"
 TABLEPARAM_BIB_THUMBNAILS=align="center" cellspacing="0" cellpadding="0"
 TABLEPARAM_BIB_TOC=border="0" cellspacing="0"
-#WEBPUBDEF=true
+# WEBPUBDEF=true
 
 # Electronic Resource Management
 BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
-#BIB_LICENSE_FIELDS_BRIEF=
+# BIB_LICENSE_FIELDS_BRIEF=
 BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
 BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
 BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
@@ -285,10 +284,10 @@ ICON_BUT_REQUEST_MULTI=<span class="button"><img src="/screens/ico_request_multi
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request
-#REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
+# REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
 REQUEST=Hold this item|denyiflocalavail|ask|no
-#REQUEST_ARTICLE_IFCHKIN=Y
-#REQUEST_INSTRUCTION=Please enter any special instructions: 
+# REQUEST_ARTICLE_IFCHKIN=Y
+# REQUEST_INSTRUCTION=Please enter any special instructions: 
 REQUEST_MULTI=Request All Items in Book Cart|denyiflocalavail|ask|no
 
 # Patron Record
@@ -296,9 +295,9 @@ ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout
 ICON_BUT_PAT_CANCELALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel All</span></span></div></div>
 BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
 ICON_BUT_PAT_CANCELMARK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected</span></span></div></div>
-#ICON_BUT_PAT_CHKOUTS=
-#ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Fines</span></span>
-#ICON_BUT_PAT_HOLDS=
+# ICON_BUT_PAT_CHKOUTS=
+# ICON_BUT_PAT_FINES=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Fines</span></span>
+# ICON_BUT_PAT_HOLDS=
 ICON_BUT_PAT_INFO=<span class="button"><img src="/screens/ico_patron.png" alt=""><span class="buttonText">Modify Personal Information</span></span>
 ICON_BUT_PAT_MSGS=<span class="button"><img src="/screens/ico_browse_brief.png" alt=""><span class="buttonText">Message from the library</span></span>
 ICON_BUT_PAT_PIN=<span class="button"><img src="/screens/ico_pin.png" alt=""><span class="buttonText">Modify PIN</span></span>
@@ -311,7 +310,7 @@ ICON_BUT_PSTARTOVER=<span class="button"><img src="/screens/ico_startover.png" a
 ICON_BUT_RET2PREC=Return to My Account
 ICON_BUT_UPDATE_HOLDS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel Selected Items</span></span></div></div>
 CHANGE_HOLD_LOC=true
-#FREEZE_HOLDS=true
+# FREEZE_HOLDS=true
 ICON_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Window</span></span>
 ICON_CONFIRM_YES=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Yes</span></span></div></div>
 ICON_CONFIRM_NO=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">No</span></span></div></div>
@@ -321,22 +320,22 @@ ICON_PIN_RESET=<span class="button"><img src="/screens/ico_questionmark.png" alt
 ICON_SORTPUDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Pickup</span></span></div></div>
 ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Request</span></span></div></div>
 MIN_PIN_LENGTH=6
-#MODIFY_PFLDS=o
+# MODIFY_PFLDS=o
 MY_WEBPAC=F,2
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=n
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
-#PATRON_MSG=z|Message from the library
-#PATRON_NOTICES=m
+# PATRON_MSG=z|Message from the library
+# PATRON_NOTICES=m
 PIN_ALPHA_NUM=false
 PIN_NUM_ONLY=false
 PIN_RESET=true
-#PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
+# PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
 PSTARTOVER=/search
 SEEPUDATE=true
 TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
 TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
-#TIMEOUT_POPUP=600
+# TIMEOUT_POPUP=600
 
 # My Millennium
 ICON_BUT_LOGOUT=Log Out
@@ -438,8 +437,8 @@ ICON_RATE_MY=<img src="/screens/rate_my.gif" border="0" width="15" height="14" a
 ICON_RATE_NEED=<img src="/screens/rate_need.gif" border="0" width="15" height="14" alt="Rate this material!" title="Rate this material!">
 ICON_RATE_NO=<img src="/screens/rate_no.gif" border="0" width="75" height="14" alt="No one has rated this material" title="No one has rated this material">
 ICON_RATE_PAD=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" alt="Rated %d stars out of 5 based on %n ratings" title="Rated %d stars out of 5 based on %n ratings">
-#PATRATE=true
-#PATREVIEW=1
+# PATRATE=true
+# PATREVIEW=1
 ICON_PATREVIEW=<span class="button"><img src="/screens/ico_review.png" alt=""><span class="buttonText">My Reviews</span></span>
 ICON_PATREVIEW_ADD=<span class="button"><img src="/screens/ico_review_sm.png" alt=""><span class="buttonText">Add a Review</span></span>
 PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
@@ -447,15 +446,15 @@ PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
 # Ecommerce
 CC_APPROVED=Your payment has been approved.
 CC_DECLINED=Sorry. Your payment has been declined. Please confirm your information is entered correctly or pay at the library.
-#CC_EMAIL_RECEIPT=Receipt for payment to Your Library|circadm@example.org|onlinepayments@example.org
-#DONATE_NOTIFY=A new donation has been received|circadm@example.org|donormgmt@example.org
+# CC_EMAIL_RECEIPT=Receipt for payment to Your Library|circadm@example.org|onlinepayments@example.org
+# DONATE_NOTIFY=A new donation has been received|circadm@example.org|donormgmt@example.org
 ICON_PAY=<span class="button"><img src="/screens/ico_payment.png" alt=""><span class="buttonText">Pay Online</span></span>
 ICON_PAY_CLEAR_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Clear All</span></span></div></div>
 ICON_PAY_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Select All</span></span></div></div>
 ICON_PRINT=<span class="button"><img src="/screens/ico_printer_alt.png" alt=""><span class="buttonText">Print</span></span>
 ICON_PAY_CONTINUE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Continue</span></span></div></div>
-#MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
-#PAYAMTS=500|Please visit the library to pay this amount|00
+# MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
+# PAYAMTS=500|Please visit the library to pay this amount|00
 
 # Bookings
 BOOKINGS=no|true|true|false
@@ -481,25 +480,25 @@ ILL_HOME=/screens/ill.html
 IR_PLACEMENT=1
 ICON_INNREACH_ENCORE=<span class="button"><img src="/screens/ico_mobius.png" alt=""><span class="buttonText">Search MOBIUS</span></span></span>
 INNREACH_ENCORE=http://searchmobius.org/iii/encore/search/C__S%s__Orightresult__U?lang=eng&suite=cobalt
-#INNREACH=<span class="button"><img src="/screens/ico_mobius.png" alt=""><span class="buttonText">Search MOBIUS</span></span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;j=m;m=h;o=o;s=s;t=t;v=l)
+# INNREACH=<span class="button"><img src="/screens/ico_mobius.png" alt=""><span class="buttonText">Search MOBIUS</span></span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;g=g;i=i;j=m;m=h;o=o;s=s;t=t;v=l)
 
 # Media Management
 ENABLE_DIRECT_ARTICLE_LINK=true
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Course</span></span>
 ERESERVE=[0123456789]
-#IMAGE_PRINT=yes
-#IMAGE_SAVE=yes
+# IMAGE_PRINT=yes
+# IMAGE_SAVE=yes
 
 # Reserves
 RSRV_FORMAT=false
-#RSRV_HEADER=Materials for this Course
-#RSRV_HEADER=Featured Titles This Month
+# RSRV_HEADER=Materials for this Course
+# RSRV_HEADER=Featured Titles This Month
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
-FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,373,148,356,425,450,359,368,357,396,362,421,422,76,458,469,145,146,540,473,89,355,84,363,474,432|FEATURED LISTS|CATEGORY|# of Titles
+FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,148,356,425,450,359,368,357,396,362,421,422,76,458,540,432,145,135,363,373,133,91,138,454,448,449,355|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
@@ -507,16 +506,16 @@ BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=lindenwood&sh
 BIBIMAGE_TEXT=Book Cover
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
-#WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=N||<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
-#WEBADDRESS=http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;field-keywords=%s|I|http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&field-isbn=%s|<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
-#WEBADDRESS=http://www.worldcat.org/search?q=%s|I|http://www.worldcat.org/search?q=bn:%s|<span class="button resourceButton"><img src="/screens/ico_worldcat.png" border="0" alt=""><span class="buttonText">Search WorldCat</span>|<span class="button resourceButton"><img src="/screens/ico_worldcat.png" border="0" alt=""><span class="buttonText">Search WorldCat</span>|-1
+# WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=N||<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
+# WEBADDRESS=http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;field-keywords=%s|I|http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&field-isbn=%s|<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|<span class="button"><img src="/screens/ico_info.png" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
+# WEBADDRESS=http://www.worldcat.org/search?q=%s|I|http://www.worldcat.org/search?q=bn:%s|<span class="button resourceButton"><img src="/screens/ico_worldcat.png" border="0" alt=""><span class="buttonText">Search WorldCat</span>|<span class="button resourceButton"><img src="/screens/ico_worldcat.png" border="0" alt=""><span class="buttonText">Search WorldCat</span>|-1
 
 # WebBridge/Pathfinder Pro
 ICON_BUT_CLOSEFRAME=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Frame</span></span>
 ICON_BUT_RESOURCELINK=<div id="resourcelink"><span class="button"><img src="/screens/ico_globe.png" alt=""><span class="buttonText">Other Resources</span></span></div>
 ICON_BUT_RET2RESOURCE=<div id="resourcelink"><span class="button resourceButton"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span></div>
 RESLINK=bibresourcetop|browseresourcetop||
-#WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
+# WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
 
 # Patron Feeds
 RSS_MIN_TTL=10
@@ -524,7 +523,7 @@ ICON_PATFEED=<span class="button"><img src="/screens/ico_rss.gif" alt=""><span c
 PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
 PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
 PATFEED_HOLDS_READY=Your materials are ready to be picked up
-#PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
+# PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
 PATFEED_ITEMS_BOOKED_TOMORROW=Materials booked tomorrow
 PATFEED_ITEMS_DUE_SOON=Materials due soon
 PATFEED_ITEMS_DUE_TODAY=Materials due today
@@ -552,11 +551,11 @@ ICON_BUT_RETHOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><spa
 AIRPAC_PORT=63200
 
 # Patron Registration
-#SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
-#SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
-#SELFREG_NAME_ORDER=1|2|3|,
+# SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
+# SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
+# SELFREG_NAME_ORDER=1|2|3|,
 SELFREG_TEMPLATE=webpat
-#TIMEOUT_SELFREG=600
+# TIMEOUT_SELFREG=600
 
 # My Federated Search (Research Pro or MetaFind)
 ICON_MFFAVS_HOME=<span class="button"><img src="/screens/ico_up.gif" alt=""><span class="buttonText">Home</span></span>
@@ -564,8 +563,8 @@ ICON_MFFAVS_SEARCH=<span class="button"><img src="/screens/ico_magnifyingglass.p
 ICON_PAT_MFFAVS=<span class="button"><img src="/screens/ico_globe.png" alt=""><span class="buttonText">My Research Pro</span></span>
 MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
 MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
-#MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
-#MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
+# MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
+# MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
 MFFAVS_ALL=TRUE
 
 # WebPAC Pro
@@ -576,8 +575,8 @@ INNOVATIVE_FOOTER=center|a
 SPELLCHECK=<span class="spellcheckTool">Did you mean %a? %s </span>
 
 # Research Pro
-#MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
-#MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
+# MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
+# MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
 MF_BOTLOGO=@screens/botlogo.html
 MF_EMAIL_SENDER=researchpro@iii.com
 MF_ICON_ADVANCED_SEARCH=Advanced Search
@@ -632,12 +631,12 @@ ICON_MYARTICLEREACH=<span class="button"><img src="/screens/media_periodicalsmal
 LOCKSCOPE=no
 
 # SMS Options
-#ICON_SMSTERMS=Terms and Conditions
+# ICON_SMSTERMS=Terms and Conditions
 #SMS_OPTOUT_WARN
-#SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
-#SMS_TERMS_DESC=Lindenwood University
-#SMS_TERMS_EMAIL=<a href="mailto:library@lindenwood.edu">library@lindenwood.edu</a>
-#SMS_TERMS_LIB=Butler Library - Lindenwood University
+# SMS_PHONE_WARN=You are changing your mobile number.  If you'd like to continue to receive SMS alerts, please opt in for this number.  
+# SMS_TERMS_DESC=Lindenwood University
+# SMS_TERMS_EMAIL=<a href="mailto:library@lindenwood.edu">library@lindenwood.edu</a>
+# SMS_TERMS_LIB=Butler Library - Lindenwood University
 
 
 # Webster Locations

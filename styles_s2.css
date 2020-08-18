@@ -1,3 +1,5 @@
+.chat-widget {float:right; margin-right:15px; margin-top: -30px;}
+
 .clusterLogo {
     top: 5px;
 }
@@ -28,4 +30,30 @@
 
 .browseHeaderData, .browseHeaderEntries, .browseHeaderMark, .browseHeaderNum, .browseHeaderYear, .browseHeaderMedia {
     background-color:#e2dfe6;
+}
+
+.pageNavColumnFont {
+border-color:#d3cddd;
+background-color:#FFFDEE;
+float:right;
+margin:2% 1.75%;
+padding:0.5%;
+width:100%;
+}
+
+.rightColumn {
+    float: right;
+    margin: 3em 0em;
+    padding-bottom: 10px;
+    width: 317px;
+}
+
+
+.sidebarFont {
+    float: right;
+    margin: 2% 0 2% 1.75%;
+    padding-bottom: 10px;
+    width: 192px;
+    width:22%;
+    padding:0.5%;
 }

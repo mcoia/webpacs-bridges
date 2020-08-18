@@ -42,6 +42,7 @@ REFRESH_MESSAGE=You are getting this error because the catalog server received m
 AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
 AVAILLIM_STATS=-,o
 BOTLOGO=@screens/botlogo.html
+BOTLOGO2=@screens/botlogo_s2.html
 BOTLOGO11=@screens/botlogo_s11.html
 ICON_BUT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_BUT_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Window</span></span>
@@ -285,6 +286,7 @@ ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouse
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<img src="/screens/bullet.gif" alt="" border="0" style="margin-right:5px">Request
 # REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
+REQUEST5=Hold this item|item|ask|no
 REQUEST=Hold this item|denyiflocalavail|ask|no
 # REQUEST_ARTICLE_IFCHKIN=Y
 # REQUEST_INSTRUCTION=Please enter any special instructions: 
@@ -458,6 +460,7 @@ ICON_PAY_CONTINUE=<div onmousedown="this.className='pressedState';" onmouseout="
 
 # Bookings
 BOOKINGS=no|true|true|false
+BOOKINGS5=no|true|true|true
 BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> hours. No items available on <span id="unavailable">grayed out</span> hours.</span>
 BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> days. No items available on <span id="unavailable">grayed out</span> days.</span>
 BOOKINGS_REPEAT=true
@@ -498,7 +501,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
-FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,148,356,425,450,359,368,357,396,362,421,422,76,458,540,432,145,135,363,373,133,91,138,454,448,449,355|FEATURED LISTS|CATEGORY|# of Titles
+FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,148,356,425,450,359,368,357,396,362,421,422,76,458,540,432,373,355,198,443,173,183,417,378,418,439,139,380,213,33,407,435,171,374,220|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.

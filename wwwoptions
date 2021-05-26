@@ -179,6 +179,7 @@ IMAGE_MATTYPEo=/screens/media_kit.gif
 IMAGE_MATTYPEr=/screens/media_3dartwork.gif
 IMAGE_MATTYPEt=/screens/media_manuscript.gif
 IMAGE_MATTYPE2=/screens/media_ebook.gif
+IMAGE_MATTYPEz=/screens/media_computerfile.gif
 INDEX_EXT=mcoitx
 MEDIA=2
 NO_COPIES=Currently no copies available
@@ -501,7 +502,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
 ICON_BUT_RET2FEAT=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Back</span></span>
-FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,148,356,425,450,359,368,357,396,362,421,422,76,458,540,432,373,355,198,443,173,183,417,378,418,439,139,380,213,33,407,435,171,374,220|FEATURED LISTS|CATEGORY|# of Titles
+FEATURED_LIST=68,394,41,35,26,37,126,40,128,350,148,356,425,450,359,368,357,396,362,421,422,76,458,540,432,373,355,198,33,412,449,157,326,208,402,434,164,364,216|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.

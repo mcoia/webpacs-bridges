@@ -11,3 +11,23 @@
 #patButAR { display: none; }
 
 .linkBanner { background: #003764; }
+
+#patButFines span.patFuncBtnCurrent,
+#patButHolds span.patFuncBtnCurrent,
+#patButChkouts span.patFuncBtnCurrent,
+#patButBookings span.patFuncBtnCurrent {
+margin-top: 3px;
+margin-left: 0px;
+padding-left: 28px;
+line-height: 30px;
+font-weight:bold;
+}
+#patButChkouts span.patFuncBtnCurrent { background: #FFFFFF url('https://bridges.searchmobius.org/screens/ico_books.gif') no-repeat top left; }
+#patButFines span.patFuncBtnCurrent { background: #FFFFFF url('https://bridges.searchmobius.org/screens/ico_payment.png') no-repeat top left; }
+#patButHolds span.patFuncBtnCurrent { background: #FFFFFF url('https://bridges.searchmobius.org/screens/ico_redflag.gif') no-repeat top left; }
+
+.patActionItem span.patFuncBtnCurrent {
+height: 27px;
+display: block;
+}
+

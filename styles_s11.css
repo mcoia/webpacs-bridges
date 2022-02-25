@@ -32,15 +32,15 @@ div .bibResourceSidebar { display: block; text-align: center; }
 
 .topLogoImage {
     padding:10px;
-    width:200px;
+	width: 457px;
 }
 
 .linkBanner {
-    background-color: #005A50;
+    background-color: #628289;
 }
 
 .linkBanner a {
-    color: #FBCB60;
+    color: #FFFFFF;
 }
 
 .linkBanner .navLeft {float: left;}

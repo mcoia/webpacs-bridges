@@ -648,7 +648,6 @@ LOCKSCOPE=no
 
 # Webster Locations
 LOC_ww&ci=http://library.webster.edu/locs/cms.html "target=_blank"
-LOC_ww&ii=http://library.webster.edu/locs/cms-blue-box.html "target=_blank"
 
 # FOR Encore
 PATFEEDS_MT=10.17.202.57
